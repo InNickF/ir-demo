@@ -1,0 +1,9 @@
+.acq-deal-summary-risk-and-mitigants
+  .in-ui-table__pagination
+  .in-ui-table__pagination-select {
+  @apply max-w-[80px] z-overlay;
+}
+
+.acq-deal-summary-risk-and-mitigants {
+  @apply overflow-visible;
+}

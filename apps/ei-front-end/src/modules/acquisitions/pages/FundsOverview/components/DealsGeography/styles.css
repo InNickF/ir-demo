@@ -1,0 +1,3 @@
+.acq-deals-geography__map-popup {
+  @apply w-full h-full text-justify overflow-y-auto text-darker capitalize p-2;
+}

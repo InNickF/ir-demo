@@ -1,0 +1,7 @@
+.acq-deal-risks-and-mitigants-form__modal .in-ui-modal__content {
+  @apply flex flex-col gap-4 p-6;
+}
+
+.acq-deal-risks-and-mitigants-form__footer {
+  @apply flex flex-col-reverse w-full md:flex-row;
+}

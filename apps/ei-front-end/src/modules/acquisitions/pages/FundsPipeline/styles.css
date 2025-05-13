@@ -1,0 +1,7 @@
+.acq-fund-pipeline {
+  @apply relative max-w-full overflow-auto;
+}
+
+.acq-funds-pipeline-filters {
+  @apply mb-6 pt-6;
+}

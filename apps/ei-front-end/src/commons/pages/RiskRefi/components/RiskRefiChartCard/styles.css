@@ -1,0 +1,19 @@
+.debt-risk-refi-bubble-chart {
+  @apply clear-both w-full h-[500px];
+}
+
+.debt-risk-refi-chart-card {
+  @apply w-full h-[500px];
+}
+
+.debt-risk-refi-chart-card-legend-container {
+  @apply flex items-center gap-2;
+}
+
+.debt-risk-refi-chart-card-legend-dot {
+  @apply block w-[10px] h-[10px] rounded-full;
+}
+
+.debt-risk-refi-chart-card-label {
+  @apply text-silver;
+}

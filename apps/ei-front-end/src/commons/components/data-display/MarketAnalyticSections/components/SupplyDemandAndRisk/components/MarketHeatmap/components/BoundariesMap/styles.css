@@ -1,0 +1,10 @@
+.boundaries-map__pop-up {
+  @apply md:max-w-lg z-[6] text-above-primary !important;
+}
+
+.boundaries-map__pop-up .mapboxgl-popup-content {
+  @apply bg-primary text-above-primary;
+}
+.boundaries-map__pop-up .mapboxgl-popup-tip {
+  @apply opacity-0;
+}

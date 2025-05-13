@@ -1,0 +1,47 @@
+.in-ui-dock-item__content {
+  top: 0;
+  left: 0;
+  width: 100%;
+  animation-duration: 250ms;
+  animation-timing-function: ease;
+}
+
+@media only screen and (min-width: 600px) {
+  .in-ui-dock-item__content {
+    max-width: 600px;
+  }
+}
+
+/* .in-ui-dock-item__content[data-motion="from-start"] {
+  animation-name: enterFromLeft;
+}
+
+.in-ui-dock-item__content[data-motion="from-end"] {
+  animation-name: enterFromRight;
+}
+
+.in-ui-dock-item__content[data-motion="to-start"] {
+  animation-name: exitToLeft;
+}
+
+.in-ui-dock-item__content[data-motion="to-end"] {
+  animation-name: exitToRight;
+} */
+
+.in-ui-dock-item__divider {
+  @apply mt-1;
+}
+
+.in-ui-dock-item__content-children {
+  @apply mt-3 font-bold;
+}
+
+.in-ui-dock-item__content__label--along {
+  word-break: keep-all;
+  white-space: nowrap;
+}
+
+.in-ui-dock-item__content--no-children-width {
+  width: fit-content !important;
+  @apply min-w-max;
+}

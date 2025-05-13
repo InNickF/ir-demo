@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Freight Display";
+  font-style: normal;
+  font-weight: normal;
+  src: url(./FreightDispProBook-Regular.otf);
+}
+
+@font-face {
+  font-family: "Freight Display";
+  font-style: italic;
+  font-weight: bold;
+  src: url(./FreightDispProSemibold-Italic.otf);
+}
+
+@font-face {
+  font-family: "Freight Display";
+  font-style: normal;
+  font-weight: bold;
+  src: url(./FreightDispProSemibold-Regular.otf);
+}

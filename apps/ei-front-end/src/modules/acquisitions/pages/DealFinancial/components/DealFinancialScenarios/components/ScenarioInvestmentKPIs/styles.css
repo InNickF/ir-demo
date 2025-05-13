@@ -1,0 +1,15 @@
+.scenario-investment-kpis__grid {
+  @apply flex flex-col gap-5 lg:grid lg:grid-cols-2;
+}
+
+.scenario-investment-kpis__grid-column {
+  @apply flex flex-col gap-5;
+}
+
+.scenario-investment-kpis__full-width-table {
+  @apply col-span-2 gap-5;
+}
+
+.scenario-investment-kpis__bordered-table {
+  @apply border border-ghost-2;
+}

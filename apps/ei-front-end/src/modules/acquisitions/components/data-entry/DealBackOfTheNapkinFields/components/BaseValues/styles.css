@@ -1,0 +1,15 @@
+.acq-botn-base-values {
+  @apply flex flex-col lg:flex-row items-start lg:items-center gap-1 lg:gap-4 w-full xs:w-max;
+}
+
+.acq-botn-base-values__fields {
+  @apply flex pt-2.5 p-4 gap-6 sm:gap-10 bg-ghost-1 w-full xs:w-max flex-wrap;
+}
+
+.acq-botn-base-values__header {
+  @apply uppercase text-silver;
+}
+
+.acq-botn-base-values__field-grid {
+  @apply grid grid-cols-1 gap-1;
+}

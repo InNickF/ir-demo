@@ -1,0 +1,9 @@
+.in-ui-result {
+  @apply flex flex-col items-center p-6 text-center;
+}
+.in-ui-result__icon__success {
+  color: var(--success);
+}
+.in-ui-result__icon__error {
+  color: var(--error);
+}

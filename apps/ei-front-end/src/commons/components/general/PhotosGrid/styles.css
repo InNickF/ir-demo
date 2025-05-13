@@ -1,0 +1,15 @@
+.commons-photos-grid__container {
+  @apply gap-4 p-3 bg-ghost-contrast-2;
+}
+
+.commons-photos-grid__empty {
+  @apply mx-auto my-4;
+}
+
+.commons-photos-grid__skeleton-wrapper {
+  @apply w-full h-[400px];
+}
+
+.commons-photos-grid__skeleton-item {
+  @apply w-full h-[400px];
+}

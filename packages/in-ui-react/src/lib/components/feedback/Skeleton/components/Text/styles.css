@@ -1,0 +1,19 @@
+.in-ui-skeleton-text {
+  @apply inline-block w-full bg-ghost-2;
+}
+
+.in-ui-skeleton-text-paragraph {
+  @apply h-4;
+}
+
+.in-ui-skeleton-text-subtitle {
+  @apply h-6;
+}
+
+.in-ui-skeleton-text-title {
+  @apply h-16;
+}
+
+.in-ui-skeleton-text--last-half .in-ui-skeleton-text:last-child {
+  @apply w-5/12;
+}

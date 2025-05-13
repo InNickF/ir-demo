@@ -1,0 +1,8 @@
+.commons-operational-statement-table-head {
+  @apply sticky top-0 bg-card z-over-all;
+}
+
+.commons-operational-statement-table-head--cell-right
+  > .in-ui-table__header-wrapper {
+  @apply justify-end;
+}

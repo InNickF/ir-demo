@@ -1,0 +1,1335 @@
+[
+  {
+    "queryKey": [
+      "user",
+      "me"
+    ],
+    "state": {
+      "data": {
+        "username": "",
+        "name": "",
+        "email": "",
+        "privilege": "1,2,3,4,5,6,7,8,",
+        "id": 999999,
+        "is_active": true,
+        "last_name": "",
+        "last_login": "",
+        "modules": [
+          "IN_ACQUISITIONS",
+          "PITCHBOOK",
+          "IN_DISPOSITIONS",
+          "IN_DEBT",
+          "WEBHOOKS",
+          "IN_VESTOR",
+          "IN_SIGHT",
+          "IN_TOOLS",
+          "IN_ASSETS"
+        ]
+      },
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304518502,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "singlePropertyValidations",
+      {
+        "params": {
+          "property_code": "400-023",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "data": {
+        "next": null,
+        "count": null,
+        "total_pages": 1,
+        "results": [
+          {
+            "date": "7/27/2024",
+            "property_code": "1200-llc",
+            "property_name": "8207 - 7957 High Road",
+            "failed": 2,
+            "succeeded": 18,
+            "last_updated": "9/14/2018"
+          }
+        ]
+      },
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304518738,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyValidationRules",
+      {
+        "params": {
+          "property_code": "400-023",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "data": [
+        {
+          "date": "7/13/2019",
+          "property_code": "1200-llc",
+          "check_code": "3UY8uMb4",
+          "check_name": "Confirm equity rolls forward",
+          "check_description": "Confirm equity rolls forward: take prior 12/31 total equity balance + the sum of the income statement G/L accounts from the trial balance since 1/1 until the end of the reporting period and confirm it matches the total equity reported as of the current period [row: 44]\n",
+          "check_pass": true,
+          "detail_type": null
+        },
+        {
+          "date": "10/21/2023",
+          "property_code": "1200-llc",
+          "check_code": "q4_qs6XT",
+          "check_name": "A/R balance (1210-000) matches subledger",
+          "check_description": "w/o prepayment [row: 2]",
+          "check_pass": true,
+          "detail_type": null
+        },
+        {
+          "date": "9/10/2019",
+          "property_code": "1200-llc",
+          "check_code": "tgwq4hq0",
+          "check_name": "Prepaid insurance is not negative",
+          "check_description": "GL account (Prepaid Insurance 1410-0000) does not have negative balance [row: 3]",
+          "check_pass": true,
+          "detail_type": null
+        },
+        {
+          "date": "2/24/2021",
+          "property_code": "1200-llc",
+          "check_code": "Xjed5O3D",
+          "check_name": "No tenant with overall credit balance",
+          "check_description": "List of tenants with negative A/R balances (w/o prepayment) [row: 10]",
+          "check_pass": true,
+          "detail_type": "ar"
+        },
+        {
+          "date": "4/16/2024",
+          "property_code": "1200-llc",
+          "check_code": "HgF5nu_S",
+          "check_name": "Prepaid rent (2410-000) matches subledger",
+          "check_description": "AR with prepayments matches GL balance [row: 12]",
+          "check_pass": true,
+          "detail_type": null
+        },
+        {
+          "date": "7/24/2019",
+          "property_code": "1200-llc",
+          "check_code": "RhoEb1rP",
+          "check_name": "Accumulated depreciation/amortization is not greater than corresponding asset",
+          "check_description": "accounts (depreciation, amortization, etc) do not have a balance greater than the corresponding asset account [rows: 21, 26, 28]",
+          "check_pass": true,
+          "detail_type": "gl-comparison"
+        },
+        {
+          "date": "12/10/2021",
+          "property_code": "1200-llc",
+          "check_code": "U4expdhR",
+          "check_name": "Security deposit matches amount in rent roll",
+          "check_description": "Confirm GL balance of account (2420-0000) matches the balance in the tenancy schedule Commercial Lease Deposit report [row: 36]",
+          "check_pass": true,
+          "detail_type": null
+        },
+        {
+          "date": "12/23/2023",
+          "property_code": "1200-llc",
+          "check_code": "T-D3MG1c",
+          "check_name": "Contributions balance (3001-5000) matches subledger",
+          "check_description": "Confirm GL balance of account (3001-5000) matches the balance in IM [row: 37]",
+          "check_pass": true,
+          "detail_type": null
+        },
+        {
+          "date": "8/31/2019",
+          "property_code": "1200-llc",
+          "check_code": "glu9ADmr",
+          "check_name": "Distributions balance (3002-5000) matches subledger",
+          "check_description": "Confirm GL balance of account (3002-5000) matches the balance in IM [row: 39]",
+          "check_pass": true,
+          "detail_type": null
+        },
+        {
+          "date": "6/4/2019",
+          "property_code": "1200-llc",
+          "check_code": "I1Jgstiw",
+          "check_name": "Total Assets = Total Liabilities + Total Equity (ep_bs_lender account tree)",
+          "check_description": "Confirm Total Assets = Total Liabilities + Total Equity. In account tree ep_bs_lender. [row: 41]",
+          "check_pass": true,
+          "detail_type": null
+        },
+        {
+          "date": "2/26/2020",
+          "property_code": "1200-llc",
+          "check_code": "361oNtyN",
+          "check_name": "Total Assets = Total Liabilities + Total Equity (epbf_lender account tree)",
+          "check_description": "Confirm Total Assets = Total Liabilities + Total Equity. In account tree epbf_lender. [row: 41]",
+          "check_pass": true,
+          "detail_type": null
+        },
+        {
+          "date": "10/20/2020",
+          "property_code": "1200-llc",
+          "check_code": "hhFfSBwx",
+          "check_name": "Total Assets = Total Liabilities + Total Equity (epbs_lender_icov account tree)",
+          "check_description": "Confirm Total Assets = Total Liabilities + Total Equity. In account tree epbs_lender_icov. [row: 41]",
+          "check_pass": true,
+          "detail_type": null
+        },
+        {
+          "date": "10/27/2018",
+          "property_code": "1200-llc",
+          "check_code": "VZtv-j25",
+          "check_name": "Balance sheet presentation - no negative line items (ep_bs_lender account tree)",
+          "check_description": "Assets and Liabilities are not negatives in ep_bs_lender [rows: 42, 43]",
+          "check_pass": true,
+          "detail_type": "gl"
+        },
+        {
+          "date": "1/25/2020",
+          "property_code": "1200-llc",
+          "check_code": "TeqAoB9r",
+          "check_name": "Balance sheet presentation - no negative line items (epbf_lender not negative balances",
+          "check_description": "Assets and Liabilities are not negatives in epbf_lender [rows: 42, 43]",
+          "check_pass": true,
+          "detail_type": "gl"
+        },
+        {
+          "date": "12/3/2018",
+          "property_code": "1200-llc",
+          "check_code": "CB1MGxjj",
+          "check_name": "Balance sheet presentation - no negative line items  (epbs_lender_icov account tree)",
+          "check_description": "Assets and Liabilities are not negatives in epbs_lender_icov [rows: 42, 43]",
+          "check_pass": true,
+          "detail_type": "gl"
+        },
+        {
+          "date": "12/28/2024",
+          "property_code": "1200-llc",
+          "check_code": "fJ0urGme",
+          "check_name": "Non-cash journal entries recorded on accrual books only",
+          "check_description": "Confirm depreciation is only recorded in \"Accrual\", \"Depr-GAAP\" or \"Depr-Tax\" books. Ensure non-cash entries are booked to just accrual books   [rows: 19, 45]",
+          "check_pass": true,
+          "detail_type": "gl"
+        },
+        {
+          "date": "2/12/2021",
+          "property_code": "1200-llc",
+          "check_code": "I7PLKWld",
+          "check_name": "Security deposit clearing account is zero",
+          "check_description": "Confirm that the gl balance (account 2440-0000) is zero - if not it means payment needs to be made to tenant or there is a mistake. If there is balance, check general ledger for the month. ",
+          "check_pass": true,
+          "detail_type": "gl"
+        },
+        {
+          "date": "8/8/2018",
+          "property_code": "1200-llc",
+          "check_code": "CXs15HKx",
+          "check_name": "No manual journal entries posted to retained earnings",
+          "check_description": "no J's (journal entries) in Retained Earnings account (3810-0000) [row: 40]",
+          "check_pass": false,
+          "detail_type": "trans"
+        },
+        {
+          "date": "4/22/2023",
+          "property_code": "1200-llc",
+          "check_code": "odPpIMTm",
+          "check_name": "Journal entries recorded to proper offset acccount",
+          "check_description": "* Tax expense adjustments, any JE transactions with offset 2311-0000/6710-0000 * Insurance expense amortization any JE transactions with offset 1410-0000 * Prepaid expense amortization any JE transqctions with offset 1425-0000 * Interest Hedge Credit - any expense with accounts 8110-0001 and 1220-0000 [rows: 46, 47, 48, 52]",
+          "check_pass": false,
+          "detail_type": "trans"
+        }
+      ],
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304519492,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyGeneralLedger",
+      {
+        "params": {
+          "property_code": "400-023",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "data": {
+        "next": null,
+        "count": null,
+        "total_pages": 1,
+        "results": [
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "PHQiRQDg",
+            "account_code": "UpsV924P",
+            "account_description": "Operating Cash",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "DTeLOMT7",
+            "account_code": "DWp8vVZG",
+            "account_description": "Suspense",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "J18JbWoB",
+            "account_code": "_hFnaald",
+            "account_description": "Accounts Receivable",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "kn3NrIFf",
+            "account_code": "44f2EcFP",
+            "account_description": "Short-Term Loans Interco",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "Yil10A7d",
+            "account_code": "LLXZBwJ-",
+            "account_description": "Intercompany - Fund to Property",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "zFIJXkCZ",
+            "account_code": "r18ayPil",
+            "account_description": "Prepaid Insurance",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "N4CUJnst",
+            "account_code": "t1LiXbBk",
+            "account_description": "Investment in EW West Tenn Tally LLC",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "WbEzb3FA",
+            "account_code": "RdwHYnGc",
+            "account_description": "Return of Capital - Properties",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "sd5nzoq0",
+            "account_code": "yOLxC4wJ",
+            "account_description": "Equity Pickup/Write-Down - Properties",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "rHA8l4mh",
+            "account_code": "9r7dr_9F",
+            "account_description": "Fair Market Value Adjustments - Properties",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "G1ROVBe4",
+            "account_code": "_2C4DZ5J",
+            "account_description": "Accounts Payable",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "XqFWfB6f",
+            "account_code": "b6pimnb8",
+            "account_description": "Accrued Expenses",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "rarqg0Oa",
+            "account_code": "PjX9Woim",
+            "account_description": "Contributions Domestic Fund",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "8x0Co5KH",
+            "account_code": "d9d4ZDHJ",
+            "account_description": "Contributions by HOLDCO (INTL)",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "-bBtqnOW",
+            "account_code": "pXBCIsYV",
+            "account_description": "Contributions",
+            "month_start_balance": -103507.04566046919,
+            "month_end_balance": -93719.68632469949,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "q4KdnXB6",
+            "account_code": "WollGfoz",
+            "account_description": "Distributions Domestic Fund",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "zZQTOzdt",
+            "account_code": "UHEPWU7x",
+            "account_description": "Distributions to HOLDCO (INTL)",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "0VBaWL7C",
+            "account_code": "6ATZyMS6",
+            "account_description": "Distributions Promote",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "SYpE54Bn",
+            "account_code": "tkvcA9KV",
+            "account_description": "Distributions",
+            "month_start_balance": 380334.4798717625,
+            "month_end_balance": 354879.2160531437,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "5caj8oAv",
+            "account_code": "PvLnkNPC",
+            "account_description": "Retained Earnings",
+            "month_start_balance": -284428.58156642516,
+            "month_end_balance": -302239.8005314308,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "dPjD5PRQ",
+            "account_code": "Phj7W2na",
+            "account_description": "Realized Income from Real Estate Properties",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "2mrjuOIc",
+            "account_code": "tgSAFR9C",
+            "account_description": "Unrealized Gain/Loss from Real Estate Properties",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "haA89VCV",
+            "account_code": "aCnGxsLW",
+            "account_description": "FMV Adjustments - Real Estate Properties",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "Y5ED5LX3",
+            "account_code": "OE5RUXYp",
+            "account_description": "Bank Fees",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "xNdYzWpK",
+            "account_code": "eTzqsP14",
+            "account_description": "Office Supplies",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "YaZl-66R",
+            "account_code": "CjuFgVS2",
+            "account_description": "Postage & Courier",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "WkFGdupf",
+            "account_code": "m_L9sX62",
+            "account_description": "Management Fee",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "0cI2nMml",
+            "account_code": "fj19achN",
+            "account_description": "Acquisition Fees",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "l5Re11q9",
+            "account_code": "ZBX6YX0A",
+            "account_description": "Accounting Fees",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "caxggXXB",
+            "account_code": "fQdnkNt_",
+            "account_description": "Bank Fees",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "TlxOfIwQ",
+            "account_code": "3PNOxckG",
+            "account_description": "Business Licenses Permits and Other Fees",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "CPM3M1zG",
+            "account_code": "vMTH_bb1",
+            "account_description": "Legal Fees",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          },
+          {
+            "month": "5",
+            "entity_type": "Fund entity",
+            "entity_code": "77MNS7BP",
+            "account_code": "kTfzy8Pa",
+            "account_description": "Postage and Courier",
+            "month_start_balance": 0,
+            "month_end_balance": 0,
+            "month_to_date_balance_activity": 0
+          }
+        ]
+      },
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304519908,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyValidationsExportTypes",
+      {}
+    ],
+    "state": {
+      "data": [
+        {
+          "label": "Validations",
+          "value": "/data-validations/validations/export/"
+        },
+        {
+          "label": "Validations Summary",
+          "value": "/data-validations/validations/summary/export/"
+        },
+        {
+          "label": "Tenant Analytics",
+          "value": "/data-asset/tenants-months-outstanding/export/"
+        }
+      ],
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304519199,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyBalanceSheets",
+      {
+        "params": {
+          "property_code": "400-023",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "data": {
+        "next": null,
+        "count": null,
+        "total_pages": 1,
+        "results": [
+          {
+            "account_code": "9jIQwwCN",
+            "account_description": "MEMBER'S EQUITY",
+            "month_end_balance": 0
+          },
+          {
+            "account_code": "aNAO7ePD",
+            "account_description": "Cash and Cash Equivalents",
+            "month_end_balance": 0
+          },
+          {
+            "account_code": "gOBJe07v",
+            "account_description": "Accrued Expenses",
+            "month_end_balance": 0
+          },
+          {
+            "account_code": "HVJSRK_r",
+            "account_description": "Other Assets",
+            "month_end_balance": 0
+          },
+          {
+            "account_code": "Jh2dseSF",
+            "account_description": "Prepaid Expenses",
+            "month_end_balance": 0
+          },
+          {
+            "account_code": "nxTkbVPm",
+            "account_description": "Accounts Payable",
+            "month_end_balance": 0
+          },
+          {
+            "account_code": "omAPqq-I",
+            "account_description": "Accounts Receivables net",
+            "month_end_balance": 0
+          }
+        ]
+      },
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304527013,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyRuleDetail",
+      {
+        "params": {
+          "property_code": "400-023",
+          "rule_code": "CXs15HKx",
+          "detail_type": "trans",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "data": [],
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304576417,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyRuleDetail",
+      {
+        "params": {
+          "property_code": "400-023",
+          "rule_code": "odPpIMTm",
+          "detail_type": "trans",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "data": [],
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304577978,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyRuleDetail",
+      {
+        "params": {
+          "property_code": "400-023",
+          "rule_code": "3UY8uMb4",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "dataUpdateCount": 0,
+      "dataUpdatedAt": 0,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "loading",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyRuleDetail",
+      {
+        "params": {
+          "property_code": "400-023",
+          "rule_code": "q4_qs6XT",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "dataUpdateCount": 0,
+      "dataUpdatedAt": 0,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "loading",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyRuleDetail",
+      {
+        "params": {
+          "property_code": "400-023",
+          "rule_code": "tgwq4hq0",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "dataUpdateCount": 0,
+      "dataUpdatedAt": 0,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "loading",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyRuleDetail",
+      {
+        "params": {
+          "property_code": "400-023",
+          "rule_code": "Xjed5O3D",
+          "detail_type": "ar",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "dataUpdateCount": 0,
+      "dataUpdatedAt": 0,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "loading",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyRuleDetail",
+      {
+        "params": {
+          "property_code": "400-023",
+          "rule_code": "HgF5nu_S",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "dataUpdateCount": 0,
+      "dataUpdatedAt": 0,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "loading",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyRuleDetail",
+      {
+        "params": {
+          "property_code": "400-023",
+          "rule_code": "RhoEb1rP",
+          "detail_type": "gl-comparison",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "dataUpdateCount": 0,
+      "dataUpdatedAt": 0,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "loading",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyRuleDetail",
+      {
+        "params": {
+          "property_code": "400-023",
+          "rule_code": "U4expdhR",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "dataUpdateCount": 0,
+      "dataUpdatedAt": 0,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "loading",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyRuleDetail",
+      {
+        "params": {
+          "property_code": "400-023",
+          "rule_code": "T-D3MG1c",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "dataUpdateCount": 0,
+      "dataUpdatedAt": 0,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "loading",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyRuleDetail",
+      {
+        "params": {
+          "property_code": "400-023",
+          "rule_code": "glu9ADmr",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "dataUpdateCount": 0,
+      "dataUpdatedAt": 0,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "loading",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyRuleDetail",
+      {
+        "params": {
+          "property_code": "400-023",
+          "rule_code": "I1Jgstiw",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "dataUpdateCount": 0,
+      "dataUpdatedAt": 0,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "loading",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyRuleDetail",
+      {
+        "params": {
+          "property_code": "400-023",
+          "rule_code": "361oNtyN",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "dataUpdateCount": 0,
+      "dataUpdatedAt": 0,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "loading",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyRuleDetail",
+      {
+        "params": {
+          "property_code": "400-023",
+          "rule_code": "hhFfSBwx",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "dataUpdateCount": 0,
+      "dataUpdatedAt": 0,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "loading",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyRuleDetail",
+      {
+        "params": {
+          "property_code": "400-023",
+          "rule_code": "VZtv-j25",
+          "detail_type": "gl",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "dataUpdateCount": 0,
+      "dataUpdatedAt": 0,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "loading",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyRuleDetail",
+      {
+        "params": {
+          "property_code": "400-023",
+          "rule_code": "TeqAoB9r",
+          "detail_type": "gl",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "dataUpdateCount": 0,
+      "dataUpdatedAt": 0,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "loading",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyRuleDetail",
+      {
+        "params": {
+          "property_code": "400-023",
+          "rule_code": "CB1MGxjj",
+          "detail_type": "gl",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "dataUpdateCount": 0,
+      "dataUpdatedAt": 0,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "loading",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyRuleDetail",
+      {
+        "params": {
+          "property_code": "400-023",
+          "rule_code": "fJ0urGme",
+          "detail_type": "gl",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "dataUpdateCount": 0,
+      "dataUpdatedAt": 0,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "loading",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyRuleDetail",
+      {
+        "params": {
+          "property_code": "400-023",
+          "rule_code": "I7PLKWld",
+          "detail_type": "gl",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "dataUpdateCount": 0,
+      "dataUpdatedAt": 0,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "loading",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyAccountReceivable",
+      {
+        "params": {
+          "property_code": "400-023",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "data": {
+        "next": null,
+        "count": null,
+        "total_pages": 1,
+        "results": []
+      },
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304548248,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "propertyLevelValidations",
+      "propertyJournalEntries",
+      {
+        "params": {
+          "property_code": "400-023",
+          "month": "3",
+          "year": "2024"
+        }
+      }
+    ],
+    "state": {
+      "data": {
+        "next": null,
+        "count": null,
+        "total_pages": 1,
+        "results": []
+      },
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304562808,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  }
+]

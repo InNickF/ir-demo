@@ -1,0 +1,4 @@
+.insight-general-layout-grid {
+  grid-template-rows: auto 1fr;
+  @apply grid h-screen;
+}

@@ -1,0 +1,3 @@
+.acq-pipeline-page .in-ui-header__content {
+  @apply pt-4 !important;
+}

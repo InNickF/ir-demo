@@ -1,0 +1,28 @@
+.auth-page {
+  @apply flex flex-wrap min-h-screen z-[1] relative;
+}
+
+.auth-page__container {
+  @apply grid items-center w-full h-full max-w-md gap-3 px-4;
+}
+
+.auth-page__form-header {
+  @apply flex justify-center mb-6;
+}
+
+.auth-page__forgot-password-text {
+  @apply text-sm text-left bg-transparent;
+}
+
+.auth-page__form {
+  @apply flex flex-col;
+}
+
+.auth-page__sucessful-recover {
+  @apply flex flex-col items-center justify-center w-full h-32 bg-card;
+}
+
+/* This is cuz the video background doesn't have the right contrast colors and it looks bad */
+.auth-page__light .in-ui-input__container {
+  filter: brightness(0.9);
+}

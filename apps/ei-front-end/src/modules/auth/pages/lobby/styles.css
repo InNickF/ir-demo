@@ -1,0 +1,51 @@
+.lobby__page {
+  @apply flex flex-wrap min-h-screen z-[1] relative;
+}
+
+.lobby__container {
+  @apply grid items-center w-full h-full gap-3 px-4 mt-0;
+}
+
+.lobby__card-grid {
+  @apply flex flex-wrap gap-3 m-4 justify-center content-start overflow-hidden;
+}
+
+.lobby-ei-logo {
+  @apply flex justify-center mb-12;
+}
+
+.lobby-ei-logo > div {
+  max-width: none;
+  @apply w-72 !important;
+}
+
+/* This is cuz the video background doesn't have the right contrast colors and it looks bad */
+.lobby__page--light .in-ui-input__container {
+  filter: brightness(0.9);
+}
+
+.lobby__presentation-link {
+  @apply transition-opacity opacity-30 hover:opacity-100;
+}
+
+.lobby__footer {
+  @apply flex items-center justify-center w-full h-full pb-8 pt-3 px-4;
+}
+
+.lobby-entrance-animation {
+  opacity: 0;
+  animation-name: eiLobbyLogoFadeIn;
+  animation-duration: 0.45s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-delay: 0.2s;
+}
+
+@keyframes eiLobbyLogoFadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,41 @@
+.acq-comp-marker {
+  @apply w-6 h-6 text-warning opacity-75 hover:opacity-100 cursor-pointer transition relative inline-block z-control;
+}
+
+.acq-comp-marker path {
+  stroke: var(--warning-darker);
+  @apply stroke-1;
+}
+
+.acq-comp-marker.acq-comp-marker--active {
+  @apply opacity-100;
+}
+
+.acq-comp-marker-container {
+  @apply relative;
+}
+
+@keyframes acq-comp-marker-container--active-entrance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.2;
+  }
+}
+
+.acq-comp-marker-container--active::after {
+  content: "";
+  animation: acq-comp-marker-container--active-entrance 0.25s ease-in-out
+    forwards;
+  @apply w-12 h-12 bg-primary opacity-0 rounded-full -top-1/2 -left-1/2 absolute;
+}
+
+.acq-comp-marker.acq-comp-marker--belongs-to-deal {
+  @apply text-success z-[2];
+}
+
+.acq-comp-marker.acq-comp-marker--belongs-to-deal path {
+  stroke: var(--success-darker);
+  @apply stroke-1;
+}

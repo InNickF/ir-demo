@@ -1,0 +1,11 @@
+.commons-from-to-date-inputs-component {
+  @apply flex flex-col gap-2 p-2;
+}
+
+.commons-from-to-date-inputs-component--input {
+  @apply w-full !important;
+}
+
+.commons-from-to-date-inputs-component--actions-section {
+  @apply pt-3;
+}

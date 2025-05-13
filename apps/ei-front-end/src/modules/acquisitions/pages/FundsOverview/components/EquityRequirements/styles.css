@@ -1,0 +1,9 @@
+.acq-equity-requirements__header {
+  @apply flex flex-col flex-wrap items-start justify-between gap-4 md:flex-row md:items-center self-start;
+}
+.acq-equity-requirements__header__legend {
+  @apply flex flex-row-reverse items-center gap-4 md:flex-row;
+}
+.acq-equity-requirements__chart {
+  @apply w-full min-h-[350px] h-full clear-both;
+}

@@ -1,0 +1,19 @@
+.ei-image-carousel {
+  @apply w-full;
+}
+
+.ei-image-carousel:hover .ei-image-carousel__button-container {
+  @apply opacity-100;
+}
+.ei-image-carousel__button-container {
+  @apply absolute flex h-full items-center z-control top-0 opacity-0 transition;
+}
+.ei-image-carousel__button-container--prev {
+  @apply left-0;
+}
+.ei-image-carousel__button-container--next {
+  @apply right-0;
+}
+.ei-image-carousel__button-container .in-ui-button {
+  @apply border border-ghost-2;
+}

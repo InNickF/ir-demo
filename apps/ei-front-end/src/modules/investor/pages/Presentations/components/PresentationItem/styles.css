@@ -1,0 +1,3 @@
+.investor-presentation-item {
+  @apply p-3 flex justify-center items-center cursor-pointer hover:bg-ghost-2 transition h-full w-full;
+}

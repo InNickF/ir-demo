@@ -1,0 +1,5 @@
+.investor-presentations-grid {
+  grid-auto-rows: 8rem;
+  min-height: calc(14rem * 2 + theme("spacing.4"));
+  @apply grid gap-4 sm:grid-cols-[repeat(auto-fit,14rem)] grid-cols-1 justify-center;
+}

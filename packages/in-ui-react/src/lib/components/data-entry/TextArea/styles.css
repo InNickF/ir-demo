@@ -1,0 +1,171 @@
+/*
+* Base container
+*/
+.in-ui-textarea {
+  outline-width: 0;
+  @apply flex flex-col w-full;
+}
+
+.in-ui-textarea,
+.in-ui-textarea .in-ui-textarea__container {
+  transition-property: opacity, color, border-color;
+  transition-duration: var(--transition-duration);
+  transition-delay: var(--transition-delay);
+  transition-timing-function: var(--transition-timing-function);
+}
+
+/*
+* TextArea container
+*/
+.in-ui-textarea .in-ui-textarea__container {
+  border-width: var(--inputs-border-width);
+  border-color: var(--inputs-border-color);
+  @apply flex items-start gap-1 bg-ghost-1 p-1.5;
+}
+
+.in-ui-textarea .in-ui-textarea__container:hover,
+.in-ui-textarea .in-ui-textarea__container:focus-within {
+  border-color: var(--inputs-border-color-hover);
+}
+
+.in-ui-textarea--focused .in-ui-textarea__container:focus-within {
+  outline-width: 1px;
+  outline-style: dashed;
+  outline-color: var(--inputs-border-color);
+}
+
+/*
+* TextArea element
+*/
+.in-ui-textarea .in-ui-textarea__element {
+  @apply flex-grow flex-shrink bg-transparent placeholder:text-silver transition-none text-base;
+}
+
+/*
+* Icon
+*/
+.in-ui-textarea .in-ui-textarea-icon {
+  color: var(--inputs-icon-color);
+}
+.in-ui-textarea:hover .in-ui-textarea-icon,
+.in-ui-textarea:focus .in-ui-textarea-icon {
+  color: var(--inputs-icon-color-hover);
+}
+
+.in-ui-textarea.in-ui-textarea--error .in-ui-textarea-icon {
+  color: var(--inputs-icon-color-error);
+}
+.in-ui-textarea.in-ui-textarea--error:hover .in-ui-textarea-icon,
+.in-ui-textarea.in-ui-textarea--error:focus .in-ui-textarea-icon {
+  color: var(--inputs-icon-color-error-hover);
+}
+
+/*
+* Left icon
+*/
+.in-ui-textarea .in-ui-textarea__left-icon {
+  @apply flex-grow-0 flex-shrink-0;
+}
+
+/*
+* Right icon
+*/
+.in-ui-textarea .in-ui-textarea__right-icon {
+  @apply flex-grow-0 flex-shrink-0;
+}
+
+/*
+* Color modifiers
+*/
+.in-ui-textarea.in-ui-textarea--over-ghost .in-ui-textarea__container {
+  @apply bg-ghost-2;
+}
+.in-ui-textarea.in-ui-textarea--glass .in-ui-textarea__container {
+  @apply bg-glass-input;
+}
+
+/*
+* Error
+*/
+.in-ui-textarea.in-ui-textarea--error .in-ui-textarea__container {
+  border-color: var(--inputs-border-color-error);
+  outline-color: var(--inputs-border-color-error);
+}
+
+.in-ui-textarea:hover.in-ui-textarea--error .in-ui-textarea__container:hover,
+.in-ui-textarea:hover.in-ui-textarea--error .in-ui-textarea__container:active,
+.in-ui-textarea:hover.in-ui-textarea--error
+  .in-ui-textarea__container:focus-within,
+.in-ui-textarea.in-ui-textarea--error .in-ui-textarea__container:hover,
+.in-ui-textarea.in-ui-textarea--error .in-ui-textarea__container:active,
+.in-ui-textarea.in-ui-textarea--error .in-ui-textarea__container:focus-within {
+  border-color: var(--inputs-border-color-error-hover);
+  outline-color: var(--inputs-border-color-error-hover);
+}
+
+.in-ui-textarea.in-ui-textarea--error .in-ui-textarea__helper {
+  @apply hidden;
+}
+
+/*
+* Hint container and hint/error helper element
+*/
+.in-ui-textarea .in-ui-textarea__hint__container {
+  @apply relative w-full;
+}
+
+.in-ui-textarea__error-helper {
+  @apply absolute w-full;
+}
+
+.in-ui-textarea:hover .in-ui-textarea__helper,
+.in-ui-textarea:focus-within .in-ui-textarea__helper {
+  @apply opacity-100;
+}
+.in-ui-textarea__helper {
+  @apply absolute w-full opacity-0;
+}
+
+/*
+* Disabled
+*/
+
+.in-ui-textarea.in-ui-textarea--disabled .in-ui-textarea__container {
+  border-color: var(--disabled-text-color) !important;
+  outline-color: var(--disabled-text-color) !important;
+}
+
+.in-ui-textarea.in-ui-textarea--disabled .in-ui-textarea__element,
+.in-ui-textarea.in-ui-textarea--disabled .in-ui-textarea__element::placeholder {
+  color: var(--disabled-text-color) !important;
+}
+
+.in-ui-textarea.in-ui-textarea--disabled .in-ui-textarea__container {
+  border-color: var(--disabled-text-color) !important;
+}
+
+.in-ui-textarea:hover.in-ui-textarea--disabled .in-ui-textarea__container,
+.in-ui-textarea:hover.in-ui-textarea--disabled .in-ui-textarea__container {
+  border-color: var(--disabled-text-color) !important;
+  outline-color: var(--disabled-text-color) !important;
+}
+
+.in-ui-textarea.in-ui-textarea--disabled .in-ui-textarea__container {
+  @apply bg-disabled !important;
+}
+
+.in-ui-textarea.in-ui-textarea--disabled .in-ui-textarea__helper,
+.in-ui-textarea.in-ui-textarea--disabled .in-ui-textarea__error-helper {
+  @apply hidden !important;
+}
+
+.in-ui-textarea.in-ui-textarea--disabled .in-ui-textarea-icon {
+  color: var(--disabled-text-color) !important;
+}
+
+/*
+* Label
+*/
+.in-ui-textarea .in-ui-label {
+  @apply mb-1.5;
+}

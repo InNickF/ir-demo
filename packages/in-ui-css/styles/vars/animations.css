@@ -1,0 +1,114 @@
+/* Transition */
+:root {
+  --transition-delay: 0;
+  --transition-duration: 0.25s;
+  --transition-timing-function: ease-in-out;
+}
+
+@keyframes in-ui-loader-rotation {
+  from {
+    transform: rotate(45deg);
+  }
+  to {
+    transform: rotate(405deg);
+  }
+}
+
+@keyframes enterFromRight {
+  from {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes enterFromLeft {
+  from {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes exitToRight {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(200px);
+    opacity: 0;
+  }
+}
+
+@keyframes exitToLeft {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-200px);
+    opacity: 0;
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    transform: rotateX(-30deg) scale(0.9);
+    opacity: 0;
+  }
+  to {
+    transform: rotateX(0deg) scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes scaleOut {
+  from {
+    transform: rotateX(0deg) scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: rotateX(-10deg) scale(0.95);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes loading-line {
+  from {
+    transform: translateX(-150%);
+  }
+  to {
+    transform: translateX(200%);
+  }
+}
+
+.in-ui-animation--appears {
+  animation: fadeIn forwards;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.35s;
+}

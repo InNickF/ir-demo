@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+	xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+	<style>
+		#logo {
+			fill: #000;
+		}
+		@media (prefers-color-scheme: dark) {
+			#logo {
+				fill: #fff;
+			}
+		}
+	</style>
+<path id="logo" d="M119.22,7.67h256.59v14.65H134.39v211.08h215v14.65h-215v229.65h246.39v14.65H119.22V7.67z"/>
+</svg>

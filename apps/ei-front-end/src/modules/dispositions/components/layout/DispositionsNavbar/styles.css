@@ -1,0 +1,11 @@
+.dispositions-navbar-container {
+  @apply flex items-center justify-between w-full h-full;
+}
+
+.dispositions-navbar-container svg {
+  @apply h-full !important;
+}
+
+.dispositions-navbar-logo {
+  @apply h-7 top-[2px] relative;
+}

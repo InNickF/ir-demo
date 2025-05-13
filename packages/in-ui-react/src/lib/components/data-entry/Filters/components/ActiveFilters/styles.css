@@ -1,0 +1,7 @@
+.in-ui-filters__active-filters {
+  @apply flex flex-wrap items-center gap-2;
+}
+
+.in-ui-filters__active-filters__title {
+  @apply text-sm text-silver;
+}

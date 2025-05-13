@@ -1,0 +1,7 @@
+.investor-generate-report-page {
+  @apply flex flex-wrap  z-[1] relative;
+}
+
+.investor-generate-report-page__container {
+  @apply grid items-center w-full h-full max-w-xl gap-3 px-4;
+}

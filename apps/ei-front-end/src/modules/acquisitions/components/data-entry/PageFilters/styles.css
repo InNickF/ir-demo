@@ -1,0 +1,15 @@
+.acq-page-filters {
+  @apply relative z-control;
+}
+
+.acq-page-filters-desktop {
+  @apply hidden 2xl:flex 2xl:flex-wrap 2xl:items-end 2xl:gap-3;
+}
+
+.acq-page-filters-mobile {
+  @apply flex content-center gap-3 2xl:hidden;
+}
+
+.acq-page-filters__drawer {
+  @apply flex flex-col gap-6 items-stretch;
+}

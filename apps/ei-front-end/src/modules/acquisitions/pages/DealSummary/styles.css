@@ -1,0 +1,55 @@
+.acq-deal-summary-grid {
+  @apply grid grid-cols-1 gap-4 lg:grid-cols-2;
+}
+.acq-deal-summary-grid .in-ui-skeleton-avatar {
+  @apply w-full m-0;
+}
+
+.acq-deal-summary-grid--grid-cards {
+  @apply grid items-start content-start h-full grid-cols-1 gap-4;
+}
+
+.acq-deal-back-of-the-napkin-table-wrapper {
+  @apply py-4 border-t-2 border-b-2 border-ghost-2;
+}
+
+.acq-deal-assumptions-table-wrapper {
+  @apply w-full;
+}
+
+.acq-deal-assumptions-table-wrapper .in-ui-table__header-wrapper {
+  @apply font-normal;
+}
+
+.acq-deal-assumptions-table-wrapper
+  .in-ui-table__header
+  .in-ui-table__header-wrapper {
+  @apply font-bold !important;
+}
+
+.acq-deal-assumptions-table-wrapper .in-ui-table__data {
+  @apply text-right;
+}
+
+.acq-deal-assumptions-table-wrapper
+  .acq-deal-assumptions-table-wrapper__tables-grid {
+  @apply grid grid-cols-1 lg:grid-cols-[1fr,1fr] items-start;
+}
+
+.acq-deal-assumptions-table-wrapper
+  .acq-deal-assumptions-table-wrapper__tables-grid
+  .in-ui-table
+  .in-ui-table__row:last-child {
+  @apply border-[var(--table-border-color)] border-b lg:border-transparent  !important;
+}
+
+.acq-deal-assumptions-table-wrapper
+  .acq-deal-assumptions-table-wrapper__tables-grid
+  .in-ui-table:nth-child(2)
+  .in-ui-table__row:last-child {
+  @apply border-[var(--table-border-color)] border-b  !important;
+}
+
+.acq-deal-content-subgrid-wrapper {
+  @apply grid grid-cols-1 2xl:grid-cols-[4fr,3fr] gap-4 col-span-1 lg:col-span-2 place-content-start justify-start;
+}

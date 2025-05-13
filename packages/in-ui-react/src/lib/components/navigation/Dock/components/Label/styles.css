@@ -1,0 +1,41 @@
+.in-ui-dock-item:first-child .in-ui-dock-item__label {
+  @apply rounded-l-xl;
+}
+
+.in-ui-dock-item:last-child .in-ui-dock-item__label {
+  @apply rounded-r-xl;
+}
+
+.in-ui-dock-item__label {
+  transition: background-color, color, border, 0.2s ease-in-out;
+  @apply flex border items-center gap-1.5 bg-transparent relative p-3 text-silver border-solid border-transparent;
+}
+
+.in-ui-dock-item__label:hover,
+.in-ui-dock-item__label--active {
+  @apply bg-ghost-2 text-primary;
+}
+
+.in-ui-dock-item__label:active {
+  @apply bg-ghost-2 text-primary border-primary;
+}
+
+.in-ui-dock-item__label:focus-visible {
+  @apply border-transparent outline-2 outline-dashed outline-primary;
+}
+
+.in-ui-dock-item__label--active .in-ui-dock-item__label--icon {
+  @apply relative;
+}
+
+.in-ui-dock-item__label--active .in-ui-dock-item__label--icon::after {
+  top: calc(100% + theme("spacing[0.5]"));
+  content: "";
+  transform: translateX(-50%);
+  transition: opacity 0.2s ease-in-out;
+  @apply h-1 w-2 absolute rounded-full bg-primary left-1/2 opacity-60;
+}
+
+.in-ui-dock-item__label--active:hover .in-ui-dock-item__label--icon::after {
+  @apply opacity-100;
+}

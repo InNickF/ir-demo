@@ -1,0 +1,18 @@
+.acq-scenario-card {
+  @apply min-w-[256px] outline outline-2 outline-transparent transition-all
+  flex flex-col gap-2 p-0 cursor-pointer;
+}
+.acq-scenario-card.acq-scenario-card--active {
+  @apply border-transparent outline-primary;
+}
+
+.acq-scenario-card__header {
+  @apply flex flex-wrap items-center justify-between gap-2 p-2 pb-0;
+}
+
+.acq-scenario-card__body {
+  @apply relative flex flex-col gap-1 p-2 pt-0 pb-1;
+}
+.acq-scenario-card__body__item {
+  @apply flex items-center justify-between;
+}

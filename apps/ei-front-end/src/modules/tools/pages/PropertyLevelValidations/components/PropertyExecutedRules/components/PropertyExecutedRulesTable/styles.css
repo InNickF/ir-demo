@@ -1,0 +1,7 @@
+.plv-property-executed-rule-row--failed {
+  --table-row-color-hover: var(--error-opacity);
+}
+
+.plv-property-executed-rule-row__failed-cell {
+  @apply bg-error-darker text-above-error;
+}

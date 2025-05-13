@@ -1,0 +1,3 @@
+.acq-deal-scenario-grid {
+  @apply flex gap-4 items-center justify-start w-full overflow-auto py-2 pl-1;
+}

@@ -1,0 +1,56 @@
+:root {
+  --animation-duration: 0.35s;
+  --animation-timing-function: ease-in-out;
+}
+
+.page-entrance {
+  animation: page-entrance 0.35s ease-in-out forwards;
+  @apply opacity-0;
+}
+
+@keyframes page-entrance {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.generic-entrance-animation {
+  animation: generic-entrance-animation forwards;
+  animation-duration: var(--animation-duration);
+  animation-timing-function: var(--animation-timing-function);
+  @apply opacity-0;
+}
+
+@keyframes generic-entrance-animation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.header-page-animation {
+  animation: header-page-animation forwards;
+  animation-duration: 0.75s;
+  animation-timing-function: var(--animation-timing-function);
+  @apply opacity-0;
+}
+
+@keyframes header-page-animation {
+  from {
+    opacity: 0.2;
+    transform: translateY(-40%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.stagger-entrance-animation {
+  @apply opacity-0;
+}

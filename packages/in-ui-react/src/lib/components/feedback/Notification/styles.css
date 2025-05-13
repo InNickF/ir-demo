@@ -1,0 +1,92 @@
+/* Base */
+
+.in-ui-notification-item {
+  @apply flex bg-primary text-above-primary gap-2 p-2 items-stretch;
+}
+.in-ui-notification-item__counter,
+.in-ui-notification-item__counter-bg {
+  @apply w-1.5 relative;
+}
+.in-ui-notification-item__body {
+  @apply flex flex-col flex-wrap w-full;
+}
+
+@keyframes in-ui-notification-counter-animation {
+  0% {
+    transform: scaleY(0%);
+  }
+  100% {
+    transform: scaleY(100%);
+  }
+}
+.in-ui-notification-item__counter {
+  @apply origin-bottom h-full w-1.5;
+  animation-timing-function: var(--transition-timing-function);
+  animation-iteration-count: 1;
+  animation-name: in-ui-notification-counter-animation;
+}
+
+/* END Base */
+
+/* Colors */
+.in-ui-notification-item__counter--info {
+  @apply bg-ghost-1;
+}
+.in-ui-notification-item__counter-bg--info {
+  @apply bg-ghost-3;
+}
+
+.in-ui-notification-item__counter--success {
+  @apply bg-success;
+}
+.in-ui-notification-item__counter-bg--success {
+  @apply bg-success-darker;
+}
+
+.in-ui-notification-item__counter--warning {
+  @apply bg-warning;
+}
+.in-ui-notification-item__counter-bg--warning {
+  @apply bg-warning-darker;
+}
+
+.in-ui-notification-item__counter--error {
+  @apply bg-error;
+}
+.in-ui-notification-item__counter-bg--error {
+  @apply bg-error-darker;
+}
+/* END Colors */
+
+/* Container */
+.in-ui-notification-container {
+  @apply fixed flex flex-col gap-3 max-w-[theme(spacing.96)] w-full z-notification;
+}
+
+.in-ui-notification-container--position-top-left {
+  @apply top-20 left-2;
+}
+
+.in-ui-notification-container--position-top-right {
+  @apply top-20 right-2;
+}
+
+.in-ui-notification-container--position-top-center {
+  @apply left-1/2 top-20;
+  transform: translate(-50%);
+}
+
+.in-ui-notification-container--position-bottom-left {
+  @apply bottom-2 left-2;
+}
+
+.in-ui-notification-container--position-bottom-right {
+  @apply bottom-2 right-2;
+}
+
+.in-ui-notification-container--position-bottom-center {
+  @apply left-1/2 bottom-2;
+  transform: translate(-50%);
+}
+
+/* END Container */

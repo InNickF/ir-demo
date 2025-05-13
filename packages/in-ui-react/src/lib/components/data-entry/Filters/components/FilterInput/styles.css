@@ -1,0 +1,23 @@
+.in-ui-filters__text-menu-wrapper {
+  @apply p-2;
+}
+
+.in-ui-filters__text {
+  @apply px-3 rounded-full !important;
+}
+
+.in-ui-filters__text-ghost {
+  @apply border-ghost-2 text-ghost-2;
+}
+
+.in-ui-filters__text-glass {
+  @apply border-2 border-transparent bg-glass-3 text-primary hover:bg-primary hover:text-above-primary-hover !important;
+}
+
+.in-ui-filters__text-ghost__active {
+  @apply border-primary text-primary !important;
+}
+
+.in-ui-filters__text-glass__active {
+  @apply border-transparent text-primary !important;
+}

@@ -1,0 +1,16 @@
+.in-ui-navbar {
+  backdrop-filter: blur(6px);
+  @apply w-full h-16 bg-glass sticky top-0 z-navigation border-b border-ghost-2;
+}
+
+.in-ui-navbar--padding-right {
+  @apply pr-6;
+}
+
+.in-ui-navbar--padding-left {
+  @apply pl-6;
+}
+
+.in-ui-navbar--padding-both {
+  @apply px-6;
+}

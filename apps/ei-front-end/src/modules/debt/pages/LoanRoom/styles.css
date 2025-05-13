@@ -1,0 +1,7 @@
+.debt-loan-room-filters {
+  @apply flex flex-wrap items-end justify-end gap-4 mb-6;
+}
+
+.debt-create-file__form .in-ui-modal__content {
+  @apply flex flex-col gap-4;
+}

@@ -1,0 +1,10 @@
+.in-ui-overlay {
+  pointer-events: auto;
+  backdrop-filter: blur(6px);
+  @apply bg-glass-overlay z-overlay inset-0 fixed;
+}
+
+.in-ui-overlay--behind-navigation {
+  /* Over control, behind navigation */
+  z-index: 6;
+}

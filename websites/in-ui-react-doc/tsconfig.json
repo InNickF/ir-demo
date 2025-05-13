@@ -1,0 +1,18 @@
+{
+  "extends": "in-ui-tsconfig/in-ui-react-components.json",
+  "include": [
+    "src",
+    "../../apps/in-ui-react/src/lib"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "exclude": [
+    "dist",
+    "build",
+    "node_modules",
+    "vite.config.ts"
+  ]
+}

@@ -1,0 +1,3 @@
+.acq-bulk-deals-select .in-ui-select-element__value-container {
+  @apply max-h-36 overflow-auto;
+}

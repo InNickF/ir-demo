@@ -1,0 +1,8 @@
+.acq-deal-marker {
+  @apply relative w-8 h-8 text-primary z-control;
+}
+
+.acq-deal-marker path {
+  stroke: var(--text-above-primary);
+  @apply stroke-1;
+}

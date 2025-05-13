@@ -1,0 +1,8 @@
+.acq-change-deal-phase-form-footer {
+  @apply flex flex-col items-center gap-4 mt-6;
+}
+
+.acq-change-deal-phase-form-footer .in-ui-button.in-ui-button--decorated-kind {
+  @apply w-full;
+  max-width: 420px;
+}

@@ -1,0 +1,11 @@
+.assets-property-edit {
+  @apply grid grid-cols-1 gap-6;
+}
+
+.assets-property-edit__button-group-wrapper {
+  @apply flex items-center justify-between;
+}
+
+.assets-property-edit__button-group {
+  @apply w-full md:w-auto;
+}

@@ -1,0 +1,31 @@
+.acq-comps-finder-add-comp-modal > .in-ui-modal__content {
+  @apply p-0;
+}
+
+.acq-compstack-comp-inputs__wrapper {
+  @apply px-6;
+}
+
+.acq-compstack-comp-inputs__section {
+  @apply flex flex-col gap-3 mb-5;
+}
+
+.acq-compstack-comp-inputs__inputs-grid {
+  @apply grid grid-cols-6 gap-x-3 gap-y-7;
+}
+
+.acq-compstack-comp-inputs__input {
+  @apply col-span-2;
+}
+
+.acq-compstack-comp-inputs__hidden {
+  @apply hidden;
+}
+
+.acq-compstack-comp-inputs__full-grid {
+  @apply col-span-6;
+}
+
+.acq-compstack-comp-inputs__half-grid {
+  @apply col-span-3;
+}

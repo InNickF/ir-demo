@@ -1,0 +1,19 @@
+.debt-stacking-plan-legend__wrapper {
+  @apply flex items-center justify-center w-full gap-3 mt-2 mb-4;
+}
+
+.debt-stacking-plan-legend__title {
+  @apply text-xs;
+}
+
+.debt-stacking-plan-legend__item {
+  @apply flex gap-3;
+}
+
+.debt-stacking-plan-legend__item--bordered {
+  @apply w-4 h-4 bg-transparent border-2;
+}
+
+.debt-stacking-plan-legend__item--label {
+  @apply ml-2 text-xs;
+}

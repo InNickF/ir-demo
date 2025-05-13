@@ -1,0 +1,7 @@
+.in-ui-container {
+  @apply mx-auto px-3 md:px-6 xl:px-12 3xl:px-24 sm:w-full 3xl:container;
+}
+
+.in-ui-container--fluid {
+  @apply max-w-full;
+}

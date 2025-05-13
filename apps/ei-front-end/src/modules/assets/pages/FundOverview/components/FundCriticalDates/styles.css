@@ -1,0 +1,5 @@
+.fund-critical-dates-table
+  .in-ui-table__pagination
+  .in-ui-table__pagination-select {
+  @apply max-w-[80px] z-overlay;
+}

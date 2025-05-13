@@ -1,0 +1,15 @@
+.debt-risk-refi-page__grid {
+  @apply grid grid-cols-1 gap-3 pt-6 lg:grid-cols-5;
+}
+
+.debt-risk-refi-page__grid-span-2 {
+  @apply col-auto lg:col-span-2;
+}
+
+.debt-risk-refi-page__grid-span-3 {
+  @apply col-auto lg:col-span-3;
+}
+
+.debt-risk-refi-page__lenders-container {
+  @apply flex flex-row flex-wrap gap-3 mt-10 lg:mt-0 justify-center lg:justify-start;
+}

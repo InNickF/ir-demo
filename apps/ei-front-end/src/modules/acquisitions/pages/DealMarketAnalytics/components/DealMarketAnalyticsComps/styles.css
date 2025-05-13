@@ -1,0 +1,10 @@
+.acq-deal-comps-tables--hidden {
+  @apply hidden;
+}
+.acq-deal-comps-tables__type-filter {
+  @apply w-40;
+}
+
+.acq-deal-comps-tables__type-filter--hidden {
+  @apply hidden;
+}

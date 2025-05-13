@@ -1,0 +1,4 @@
+.commons-truncated-text {
+  text-overflow: ellipsis;
+  @apply overflow-hidden;
+}

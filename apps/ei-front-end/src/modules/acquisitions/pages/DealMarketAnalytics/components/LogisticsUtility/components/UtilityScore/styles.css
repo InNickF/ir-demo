@@ -1,0 +1,15 @@
+.acq-utility-score__grid {
+  @apply grid grid-cols-1 gap-2 md:grid-cols-2;
+}
+
+.acq-utility-score__grid__first-col {
+  @apply grid grid-cols-1 gap-3;
+}
+
+.acq-utility-score__grid__first-col__value-cards {
+  @apply grid grid-cols-2 gap-3 py-8;
+}
+
+.acq-utility-score__grid__second-col {
+  @apply flex flex-col items-start w-full;
+}

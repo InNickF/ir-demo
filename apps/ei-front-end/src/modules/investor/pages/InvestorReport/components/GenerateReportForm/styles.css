@@ -1,0 +1,3 @@
+.generate-report-form {
+  @apply flex flex-col gap-5;
+}

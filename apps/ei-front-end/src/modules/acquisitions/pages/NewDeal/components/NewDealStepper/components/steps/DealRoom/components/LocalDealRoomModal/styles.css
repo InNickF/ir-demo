@@ -1,0 +1,7 @@
+.acq-create-local-file__form .in-ui-modal__content {
+  @apply flex flex-col gap-4;
+}
+
+.acq-create-local-file__form-footer {
+  @apply flex flex-col-reverse w-full md:flex-row;
+}

@@ -1,0 +1,27 @@
+.tools-basic-form-page {
+  @apply flex flex-wrap z-[1] relative;
+}
+
+.tools-basic-form-page__container {
+  @apply grid items-center w-full h-full max-w-xl gap-3 px-4;
+}
+
+.tools-basic-form {
+  @apply flex flex-col items-center gap-5;
+}
+
+.tools-basic-form > section {
+  @apply w-full;
+}
+
+.tools-basic-form__dropzone-tags {
+  @apply flex justify-center mt-3;
+}
+
+.tools-basic-form__button-group {
+  max-width: 384px !important;
+}
+
+.tools-basic-form__extra-fields {
+  @apply flex flex-col w-full gap-4 md:flex-row;
+}

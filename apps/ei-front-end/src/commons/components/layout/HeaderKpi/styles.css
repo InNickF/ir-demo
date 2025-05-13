@@ -1,0 +1,16 @@
+.commons-header-kpi {
+  @apply flex flex-col items-center justify-center gap-2 p-4 w-min first-letter:transition hover:bg-ghost-1;
+}
+
+.commons-header-kpi__value {
+  font-family: var(--primary-font);
+}
+
+.commons-header-kpi__clickable {
+  @apply border-transparent cursor-pointer;
+  border-width: 1px;
+}
+
+.commons-header-kpi__clickable:hover {
+  @apply border-primary-hover;
+}

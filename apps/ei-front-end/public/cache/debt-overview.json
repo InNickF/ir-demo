@@ -1,0 +1,1413 @@
+[
+  {
+    "queryKey": [
+      "user",
+      "me"
+    ],
+    "state": {
+      "data": {
+        "username": "",
+        "name": "",
+        "email": "",
+        "privilege": "1,2,3,4,5,6,7,8,",
+        "id": 999999,
+        "is_active": true,
+        "last_name": "",
+        "last_login": "",
+        "modules": [
+          "IN_ACQUISITIONS",
+          "PITCHBOOK",
+          "IN_DISPOSITIONS",
+          "IN_DEBT",
+          "WEBHOOKS",
+          "IN_VESTOR",
+          "IN_SIGHT",
+          "IN_TOOLS",
+          "IN_ASSETS"
+        ]
+      },
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304146553,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "fund",
+      "outstandingBalanceByLenders",
+      {
+        "fund": "Industrial Fund Example",
+        "status": "active"
+      }
+    ],
+    "state": {
+      "data": [
+        {
+          "lender": "Lang, Torphy and McClure",
+          "total": 30192406.65
+        },
+        {
+          "lender": "Friesen Inc",
+          "total": 21000000
+        },
+        {
+          "lender": "Cruickshank - Skiles",
+          "total": 51793871.23
+        },
+        {
+          "lender": "Tremblay Inc",
+          "total": 15390000
+        },
+        {
+          "lender": "Gerlach Group",
+          "total": 94040872.73
+        },
+        {
+          "lender": "Carroll - Boehm",
+          "total": 33220165.81
+        },
+        {
+          "lender": "Sanford - Little",
+          "total": 10360000
+        },
+        {
+          "lender": "Macejkovic, Stokes and Corwin",
+          "total": 30564145.2
+        },
+        {
+          "lender": "Flatley, Muller and Stokes",
+          "total": 80600000
+        },
+        {
+          "lender": "Olson - Brekke",
+          "total": 53533769.17
+        },
+        {
+          "lender": "Barrows Group",
+          "total": 21300000
+        },
+        {
+          "lender": "Effertz LLC",
+          "total": 37981836.19
+        },
+        {
+          "lender": "Rice and Sons",
+          "total": 22240527.9
+        },
+        {
+          "lender": "McDermott - Mueller",
+          "total": 20100000
+        }
+      ],
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304147096,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "filters",
+      "general"
+    ],
+    "state": {
+      "data": [
+        {
+          "key": "property",
+          "name": "property",
+          "options": [
+            {
+              "label": "1111 SW 30th Ave.",
+              "value": "sw-30th"
+            },
+            {
+              "label": "1000 Jefferson Ave.",
+              "value": "1234-xyz"
+            },
+            {
+              "label": "2340 Cousteau Ct.",
+              "value": "2340-llc"
+            },
+            {
+              "label": "EV 1200 LLC",
+              "value": "1200-llc"
+            },
+            {
+              "label": "1600 Miami Gardens",
+              "value": "1600-llc"
+            },
+            {
+              "label": "1515 75th",
+              "value": "1515-llc"
+            },
+            {
+              "label": "1 Slater Drive",
+              "value": "slat-llc"
+            },
+            {
+              "label": "3900 Coral Ridge Dr.",
+              "value": "3900-llc"
+            },
+            {
+              "label": "EV 43 Stults, LLC",
+              "value": "43-llc"
+            },
+            {
+              "label": "EV 3000, LLC",
+              "value": "3000-cts"
+            },
+            {
+              "label": "2281 Griffin Rd",
+              "value": "Loan Example"
+            },
+            {
+              "label": "33401 Central Ave.",
+              "value": "33401llc"
+            },
+            {
+              "label": "35 O'brien",
+              "value": "obri-llc"
+            },
+            {
+              "label": "111 Internationale Blvd.",
+              "value": "111-llc"
+            },
+            {
+              "label": "EV Stafford LLC",
+              "value": "stafford"
+            },
+            {
+              "label": "EV Apgar LLC",
+              "value": "apgar"
+            },
+            {
+              "label": "555-589 Monster Rd. SW",
+              "value": "monster"
+            },
+            {
+              "label": "6955 Consolidated Way",
+              "value": "6955-llc"
+            },
+            {
+              "label": "182-20 Liberty Ave.",
+              "value": "liberty"
+            },
+            {
+              "label": "6212 Corte del Abeto",
+              "value": "6212-llc"
+            },
+            {
+              "label": "6700 Hardeson Rd.",
+              "value": "6700-llc"
+            },
+            {
+              "label": "341 N Delilah Street",
+              "value": "delilah"
+            },
+            {
+              "label": "Shepherd",
+              "value": "shepherd"
+            },
+            {
+              "label": "5803 Newton",
+              "value": "newt-llc"
+            },
+            {
+              "label": "Jiffy",
+              "value": "jiffy"
+            },
+            {
+              "label": "1111 Pioneer Way",
+              "value": "pioneer"
+            },
+            {
+              "label": "600 SW 10th St",
+              "value": "600swllc"
+            },
+            {
+              "label": "3141 SW 10th St.",
+              "value": "3141-llc"
+            },
+            {
+              "label": "1200 - 1220 SW 35th Ave.",
+              "value": "1230-llc"
+            },
+            {
+              "label": "9950 NW 25th St Doral",
+              "value": "9900-llc"
+            },
+            {
+              "label": "4225 Hacienda Dr.",
+              "value": "4225-llc"
+            },
+            {
+              "label": "EV 1121, LLC",
+              "value": "1121-llc"
+            },
+            {
+              "label": "43045 John Mosby Hwy.",
+              "value": "mos-llc"
+            },
+            {
+              "label": "EV 11, LLC",
+              "value": "11-enter"
+            },
+            {
+              "label": "EV 2465 LLC",
+              "value": "2465-llc"
+            }
+          ]
+        },
+        {
+          "key": "lender",
+          "name": "lender",
+          "options": [
+            {
+              "label": "Valley National Bank",
+              "value": "Valley National Bank"
+            },
+            {
+              "label": "IDB Bank",
+              "value": "IDB Bank"
+            },
+            {
+              "label": "HUD (AGM Financial)",
+              "value": "HUD (AGM Financial)"
+            },
+            {
+              "label": "First Horizon Bank",
+              "value": "First Horizon Bank"
+            },
+            {
+              "label": "NY Life",
+              "value": "NY Life"
+            },
+            {
+              "label": "Rialto Capital",
+              "value": "Rialto Capital"
+            },
+            {
+              "label": "Amalgamated Bank",
+              "value": "Amalgamated Bank"
+            },
+            {
+              "label": "Brookfield AM",
+              "value": "Brookfield AM"
+            },
+            {
+              "label": "Synovus",
+              "value": "Synovus"
+            },
+            {
+              "label": "California Bank & Trust",
+              "value": "California Bank & Trust"
+            },
+            {
+              "label": "BHI USA",
+              "value": "BHI USA"
+            },
+            {
+              "label": "Synovus Bank",
+              "value": "Synovus Bank"
+            },
+            {
+              "label": "UBS Bank USA",
+              "value": "UBS Bank USA"
+            },
+            {
+              "label": "Credit Agricole",
+              "value": "Credit Agricole"
+            },
+            {
+              "label": "LoanCore",
+              "value": "LoanCore"
+            },
+            {
+              "label": "UBS",
+              "value": "UBS"
+            },
+            {
+              "label": "Wells Fargo Bank",
+              "value": "Wells Fargo Bank"
+            },
+            {
+              "label": "City National Bank of Florida",
+              "value": "City National Bank of Florida"
+            },
+            {
+              "label": "United of Omaha Life Insurance Company",
+              "value": "United of Omaha Life Insurance Company"
+            },
+            {
+              "label": "Wells Fargo",
+              "value": "Wells Fargo"
+            }
+          ]
+        },
+        {
+          "key": "timelines_type",
+          "name": "timelines_type",
+          "options": [
+            {
+              "label": "type1",
+              "value": "type1"
+            },
+            {
+              "label": "type2",
+              "value": "type2"
+            },
+            {
+              "label": "Maturity Date",
+              "value": "MATURITY_DATE"
+            }
+          ]
+        },
+        {
+          "key": "attachment_types",
+          "name": "attachment_types",
+          "options": [
+            {
+              "label": "Loan Abstract Excel File",
+              "value": "LOAN_ABSTRACT_EXCEL_FILE"
+            },
+            {
+              "label": "Contract File",
+              "value": "LOAN_ABSTRACT_CONTRACT_FILE"
+            },
+            {
+              "label": "Agreement",
+              "value": "LOAN_ABSTRACT_AGREEMENT"
+            },
+            {
+              "label": "Promissory Note",
+              "value": "LOAN_ABSTRACT_PROMISSORY_NOTE"
+            },
+            {
+              "label": "Mortgage",
+              "value": "LOAN_ABSTRACT_MORTGAGE"
+            },
+            {
+              "label": "Guaranty",
+              "value": "LOAN_ABSTRACT_GUARANTY"
+            }
+          ]
+        },
+        {
+          "key": "fund",
+          "name": "fund",
+          "options": [
+            {
+              "label": " 17 West",
+              "value": " 17 West"
+            },
+            {
+              "label": "Industrial Fund Example",
+              "value": "Industrial Fund Example"
+            },
+            {
+              "label": " Jupiter",
+              "value": " Jupiter"
+            },
+            {
+              "label": "Another Fund Example",
+              "value": " Development Partners"
+            },
+            {
+              "label": "ABC Portfolio",
+              "value": "ABC Portfolio"
+            },
+            {
+              "label": "JPQ",
+              "value": "JPQ"
+            },
+            {
+              "label": "Real Estate III",
+              "value": "Real Estate III"
+            },
+            {
+              "label": "VICO IVA",
+              "value": "VICO IVA"
+            },
+            {
+              "label": "DAY III",
+              "value": "DAY III"
+            },
+            {
+              "label": "Fund DC",
+              "value": "Fund DC"
+            },
+            {
+              "label": "CCD IO",
+              "value": "CCD IO"
+            },
+            {
+              "label": "Real Estate Original Fund",
+              "value": "Real Estate Original Fund"
+            },
+            {
+              "label": "VICO IV",
+              "value": "VICO IV"
+            },
+            {
+              "label": " Glenmind",
+              "value": " Glenmind"
+            },
+            {
+              "label": " Somerise",
+              "value": " Somerise"
+            },
+            {
+              "label": "TR Develop",
+              "value": "TR Develop"
+            }
+          ]
+        },
+        {
+          "key": "status",
+          "name": "status",
+          "options": [
+            {
+              "label": "inactive",
+              "value": "inactive"
+            },
+            {
+              "label": "active",
+              "value": "active"
+            },
+            {
+              "label": "all",
+              "value": "all"
+            }
+          ]
+        },
+        {
+          "key": "loan_cap",
+          "name": "loan_cap",
+          "options": [
+            {
+              "label": "ELP55 V, LLC",
+              "value": "ELP55 V, LLC"
+            },
+            {
+              "label": "EB Albemarle, LLC and EB Dulles I, LLC",
+              "value": "EB Albemarle, LLC and EB Dulles I, LLC"
+            },
+            {
+              "label": "EV JIFFY, LLC",
+              "value": "EV JIFFY, LLC"
+            },
+            {
+              "label": "VICO IV Lafayette Owner LLC",
+              "value": "VICO IV Lafayette Owner LLC"
+            },
+            {
+              "label": "EV 11, LLC",
+              "value": "EV 11, LLC"
+            },
+            {
+              "label": "VICO IV Eisenhower Owner LLC",
+              "value": "VICO IV Eisenhower Owner LLC"
+            },
+            {
+              "label": "ELP55 VII, LLC",
+              "value": "ELP55 VII, LLC"
+            },
+            {
+              "label": "EV 6700, LLC",
+              "value": "EV 6700, LLC"
+            },
+            {
+              "label": "EV 1111 SW 30, LLC",
+              "value": "EV 1111 SW 30, LLC"
+            },
+            {
+              "label": "EV 2340, LLC",
+              "value": "EV 2340, LLC"
+            },
+            {
+              "label": "EV LIBERTY, LLC",
+              "value": "EV LIBERTY, LLC"
+            },
+            {
+              "label": "Ridgeport Partners II, LLC",
+              "value": "Ridgeport Partners II, LLC"
+            },
+            {
+              "label": "EV 3000, LLC",
+              "value": "EV 3000, LLC"
+            },
+            {
+              "label": "EV MONSTER, LLC",
+              "value": "EV MONSTER, LLC"
+            },
+            {
+              "label": "EV PIONEER, LLC",
+              "value": "EV PIONEER, LLC"
+            },
+            {
+              "label": "EIF II 1301, LLC",
+              "value": "EIF II 1301, LLC"
+            },
+            {
+              "label": "EV 1000, LLC",
+              "value": "EV 1000, LLC"
+            },
+            {
+              "label": "A-R RIDGEPORT III, LLC",
+              "value": "A-R RIDGEPORT III, LLC"
+            },
+            {
+              "label": "Ridgeport Partners I, LLC",
+              "value": "Ridgeport Partners I, LLC"
+            },
+            {
+              "label": "Fund DC IX, LLC",
+              "value": "Fund DC IX, LLC"
+            },
+            {
+              "label": "ELP55 VI, LLC",
+              "value": "ELP55 VI, LLC"
+            },
+            {
+              "label": "EV 4225, LLC",
+              "value": "EV 4225, LLC"
+            },
+            {
+              "label": "EV SHEPHERD, LLC",
+              "value": "EV SHEPHERD, LLC"
+            },
+            {
+              "label": "EV 600, LLC",
+              "value": "EV 600, LLC"
+            },
+            {
+              "label": "EIF II Sunrise, LLC",
+              "value": "EIF II Sunrise, LLC"
+            },
+            {
+              "label": "EV 33401, LLC",
+              "value": "EV 33401, LLC"
+            },
+            {
+              "label": "EV 2281, LLC",
+              "value": "EV 2281, LLC"
+            },
+            {
+              "label": "EV 6955, LLC",
+              "value": "EV 6955, LLC"
+            },
+            {
+              "label": "EB Sterling, LLC",
+              "value": "EB Sterling, LLC"
+            }
+          ]
+        }
+      ],
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304147008,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "overview",
+      "debtInformation",
+      {
+        "fund": "Industrial Fund Example",
+        "status": "active"
+      }
+    ],
+    "state": {
+      "data": {
+        "current_outstanding_loan_balance": 524320263.31547886,
+        "loans": 10.684966200534316,
+        "lenders": 10.734573543713847,
+        "interest_rate": 0.8768044094218671,
+        "current_ltv": 0.8458696893532963,
+        "dscr_over_last_12_months_noidm": 1.9545,
+        "debt_yield_over_last_12_months_noidm": 0.32408488254476286,
+        "avg_maturity_months": 42.96201219675844,
+        "min_ltv": 0.1382276879106914,
+        "max_ltv": 0.7694451706209254,
+        "yield_on_cost_over_last_12_months_noidm": 0.30707387462957403
+      },
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304147119,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "overview",
+      "timeline",
+      {
+        "fund": "Industrial Fund Example",
+        "page": "1",
+        "page_size": "5"
+      }
+    ],
+    "state": {
+      "data": {
+        "next": null,
+        "previous": null,
+        "count": 18,
+        "total_pages": 4,
+        "results": [
+          {
+            "id": 524,
+            "loan_abstract_id": "d2e2bdc9af61adb9a5056f3ddc5ed64c",
+            "type": "MATURITY_DATE",
+            "notable_date": "2024-05-09",
+            "comment": null,
+            "loan_name": "Loan Example"
+          },
+          {
+            "id": 554,
+            "loan_abstract_id": "d2e2bdc9af61adb9a5056f3ddc5ed64c",
+            "type": "MATURITY_DATE",
+            "notable_date": "2024-06-09",
+            "comment": null,
+            "loan_name": "Loan Example"
+          },
+          {
+            "id": 420,
+            "loan_abstract_id": "d2e2bdc9af61adb9a5056f3ddc5ed64c",
+            "type": "MATURITY_DATE",
+            "notable_date": "2025-03-09",
+            "comment": null,
+            "loan_name": "Loan Example"
+          },
+          {
+            "id": 736,
+            "loan_abstract_id": "d2e2bdc9af61adb9a5056f3ddc5ed64c",
+            "type": "MATURITY_DATE",
+            "notable_date": "2026-04-29",
+            "comment": null,
+            "loan_name": "Loan Example"
+          },
+          {
+            "id": 691,
+            "loan_abstract_id": "d2e2bdc9af61adb9a5056f3ddc5ed64c",
+            "type": "MATURITY_DATE",
+            "notable_date": "2026-08-01",
+            "comment": null,
+            "loan_name": "Loan Example"
+          }
+        ]
+      },
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304147119,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "portfolio",
+      "loanExpiration",
+      {
+        "fund": "Industrial Fund Example",
+        "status": "active"
+      }
+    ],
+    "state": {
+      "data": [
+        {
+          "initial_maturity_year": 2017,
+          "lender_name": "Kessler, Schimmel and Pollich",
+          "current_outstanding_loan_balance": 23691460.685987823,
+          "loan_name": "Zulauf - Kerluke"
+        },
+        {
+          "initial_maturity_year": 2020,
+          "lender_name": "Bradtke - Reichel",
+          "current_outstanding_loan_balance": 7198612.640030972,
+          "loan_name": "Schneider Group"
+        },
+        {
+          "initial_maturity_year": 2011,
+          "lender_name": "Daniel LLC",
+          "current_outstanding_loan_balance": 14114498.70314145,
+          "loan_name": "Lindgren Group"
+        },
+        {
+          "initial_maturity_year": 2013,
+          "lender_name": "Brown, D'Amore and Lesch",
+          "current_outstanding_loan_balance": 18319920.240944408,
+          "loan_name": "Frami Group"
+        },
+        {
+          "initial_maturity_year": 2018,
+          "lender_name": "Metz and Sons",
+          "current_outstanding_loan_balance": 26923931.6888492,
+          "loan_name": "Bosco - Ferry"
+        },
+        {
+          "initial_maturity_year": 2007,
+          "lender_name": "Mohr - Vandervort",
+          "current_outstanding_loan_balance": 19590700.111450028,
+          "loan_name": "Barrows - Dibbert"
+        },
+        {
+          "initial_maturity_year": 2012,
+          "lender_name": "Stroman Inc",
+          "current_outstanding_loan_balance": 20338070.522994753,
+          "loan_name": "Olson, Kohler and Olson"
+        },
+        {
+          "initial_maturity_year": 2016,
+          "lender_name": "Raynor and Sons",
+          "current_outstanding_loan_balance": 11558453.4962097,
+          "loan_name": "Oberbrunner Inc"
+        },
+        {
+          "initial_maturity_year": 2017,
+          "lender_name": "Walter - Hessel",
+          "current_outstanding_loan_balance": 14968461.289715905,
+          "loan_name": "Streich - Langosh"
+        },
+        {
+          "initial_maturity_year": 2021,
+          "lender_name": "O'Connell, Corwin and MacGyver",
+          "current_outstanding_loan_balance": 11026861.84108984,
+          "loan_name": "Rodriguez - Mueller"
+        },
+        {
+          "initial_maturity_year": 2016,
+          "lender_name": "Nader and Sons",
+          "current_outstanding_loan_balance": 17285944.644138463,
+          "loan_name": "Yost and Sons"
+        },
+        {
+          "initial_maturity_year": 2018,
+          "lender_name": "Erdman LLC",
+          "current_outstanding_loan_balance": 13442359.75107413,
+          "loan_name": "Gorczany and Sons"
+        },
+        {
+          "initial_maturity_year": 2018,
+          "lender_name": "Williamson, Keebler and Jacobs",
+          "current_outstanding_loan_balance": 14802811.103962634,
+          "loan_name": "Murazik - Abernathy"
+        },
+        {
+          "initial_maturity_year": 2020,
+          "lender_name": "Quigley - Kilback",
+          "current_outstanding_loan_balance": 11370638.268011158,
+          "loan_name": "Ritchie, Pollich and Armstrong"
+        },
+        {
+          "initial_maturity_year": 2024,
+          "lender_name": "Paucek, Heaney and Ondricka",
+          "current_outstanding_loan_balance": 0,
+          "loan_name": "Schuppe, Wisoky and Corkery"
+        },
+        {
+          "initial_maturity_year": 2019,
+          "lender_name": "White Inc",
+          "current_outstanding_loan_balance": 14063550.27800594,
+          "loan_name": "Reichert, Reichel and Wiegand"
+        },
+        {
+          "initial_maturity_year": 2006,
+          "lender_name": "Ondricka, Weimann and Streich",
+          "current_outstanding_loan_balance": 11949198.163086526,
+          "loan_name": "Stehr - Dach"
+        },
+        {
+          "initial_maturity_year": 2022,
+          "lender_name": "Wiegand - Dickinson",
+          "current_outstanding_loan_balance": 41386583.02337319,
+          "loan_name": "Kunde LLC"
+        },
+        {
+          "initial_maturity_year": 2014,
+          "lender_name": "Thompson LLC",
+          "current_outstanding_loan_balance": 0,
+          "loan_name": "Satterfield, Frami and Lehner"
+        },
+        {
+          "initial_maturity_year": 2022,
+          "lender_name": "Conn - Will",
+          "current_outstanding_loan_balance": 31610802.172659025,
+          "loan_name": "Hermiston, Mann and Kemmer"
+        },
+        {
+          "initial_maturity_year": 2019,
+          "lender_name": "Hansen, Murphy and Cremin",
+          "current_outstanding_loan_balance": 0,
+          "loan_name": "Hills - Oberbrunner"
+        },
+        {
+          "initial_maturity_year": 2013,
+          "lender_name": "Davis, Keebler and Wiegand",
+          "current_outstanding_loan_balance": 15167305.31196702,
+          "loan_name": "Moen - D'Amore"
+        },
+        {
+          "initial_maturity_year": 2020,
+          "lender_name": "Reilly - Cruickshank",
+          "current_outstanding_loan_balance": 17329754.760276653,
+          "loan_name": "Waelchi - Upton"
+        },
+        {
+          "initial_maturity_year": 2015,
+          "lender_name": "Towne, Fadel and Frami",
+          "current_outstanding_loan_balance": 17934426.64162486,
+          "loan_name": "Casper, Grimes and D'Amore"
+        },
+        {
+          "initial_maturity_year": 2012,
+          "lender_name": "Baumbach, Daugherty and Schmidt",
+          "current_outstanding_loan_balance": 15220155.463145038,
+          "loan_name": "Leffler, Denesik and Bergstrom"
+        },
+        {
+          "initial_maturity_year": 2023,
+          "lender_name": "Mueller - Leuschke",
+          "current_outstanding_loan_balance": 9367523.895527717,
+          "loan_name": "Berge - Haley"
+        },
+        {
+          "initial_maturity_year": 2019,
+          "lender_name": "Armstrong - Kling",
+          "current_outstanding_loan_balance": 39406515.97565789,
+          "loan_name": "Douglas, Powlowski and Streich"
+        },
+        {
+          "initial_maturity_year": 2019,
+          "lender_name": "Torp LLC",
+          "current_outstanding_loan_balance": 7291619.149896405,
+          "loan_name": "Bartell Inc"
+        },
+        {
+          "initial_maturity_year": 2018,
+          "lender_name": "Bechtelar, Greenfelder and Wuckert",
+          "current_outstanding_loan_balance": 22534736.197029606,
+          "loan_name": "Wyman, Corkery and Kuhic"
+        },
+        {
+          "initial_maturity_year": 2008,
+          "lender_name": "Toy Group",
+          "current_outstanding_loan_balance": 54778734.75116947,
+          "loan_name": "Dicki and Sons"
+        },
+        {
+          "initial_maturity_year": 2023,
+          "lender_name": "Lemke and Sons",
+          "current_outstanding_loan_balance": 18216361.26018928,
+          "loan_name": "Borer - Dach"
+        },
+        {
+          "initial_maturity_year": 2023,
+          "lender_name": "Johns, Bins and Tromp",
+          "current_outstanding_loan_balance": 12198589.609779172,
+          "loan_name": "Sauer LLC"
+        },
+        {
+          "initial_maturity_year": 2015,
+          "lender_name": "Howe - Rohan",
+          "current_outstanding_loan_balance": 17204322.901075825,
+          "loan_name": "Stracke, Hahn and Wilderman"
+        }
+      ],
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304147098,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "fund",
+      "outstandingBalanceByLenders",
+      {
+        "fund": "Industrial Fund Example",
+        "status": "inactive"
+      }
+    ],
+    "state": {
+      "data": [
+        {
+          "lender": "Hamill Inc",
+          "total": 12100000
+        }
+      ],
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304150921,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "overview",
+      "debtInformation",
+      {
+        "fund": "Industrial Fund Example",
+        "status": "inactive"
+      }
+    ],
+    "state": {
+      "data": {
+        "current_outstanding_loan_balance": 11489095.476298278,
+        "loans": 8.182042761486882,
+        "lenders": 11.02646334263317,
+        "interest_rate": 0.31795137050545597,
+        "current_ltv": 0.5132122870219031,
+        "dscr_over_last_12_months_noidm": 1.6644,
+        "debt_yield_over_last_12_months_noidm": 0.8509732574321482,
+        "avg_maturity_months": 48.428233530630756,
+        "min_ltv": 0.6122534940445323,
+        "max_ltv": 0.892388009866883,
+        "yield_on_cost_over_last_12_months_noidm": 0.34734221072882787
+      },
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304150920,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "portfolio",
+      "loanExpiration",
+      {
+        "fund": "Industrial Fund Example",
+        "status": "inactive"
+      }
+    ],
+    "state": {
+      "data": [
+        {
+          "initial_maturity_year": 2022,
+          "lender_name": "Jenkins Group",
+          "current_outstanding_loan_balance": 14669347.833355984,
+          "loan_name": "Senger - Franey"
+        }
+      ],
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304150920,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "fund",
+      "outstandingBalanceByLenders",
+      {
+        "fund": "Industrial Fund Example",
+        "status": "all"
+      }
+    ],
+    "state": {
+      "data": [
+        {
+          "lender": "Leannon LLC",
+          "total": 20100000
+        },
+        {
+          "lender": "Nolan, Graham and Kirlin",
+          "total": 22240527.9
+        },
+        {
+          "lender": "Towne Inc",
+          "total": 92700000
+        },
+        {
+          "lender": "Mertz, Langosh and Ernser",
+          "total": 37981836.19
+        },
+        {
+          "lender": "Hoeger - Stoltenberg",
+          "total": 53533769.17
+        },
+        {
+          "lender": "Barrows and Sons",
+          "total": 21300000
+        },
+        {
+          "lender": "Hickle Inc",
+          "total": 10360000
+        },
+        {
+          "lender": "Schoen, Bechtelar and Langworth",
+          "total": 30564145.2
+        },
+        {
+          "lender": "Casper - Weissnat",
+          "total": 94040872.73
+        },
+        {
+          "lender": "Dibbert, Rolfson and Boehm",
+          "total": 15390000
+        },
+        {
+          "lender": "Anderson, Carter and O'Conner",
+          "total": 33220165.81
+        },
+        {
+          "lender": "Dietrich, Torphy and Schuppe",
+          "total": 51793871.23
+        },
+        {
+          "lender": "Mohr, Corwin and Blanda",
+          "total": 33100000
+        },
+        {
+          "lender": "Von, Davis and Marvin",
+          "total": 30192406.65
+        }
+      ],
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304152125,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "overview",
+      "debtInformation",
+      {
+        "fund": "Industrial Fund Example",
+        "status": "all"
+      }
+    ],
+    "state": {
+      "data": {
+        "current_outstanding_loan_balance": 521115146.37680197,
+        "loans": 11.965820539891407,
+        "lenders": 9.297467180501652,
+        "interest_rate": 0.14126350834511314,
+        "current_ltv": 0.7673286660523007,
+        "dscr_over_last_12_months_noidm": 1.9393,
+        "debt_yield_over_last_12_months_noidm": 0.9629207788565919,
+        "avg_maturity_months": 42.12593081234632,
+        "min_ltv": 0.07606798076071042,
+        "max_ltv": 0.31602592078684055,
+        "yield_on_cost_over_last_12_months_noidm": 0.4220047104266508
+      },
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304152062,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "portfolio",
+      "loanExpiration",
+      {
+        "fund": "Industrial Fund Example",
+        "status": "all"
+      }
+    ],
+    "state": {
+      "data": [
+        {
+          "initial_maturity_year": 2022,
+          "lender_name": "Pollich, Glover and Jenkins",
+          "current_outstanding_loan_balance": 8516537.244901597,
+          "loan_name": "Kling - Dach"
+        },
+        {
+          "initial_maturity_year": 2018,
+          "lender_name": "Goldner, Williamson and Bergnaum",
+          "current_outstanding_loan_balance": 30835431.933414318,
+          "loan_name": "Will, Erdman and Conn"
+        },
+        {
+          "initial_maturity_year": 2021,
+          "lender_name": "Miller, Ferry and Gislason",
+          "current_outstanding_loan_balance": 11126918.039402723,
+          "loan_name": "Lang and Sons"
+        },
+        {
+          "initial_maturity_year": 2024,
+          "lender_name": "Ledner, Skiles and Gerhold",
+          "current_outstanding_loan_balance": 0,
+          "loan_name": "Kautzer, Johnston and Kutch"
+        },
+        {
+          "initial_maturity_year": 2017,
+          "lender_name": "Bergstrom, Kreiger and Rogahn",
+          "current_outstanding_loan_balance": 41519296.758527644,
+          "loan_name": "Kirlin, Conroy and Dickinson"
+        },
+        {
+          "initial_maturity_year": 2007,
+          "lender_name": "Lueilwitz Inc",
+          "current_outstanding_loan_balance": 0,
+          "loan_name": "Stokes, Hahn and Haag"
+        },
+        {
+          "initial_maturity_year": 2024,
+          "lender_name": "Spencer - Predovic",
+          "current_outstanding_loan_balance": 19683294.00787759,
+          "loan_name": "Legros Group"
+        },
+        {
+          "initial_maturity_year": 2017,
+          "lender_name": "Fay Group",
+          "current_outstanding_loan_balance": 22922371.295388874,
+          "loan_name": "Langworth LLC"
+        },
+        {
+          "initial_maturity_year": 2017,
+          "lender_name": "Yost - Monahan",
+          "current_outstanding_loan_balance": 18757254.252726026,
+          "loan_name": "Miller Group"
+        },
+        {
+          "initial_maturity_year": 2021,
+          "lender_name": "Collier - Romaguera",
+          "current_outstanding_loan_balance": 10732549.822680518,
+          "loan_name": "Lynch - Mante"
+        },
+        {
+          "initial_maturity_year": 2015,
+          "lender_name": "Jast Inc",
+          "current_outstanding_loan_balance": 7801832.849991496,
+          "loan_name": "Hilpert, Herzog and McLaughlin"
+        },
+        {
+          "initial_maturity_year": 2024,
+          "lender_name": "Mueller Group",
+          "current_outstanding_loan_balance": 33252654.667276233,
+          "loan_name": "Stokes, Swaniawski and Kerluke"
+        },
+        {
+          "initial_maturity_year": 2025,
+          "lender_name": "Dooley - Steuber",
+          "current_outstanding_loan_balance": 7698428.009491786,
+          "loan_name": "Grant - Schuster"
+        },
+        {
+          "initial_maturity_year": 2022,
+          "lender_name": "Aufderhar, Mayer and Emard",
+          "current_outstanding_loan_balance": 27712842.746281747,
+          "loan_name": "Fahey and Sons"
+        },
+        {
+          "initial_maturity_year": 2023,
+          "lender_name": "Hudson - Runte",
+          "current_outstanding_loan_balance": 55323370.69998561,
+          "loan_name": "Gerhold, Huel and Connelly"
+        },
+        {
+          "initial_maturity_year": 2023,
+          "lender_name": "Thompson, Nicolas and Hauck",
+          "current_outstanding_loan_balance": 15332772.155425733,
+          "loan_name": "Dickens - Schiller"
+        },
+        {
+          "initial_maturity_year": 2013,
+          "lender_name": "Goodwin, Rempel and Lubowitz",
+          "current_outstanding_loan_balance": 8482853.050685935,
+          "loan_name": "Tillman Group"
+        },
+        {
+          "initial_maturity_year": 2021,
+          "lender_name": "Pfeffer, Anderson and Tillman",
+          "current_outstanding_loan_balance": 19634277.04291741,
+          "loan_name": "Zboncak and Sons"
+        },
+        {
+          "initial_maturity_year": 2023,
+          "lender_name": "Kling, Monahan and Goyette",
+          "current_outstanding_loan_balance": 25234528.041417643,
+          "loan_name": "Waters - Durgan"
+        },
+        {
+          "initial_maturity_year": 2023,
+          "lender_name": "Kling, Barrows and Johns",
+          "current_outstanding_loan_balance": 5670347.577294096,
+          "loan_name": "Altenwerth, Ziemann and Rau"
+        },
+        {
+          "initial_maturity_year": 2024,
+          "lender_name": "Hyatt and Sons",
+          "current_outstanding_loan_balance": 14234335.626944175,
+          "loan_name": "Hirthe - Powlowski"
+        },
+        {
+          "initial_maturity_year": 2021,
+          "lender_name": "Larkin - Schneider",
+          "current_outstanding_loan_balance": 22020033.629860498,
+          "loan_name": "Effertz Inc"
+        },
+        {
+          "initial_maturity_year": 2024,
+          "lender_name": "Deckow Group",
+          "current_outstanding_loan_balance": 17828607.24507143,
+          "loan_name": "Turner Group"
+        },
+        {
+          "initial_maturity_year": 2019,
+          "lender_name": "Ward - Feest",
+          "current_outstanding_loan_balance": 20909192.305761047,
+          "loan_name": "Waelchi - Smitham"
+        },
+        {
+          "initial_maturity_year": 2023,
+          "lender_name": "Leffler, Mertz and Lemke",
+          "current_outstanding_loan_balance": 16926453.24761083,
+          "loan_name": "Nolan - Purdy"
+        },
+        {
+          "initial_maturity_year": 2018,
+          "lender_name": "Homenick, Wuckert and Considine",
+          "current_outstanding_loan_balance": 16945648.460705183,
+          "loan_name": "Prosacco and Sons"
+        },
+        {
+          "initial_maturity_year": 2024,
+          "lender_name": "Reichel, Shanahan and Roob",
+          "current_outstanding_loan_balance": 10715656.953253558,
+          "loan_name": "Greenholt - Schuster"
+        },
+        {
+          "initial_maturity_year": 2024,
+          "lender_name": "Armstrong, Graham and Adams",
+          "current_outstanding_loan_balance": 17736282.699854232,
+          "loan_name": "Bergnaum LLC"
+        },
+        {
+          "initial_maturity_year": 2019,
+          "lender_name": "Howell - Collier",
+          "current_outstanding_loan_balance": 12408479.187928133,
+          "loan_name": "Roberts, Paucek and Hudson"
+        },
+        {
+          "initial_maturity_year": 2017,
+          "lender_name": "Glover - Schneider",
+          "current_outstanding_loan_balance": 10748490.816927275,
+          "loan_name": "Heidenreich - Lakin"
+        },
+        {
+          "initial_maturity_year": 2023,
+          "lender_name": "Bruen LLC",
+          "current_outstanding_loan_balance": 18523346.28042773,
+          "loan_name": "Pagac Group"
+        },
+        {
+          "initial_maturity_year": 2022,
+          "lender_name": "Jones LLC",
+          "current_outstanding_loan_balance": 18954510.389548242,
+          "loan_name": "Witting and Sons"
+        },
+        {
+          "initial_maturity_year": 2023,
+          "lender_name": "Koss Inc",
+          "current_outstanding_loan_balance": 7951314.139667984,
+          "loan_name": "Hammes, Nader and Watsica"
+        },
+        {
+          "initial_maturity_year": 2022,
+          "lender_name": "Goldner Inc",
+          "current_outstanding_loan_balance": 0,
+          "loan_name": "Zboncak - Nader"
+        },
+        {
+          "initial_maturity_year": 2017,
+          "lender_name": "Howe, Wintheiser and Jaskolski",
+          "current_outstanding_loan_balance": 19609268.7740419,
+          "loan_name": "Kiehn - DuBuque"
+        }
+      ],
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304152115,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  }
+]

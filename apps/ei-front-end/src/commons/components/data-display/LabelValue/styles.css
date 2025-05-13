@@ -1,0 +1,11 @@
+.label-value-component {
+  @apply grid grid-cols-1 gap-1 content-start;
+}
+
+.label-value-component__label {
+  @apply break-words uppercase font-bold;
+}
+
+.label-value-component__value {
+  @apply break-words;
+}

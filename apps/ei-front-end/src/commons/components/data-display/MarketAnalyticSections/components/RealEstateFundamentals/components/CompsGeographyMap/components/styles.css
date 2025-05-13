@@ -1,0 +1,15 @@
+.acq-custom-comp-map-popup {
+  @apply z-[6];
+}
+
+.acq-custom-comp-map-popup .mapboxgl-popup-content {
+  @apply flex flex-row w-full bg-primary text-above-primary rounded-md;
+}
+
+.acq-custom-comp-map-popup .mapboxgl-popup-close-button {
+  @apply h-5 w-5 bg-ghost text-primary;
+}
+
+.acq-market-rent-comp__map-popup {
+  @apply w-full h-full p-2 overflow-y-auto capitalize;
+}

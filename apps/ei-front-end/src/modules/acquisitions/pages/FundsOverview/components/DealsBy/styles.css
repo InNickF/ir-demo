@@ -1,0 +1,11 @@
+.acq-deals-by__header {
+  @apply flex flex-wrap items-center self-start gap-4;
+}
+
+.acq-deals-by__header__select {
+  @apply max-w-[150px];
+}
+
+.acq-deals-by-chart {
+  @apply w-full min-h-[320px] h-full clear-both;
+}

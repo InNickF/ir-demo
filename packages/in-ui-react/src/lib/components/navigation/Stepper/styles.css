@@ -1,0 +1,70 @@
+/* 
+* Base
+*/
+.in-ui-stepper__step__header {
+  @apply flex flex-col sm:flex-row bg-ghost-contrast w-full;
+}
+
+.in-ui-stepper__step__title,
+.in-ui-stepper__step__number {
+  @apply font-medium;
+}
+
+.in-ui-stepper__step {
+  transition-property: background-color;
+  transition-duration: var(--transition-duration);
+  transition-delay: var(--transition-delay);
+  transition-timing-function: var(--transition-timing-function);
+  @apply flex items-center py-3 px-5 gap-4 cursor-pointer w-full bg-transparent hover:bg-ghost-2;
+}
+
+.in-ui-stepper__step__number {
+  @apply w-7 h-7 flex justify-center items-center bg-primary text-above-primary p-0 pt-0.5 rounded-full;
+}
+
+.in-ui-stepper__step__container {
+  @apply flex gap-1.5 items-center;
+}
+
+.in-ui-stepper__step--active {
+  @apply bg-primary text-above-primary hover:bg-ghost-3;
+}
+
+.in-ui-stepper__step--active .in-ui-stepper__step__number {
+  @apply text-primary bg-ghost-1;
+}
+
+/* 
+* Ready
+*/
+.in-ui-stepper__step--ready {
+  @apply text-primary bg-success-opacity hover:text-primary hover:bg-success-dark;
+}
+
+.in-ui-stepper__step--ready .in-ui-stepper__step__number {
+  @apply bg-success text-above-success;
+}
+
+.in-ui-stepper__step--active.in-ui-stepper__step--ready {
+  @apply text-above-primary bg-success hover:bg-success-dark;
+}
+
+.in-ui-stepper__step--active.in-ui-stepper__step--ready
+  .in-ui-stepper__step__container {
+  @apply text-above-success;
+}
+
+.in-ui-stepper__step--active.in-ui-stepper__step--ready
+  .in-ui-stepper__step__number {
+  @apply bg-success-darker text-above-success-hover;
+}
+
+/*
+* Content
+*/
+.in-ui-stepper__step__content {
+  @apply hidden;
+}
+.in-ui-stepper__step__content--visible {
+  @apply block;
+}

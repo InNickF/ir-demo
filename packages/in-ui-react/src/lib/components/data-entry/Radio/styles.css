@@ -1,0 +1,57 @@
+.in-ui-radio__container {
+  @apply flex items-center gap-2;
+}
+
+.in-ui-radio .in-ui-label {
+  @apply pt-0.5;
+}
+
+.in-ui-radio input[type="radio"] {
+  @apply grid bg-transparent appearance-none m-0 place-content-center transition-colors w-6 h-6 border-2 border-solid border-silver rounded-full;
+}
+
+.in-ui-radio input[type="radio"]:not(:disabled):hover {
+  @apply bg-ghost-2 border-primary cursor-pointer;
+}
+
+.in-ui-radio input[type="radio"]:not(:disabled):hover + .in-ui-label {
+  @apply cursor-pointer;
+}
+
+input[type="radio"]:focus-visible {
+  @apply border-dashed border-primary;
+}
+
+.in-ui-radio input[type="radio"]::before {
+  @apply w-6 h-6;
+  content: "";
+  transform: scale(0);
+  transform-origin: center;
+  transition-duration: 0.12s;
+  transition-timing-function: var(--transition-timing-function);
+  @apply bg-primary rounded-full;
+}
+
+.in-ui-radio input[type="radio"]:checked {
+  @apply border-primary;
+}
+
+.in-ui-radio input[type="radio"]:checked::before {
+  transform: scale(0.55);
+}
+
+.in-ui-radio input[type="radio"]:disabled {
+  @apply border-silver;
+}
+
+.in-ui-radio input[type="radio"]:disabled + label {
+  @apply text-silver;
+}
+
+.in-ui-radio--disabled * {
+  @apply cursor-not-allowed text-silver;
+}
+
+.in-ui-radio input[type="radio"]:disabled::before {
+  @apply bg-silver;
+}

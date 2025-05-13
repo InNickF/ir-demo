@@ -1,0 +1,53 @@
+:root {
+  --in-ui--shadow-0: 0px 8px 15px -6px rgba(51, 51, 51, 0);
+  --in-ui--shadow-1: 0px 8px 15px -6px rgba(51, 51, 51, 0.15);
+  --in-ui--shadow-2: 0px 8px 15px -3px rgba(51, 51, 51, 0.15);
+  --in-ui--shadow-3: 0px 8px 15px rgba(51, 51, 51, 0.15);
+  --in-ui--shadow-4: 0px 8px 15px 3px rgba(51, 51, 51, 0.15);
+}
+
+:root body.dark {
+  --in-ui--shadow-0: 0px 8px 15px -12px rgba(0, 0, 0, 0);
+  --in-ui--shadow-1: 0px 8px 15px -12px rgba(0, 0, 0, 0.5);
+  --in-ui--shadow-2: 0px 8px 15px -3px rgba(0, 0, 0, 0.4);
+  --in-ui--shadow-3: 0px 8px 15px rgba(0, 0, 0, 0.4);
+  --in-ui--shadow-4: 0px 8px 15px 3px rgba(0, 0, 0, 0.4);
+}
+
+.in-ui--shadow {
+  transition-property: box-shadow;
+  transition-duration: var(--transition-duration);
+  transition-delay: var(--transition-delay);
+  transition-timing-function: var(--transition-timing-function);
+}
+
+.in-ui--shadow-0 {
+  box-shadow: var(--in-ui--shadow-0);
+}
+.in-ui--shadow-0-hover:hover {
+  box-shadow: var(--in-ui--shadow-1);
+}
+.in-ui--shadow-1 {
+  box-shadow: var(--in-ui--shadow-1);
+}
+.in-ui--shadow-1-hover:hover {
+  box-shadow: var(--in-ui--shadow-2);
+}
+.in-ui--shadow-2 {
+  box-shadow: var(--in-ui--shadow-2);
+}
+.in-ui--shadow-2-hover:hover {
+  box-shadow: var(--in-ui--shadow-3);
+}
+.in-ui--shadow-3 {
+  box-shadow: var(--in-ui--shadow-3);
+}
+.in-ui--shadow-3-hover:hover {
+  box-shadow: var(--in-ui--shadow-4);
+}
+.in-ui--shadow-4 {
+  box-shadow: var(--in-ui--shadow-4);
+}
+.in-ui--shadow-4-hover:hover {
+  box-shadow: var(--in-ui--shadow-2);
+}

@@ -1,0 +1,67 @@
+.acq-deals-smartsheet-table {
+  @apply w-full bg-ghost-contrast-2 z-base;
+}
+
+.acq-deals-smartsheet-table .in-ui-table__header {
+  /* Box shadow fix to emulate border property because doesn't play well with the DnD feature */
+  box-shadow: inset 1px 0.5px 1px 0.5px var(--ghost-2);
+  @apply bg-ghost-contrast;
+}
+
+.acq-deals-smartsheet-table .in-ui-table__row:not(:last-child) {
+  border-color: transparent !important;
+  border-bottom-width: 0px !important;
+}
+
+.acq-deals-smartsheet-table .in-ui-table__header,
+.acq-deals-smartsheet-table .in-ui-table__data {
+  white-space: nowrap;
+}
+
+.acq-deals-smartsheet-table .in-ui-table__row.acq-deal__draggable-row {
+  @apply border-none !important;
+}
+
+.acq-deals-smartsheet-table .in-ui-table__data,
+.acq-deals-smartsheet-table .in-ui-table__header,
+.acq-deals-smartsheet-table .in-ui-table__body > tr > td {
+  /* Box shadow fix to emulate border property because doesn't play well with the DnD feature */
+  box-shadow: inset 0px 0.5px 0 0.5px var(--ghost-2);
+}
+
+.acq-deals-smartsheet-table .in-ui-table__data {
+  @apply relative !important;
+}
+
+.acq-deals-smartsheet-table .in-ui-table__header,
+.acq-deals-smartsheet-table .in-ui-table__data {
+  @apply pt-0 pb-0 text-sm;
+}
+
+.acq-deals-smartsheet-table .in-ui-table__data .in-ui-tag .in-ui-tag-text {
+  @apply py-0 px-2 !important;
+}
+
+.acq-deals-smartsheet-table .in-ui-table__data .in-ui-select,
+.acq-deals-smartsheet-table .in-ui-table__data .in-ui-input {
+  white-space: initial !important;
+  @apply min-w-[150px] w-[250px] !important;
+}
+
+/* Making first columns sticky */
+@media screen and (min-width: 1024px) {
+  .acq-deals-smartsheet-table .in-ui-table__header:nth-child(1),
+  .acq-deals-smartsheet-table .in-ui-table__data:nth-child(1) {
+    position: sticky !important;
+    left: 0;
+    @apply z-control;
+  }
+
+  .acq-deals-smartsheet-table .in-ui-table__data:nth-child(1) {
+    @apply bg-ghost-contrast;
+  }
+
+  .acq-deals-smartsheet-table tr:hover .in-ui-table__data:nth-child(1) {
+    @apply transition duration-[250ms] ease-in-out bg-ghost-2;
+  }
+}

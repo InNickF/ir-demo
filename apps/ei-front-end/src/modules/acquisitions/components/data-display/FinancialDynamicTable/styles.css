@@ -1,0 +1,276 @@
+.deal-financial-dynamic-table__wrapper {
+  @apply overflow-auto;
+}
+
+.deal-financial-dynamic-table {
+  @apply w-full;
+  border-collapse: separate !important;
+  border-spacing: 0 !important;
+}
+
+.deal-financial-dynamic-table tr {
+  @apply relative;
+}
+
+.deal-financial-dynamic-table tr::after {
+  @apply absolute left-0 w-full h-full opacity-0 z-base;
+  transition: opacity 0.2s ease-in-out;
+  content: "";
+  background-color: var(--table-row-color-hover);
+}
+
+.deal-financial-dynamic-table tr:hover::after {
+  opacity: 0.75;
+}
+
+.deal-financial-dynamic-table tr td,
+.deal-financial-dynamic-table tr th {
+  transition: color 0.2s ease-in-out;
+}
+
+.deal-financial-dynamic-table
+  tr:hover
+  td:not(.deal-financial-dynamic-table--has-color),
+.deal-financial-dynamic-table
+  tr:hover
+  th:not(.deal-financial-dynamic-table--has-color) {
+  @apply text-primary;
+}
+
+.deal-financial-dynamic-table td,
+.deal-financial-dynamic-table th {
+  @apply font-normal text-left;
+}
+
+.deal-financial-dynamic-table td div,
+.deal-financial-dynamic-table th div {
+  @apply p-1.5 relative z-control;
+}
+
+.deal-financial-dynamic-table__bold {
+  @apply font-bold !important;
+}
+
+.deal-financial-dynamic-table__underline {
+  @apply border-b border-ghost-2;
+}
+
+/* TEXT ALIGNS */
+.deal-financial-dynamic-table__align-left > div {
+  @apply text-left;
+}
+
+.deal-financial-dynamic-table__align-center > div {
+  @apply text-center;
+}
+
+.deal-financial-dynamic-table__align-right > div {
+  @apply text-right;
+}
+
+/* BACKGROUND COLORS */
+
+.deal-financial-dynamic-table__background-1 {
+  @apply bg-warning text-jet;
+}
+
+.deal-financial-dynamic-table__background-2 {
+  @apply bg-ghost-2;
+}
+
+.deal-financial-dynamic-table__background-3 {
+  @apply bg-success;
+}
+
+.deal-financial-dynamic-table__background-4 {
+  background-color: #24b5dd;
+}
+
+.deal-financial-dynamic-table__background-5 {
+  @apply bg-ghost-contrast-2;
+}
+
+.deal-financial-dynamic-table__background-6 {
+  background-color: #8e16d9;
+}
+
+/* TEXT COLORS */
+
+.deal-financial-dynamic-table__color-1 {
+  @apply text-warning;
+}
+
+.deal-financial-dynamic-table__color-2 {
+  @apply text-ghost-1;
+}
+
+.deal-financial-dynamic-table__color-3 {
+  @apply text-success-dark;
+}
+
+.deal-financial-dynamic-table__color-4 {
+  @apply text-ghost-contrast;
+}
+
+.deal-financial-dynamic-table__color-5 {
+  @apply text-ghost-2;
+}
+
+.deal-financial-dynamic-table__color-6 {
+  @apply text-primary;
+}
+
+/* BORDER COLOR AND WIDTH */
+
+.deal-financial-dynamic-table__border-right-1,
+.deal-financial-dynamic-table__border-left-1,
+.deal-financial-dynamic-table__border-top-1,
+.deal-financial-dynamic-table__border-bottom-1,
+.deal-financial-dynamic-table__border-right-2,
+.deal-financial-dynamic-table__border-left-2,
+.deal-financial-dynamic-table__border-top-2,
+.deal-financial-dynamic-table__border-bottom-2 {
+  @apply border-solid border-ghost-2;
+}
+
+.deal-financial-dynamic-table__border-right-1 {
+  @apply border-r;
+}
+
+.deal-financial-dynamic-table__border-right-2 {
+  @apply border-r-2;
+}
+
+.deal-financial-dynamic-table__border-left-1 {
+  @apply border-l;
+}
+
+.deal-financial-dynamic-table__border-left-2 {
+  @apply border-l-2;
+}
+
+.deal-financial-dynamic-table__border-top-1 {
+  @apply border-t;
+}
+
+.deal-financial-dynamic-table__border-top-2 {
+  @apply border-t-2;
+}
+
+.deal-financial-dynamic-table__border-bottom-1 {
+  @apply border-b;
+}
+
+.deal-financial-dynamic-table__border-bottom-2 {
+  @apply border-b-2;
+}
+
+.deal-financial-dynamic-table__border-right-1 {
+  @apply border-r;
+}
+
+.deal-financial-dynamic-table__border-right-2 {
+  @apply border-r-2;
+}
+
+.deal-financial-dynamic-table__border-left-1 {
+  @apply border-l;
+}
+
+.deal-financial-dynamic-table__border-left-2 {
+  @apply border-l-2;
+}
+
+.deal-financial-dynamic-table__border-top-1 {
+  @apply border-t;
+}
+
+.deal-financial-dynamic-table__border-top-2 {
+  @apply border-t-2;
+}
+
+.deal-financial-dynamic-table__border-bottom-1 {
+  @apply border-b;
+}
+
+.deal-financial-dynamic-table__border-bottom-2 {
+  @apply border-b-2;
+}
+
+/* PADDING BORDERS */
+
+.deal-financial-dynamic-table__padding-right-1 {
+  @apply pr-1;
+}
+.deal-financial-dynamic-table__padding-right-2 {
+  @apply pr-2;
+}
+.deal-financial-dynamic-table__padding-right-3 {
+  @apply pr-3;
+}
+.deal-financial-dynamic-table__padding-right-4 {
+  @apply pr-4;
+}
+.deal-financial-dynamic-table__padding-right-5 {
+  @apply pr-5;
+}
+.deal-financial-dynamic-table__padding-right-6 {
+  @apply pr-6;
+}
+
+.deal-financial-dynamic-table__padding-left-1 {
+  @apply pl-1;
+}
+.deal-financial-dynamic-table__padding-left-2 {
+  @apply pl-2;
+}
+.deal-financial-dynamic-table__padding-left-3 {
+  @apply pl-3;
+}
+.deal-financial-dynamic-table__padding-left-4 {
+  @apply pl-4;
+}
+.deal-financial-dynamic-table__padding-left-5 {
+  @apply pl-5;
+}
+.deal-financial-dynamic-table__padding-left-6 {
+  @apply pl-6;
+}
+
+.deal-financial-dynamic-table__padding-top-1 {
+  @apply pt-1;
+}
+.deal-financial-dynamic-table__padding-top-2 {
+  @apply pt-2;
+}
+.deal-financial-dynamic-table__padding-top-3 {
+  @apply pt-3;
+}
+.deal-financial-dynamic-table__padding-top-4 {
+  @apply pt-4;
+}
+.deal-financial-dynamic-table__padding-top-5 {
+  @apply pt-5;
+}
+.deal-financial-dynamic-table__padding-top-6 {
+  @apply pt-6;
+}
+
+.deal-financial-dynamic-table__padding-bottom-1 {
+  @apply pb-1;
+}
+.deal-financial-dynamic-table__padding-bottom-2 {
+  @apply pb-2;
+}
+.deal-financial-dynamic-table__padding-bottom-3 {
+  @apply pb-3;
+}
+.deal-financial-dynamic-table__padding-bottom-4 {
+  @apply pb-4;
+}
+.deal-financial-dynamic-table__padding-bottom-5 {
+  @apply pb-5;
+}
+.deal-financial-dynamic-table__padding-bottom-6 {
+  @apply pb-6;
+}

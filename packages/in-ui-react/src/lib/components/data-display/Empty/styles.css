@@ -1,0 +1,3 @@
+.in-ui-empty {
+  @apply flex flex-col items-center text-silver p-6 text-center;
+}

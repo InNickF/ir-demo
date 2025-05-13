@@ -1,0 +1,27 @@
+{
+  "extends": "in-ui-tsconfig/in-ui-react-components.json",
+  "compilerOptions": {
+    "paths": {
+      "@/*": [
+        "./src/lib"
+      ],
+      "@@/*": [
+        "./src/lib/components"
+      ],
+    }
+  },
+  "include": [
+    "src"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ],
+  "exclude": [
+    "dist",
+    "build",
+    "node_modules",
+    "vite.config.ts"
+  ]
+}

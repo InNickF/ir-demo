@@ -1,0 +1,148 @@
+/* 
+* Base
+*/
+
+.in-ui-tag {
+  --current-bg: "";
+  --current-text: "";
+  --current-border: "";
+  background-color: var(--current-bg);
+  color: var(--current-text);
+  border: 1px solid var(--current-border);
+  @apply flex rounded-full items-center w-max;
+}
+
+.in-ui-tag-icon {
+  @apply rounded-full;
+}
+
+/*
+* END Base
+*/
+
+/* 
+* Icon Position
+*/
+
+.in-ui-tag--left-icon {
+  @apply flex-row-reverse;
+}
+
+.in-ui-tag--action.in-ui-tag--left-icon .in-ui-tag-text {
+  @apply pr-3 pl-1;
+}
+
+.in-ui-tag--action.in-ui-tag--right-icon .in-ui-tag-text {
+  @apply pr-1 pl-3;
+}
+
+/* 
+* END Icon Position
+*/
+
+/* 
+* Color
+*/
+
+/* Primary */
+.in-ui-tag--primary {
+  --current-bg: var(--ghost-1);
+  --current-text: var(--primary);
+  --current-border: var(--silver);
+}
+/* Secondary */
+.in-ui-tag--secondary {
+  --current-bg: var(--secondary);
+  --current-text: var(--text-above-secondary);
+  --current-border: var(--secondary-dark);
+}
+/* Tertiary */
+.in-ui-tag--tertiary {
+  --current-bg: var(--tertiary);
+  --current-text: var(--text-above-tertiary);
+  --current-border: var(--tertiary-dark);
+}
+
+/* Success */
+.in-ui-tag--success {
+  --current-bg: var(--success);
+  --current-text: var(--text-above-success);
+  --current-border: var(--success-dark);
+}
+
+/* Warning */
+.in-ui-tag--warning {
+  --current-bg: var(--warning);
+  --current-text: var(--text-above-warning);
+  --current-border: var(--warning-dark);
+}
+/* Error */
+.in-ui-tag--error {
+  --current-bg: var(--error);
+  --current-text: var(--text-above-error);
+  --current-border: var(--error-dark);
+}
+
+/*
+* END Color
+*/
+
+/* 
+* Size 
+*/
+
+.in-ui-tag-text {
+  @apply px-3 py-2;
+}
+
+.in-ui-tag--normal-size .in-ui-tag-text {
+  @apply text-base;
+}
+
+.in-ui-tag--big-size .in-ui-tag-text {
+  @apply text-xl;
+}
+
+.in-ui-tag--small-size .in-ui-tag-text {
+  @apply text-xs py-1;
+}
+
+/* 
+* END Size
+*/
+
+/*
+* Tooltip
+*/
+
+.in-ui-tag__tooltip--hidden {
+  @apply hidden;
+}
+
+/*
+* END Tooltip
+*/
+
+/*
+* Shape
+*/
+
+.in-ui-tag.in-ui-tag--circle {
+  @apply rounded-full grid justify-center;
+}
+
+.in-ui-tag.in-ui-tag--circle .in-ui-tag-text {
+  @apply p-0;
+}
+
+.in-ui-tag.in-ui-tag--normal-size.in-ui-tag--circle {
+  @apply w-12 h-12;
+}
+
+.in-ui-tag.in-ui-tag--small-size.in-ui-tag--circle {
+  @apply w-6 h-6;
+}
+
+.in-ui-tag.in-ui-tag--big-size.in-ui-tag--circle {
+  @apply w-12 h-12;
+}

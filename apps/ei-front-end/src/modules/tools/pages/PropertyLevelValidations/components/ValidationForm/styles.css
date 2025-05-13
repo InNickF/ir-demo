@@ -1,0 +1,15 @@
+.plv-validation-form-container {
+  @apply flex justify-center items-center;
+}
+
+.plv-validation-form {
+  @apply max-w-lg w-full flex flex-col gap-2;
+}
+
+.plv-validation-form__header {
+  @apply p-2;
+}
+
+.plv-validation-form__button-group {
+  @apply bg-ghost-contrast;
+}

@@ -1,0 +1,18 @@
+.in-ui-dock-indicator {
+  top: calc(100% + theme("spacing.1"));
+  @apply flex items-start justify-center h-3 overflow-hidden z-control;
+  transition: width, transform 250ms ease;
+}
+
+.in-ui-dock-indicator[data-state="visible"] {
+  animation: fadeIn 200ms ease;
+}
+.in-ui-dock-indicator[data-state="hidden"] {
+  animation: fadeOut 200ms ease;
+}
+
+.in-ui-dock-indicator__arrow {
+  top: 70%;
+  transform: rotate(45deg);
+  @apply relative w-3 h-3 rounded-tl-sm bg-silver;
+}

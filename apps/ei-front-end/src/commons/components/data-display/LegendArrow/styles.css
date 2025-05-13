@@ -1,0 +1,7 @@
+.legend-arrows {
+  @apply flex flex-wrap gap-3 text-silver mt-2;
+}
+
+.legend-arrows__item {
+  @apply flex items-center gap-1.5;
+}

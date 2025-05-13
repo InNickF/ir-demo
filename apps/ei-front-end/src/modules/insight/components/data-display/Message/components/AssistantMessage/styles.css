@@ -1,0 +1,43 @@
+.insight-assistant-message-grid {
+  @apply grid grid-cols-1 gap-2 w-full max-w-screen-2xl;
+}
+
+.insight-assistant-message {
+  @apply p-2 md:p-5 flex w-full justify-between gap-2 md:gap-5 bg-ghost-1 rounded-md;
+}
+
+.insight-assistant-message-query {
+  @apply w-full;
+}
+
+.insight-assistant-message__content {
+  @apply pt-3 w-full;
+}
+
+.insight-assistant-message-query-button {
+  @apply pt-4 shrink-0 h-10 w-10 p-1;
+}
+
+.insight-assistant-message-query-button--hide {
+  @apply opacity-0;
+}
+
+.insight-assistant-message-query {
+  @apply relative p-2 md:p-5 rounded-md bg-ghost-contrast;
+}
+
+.insight-assistant-message-query--hide {
+  @apply hidden;
+}
+
+.insight-assistant-message-query__content {
+  @apply w-full pt-5 p-2;
+}
+
+.insight-assistant-message-query__content code {
+  @apply break-words;
+}
+
+.insight-assistant-message-query__copy-button {
+  @apply absolute rounded-tr-md z-control top-0 right-0 px-4 !important;
+}

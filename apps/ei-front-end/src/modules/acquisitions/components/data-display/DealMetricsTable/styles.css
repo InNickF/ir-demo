@@ -1,0 +1,26 @@
+.acq-deal-metrics-table {
+  @apply w-full;
+}
+
+.acq-deal-metrics-table__section {
+  @apply border-b-2 border-ghost-2;
+}
+
+.acq-deal-metrics-table__section__metric-label {
+  @apply text-sm font-normal 3xl:text-base whitespace-nowrap;
+}
+
+.acq-deal-metrics-table__section__metric-value {
+  @apply relative w-0 px-4 text-sm font-bold text-center 3xl:text-base h-11;
+}
+
+.acq-deal-metrics-table__section__metric-value:not(:first-child):not(:last-child)::after {
+  @apply absolute right-0 bg-ghost-2 w-[2px];
+  content: "";
+  top: 25%;
+  height: 50%;
+}
+
+.acq-deal-metrics-tables-wrapper {
+  @apply flex flex-col gap-3 w-[fit-content] min-w-full;
+}

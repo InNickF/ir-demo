@@ -1,0 +1,60 @@
+@tailwind utilities;
+
+body {
+  @apply min-h-screen;
+}
+
+/* For Webkit-based browsers (Chrome, Safari and Opera) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* For IE, Edge and Firefox */
+.scrollbar-hide {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Navbar onlyIcon buttons size */
+.navbar-button--size {
+  @apply h-16 w-16;
+}
+
+/* 
+* Market Analytics grid
+*/
+.commons-grid {
+  @apply grid grid-cols-1 gap-3 lg:grid-cols-12;
+}
+
+.commons-grid-span-2 {
+  @apply col-auto lg:col-span-2;
+}
+
+.commons-grid-span-3 {
+  @apply col-auto lg:col-span-3;
+}
+
+.commons-grid-span-4 {
+  @apply col-auto lg:col-span-4;
+}
+
+.commons-grid-span-6 {
+  @apply col-auto lg:col-span-6;
+}
+
+.commons-grid-span-8 {
+  @apply col-auto lg:col-span-8;
+}
+
+.commons-grid-span-9 {
+  @apply col-auto lg:col-span-9;
+}
+
+.commons-grid-span-10 {
+  @apply col-auto lg:col-span-10;
+}
+
+.commons-grid-span-full {
+  @apply col-auto lg:col-span-12;
+}

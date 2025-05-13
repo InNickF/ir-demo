@@ -1,0 +1,19 @@
+/* 
+* Base
+*/
+.in-ui-link {
+  color: var(--link-color);
+  text-decoration: underline;
+  text-decoration-color: var(--platinum);
+}
+
+.in-ui-link:hover {
+  text-decoration-color: var(--link-hover-color);
+}
+
+.in-ui-link:visited {
+  text-decoration-color: var(--link-visited-color) !important;
+}
+/* 
+* END Base
+*/

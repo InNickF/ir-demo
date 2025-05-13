@@ -1,0 +1,115 @@
+/**
+* Table Bae
+*/
+.in-ui-table {
+  @apply w-full bg-card;
+}
+
+/** Spreadsheet Table */
+.in-ui-table--spreadsheet {
+  @apply w-full z-base;
+}
+
+/**
+* Table Header
+*/
+.in-ui-table__header {
+  @apply py-4 font-bold h-10 px-3 text-left align-middle;
+}
+.in-ui-table__header-wrapper {
+  @apply flex items-center gap-1;
+}
+
+.in-ui-table__header-clickable {
+  @apply cursor-pointer !important;
+  user-select: none;
+}
+
+.in-ui-table__header-arrow {
+  @apply w-5 h-5;
+}
+
+.in-ui-table__header-clickable .in-ui-table__header-arrow {
+  transition: opacity 0.25s ease-in-out;
+  @apply opacity-20;
+}
+
+.in-ui-table__header-clickable:hover .in-ui-table__header-arrow {
+  @apply opacity-100;
+}
+
+/** Spreqadsheet Header */
+.in-ui-table--spreadsheet .in-ui-table__header {
+  /* Box shadow fix to emulate border property because doesn't play well with the DnD feature */
+  box-shadow: inset 0 0 0 0.5px var(--ghost-2);
+  white-space: nowrap;
+  @apply bg-ghost-contrast py-0 text-sm;
+}
+
+/* Spreqadsheet first columns sticky */
+@media screen and (min-width: 1024px) {
+  .in-ui-table--sticky-data .in-ui-table__row .in-ui-table__header:nth-child(1),
+  .in-ui-table--sticky-data .in-ui-table__data:nth-child(1) {
+    position: sticky !important;
+    @apply z-[1] left-0 transition duration-[0.25s] ease-in-out;
+  }
+
+  .in-ui-table--sticky-data .in-ui-table__data:nth-child(1) {
+    @apply bg-ghost-contrast;
+  }
+
+  .in-ui-table--sticky-data
+    .in-ui-table__row:hover
+    .in-ui-table__data:nth-child(1) {
+    @apply bg-ghost-2;
+  }
+
+  .in-ui-table--sticky-data
+    .in-ui-table__row
+    .in-ui-table__header:nth-child(1) {
+    /* This is 2 because cells are 1 and this one must be higher */
+    @apply z-[2];
+  }
+}
+
+/**
+* Stiky headers
+*/
+
+.in-ui-table--sticky-data .in-ui-table__header {
+  @apply z-[1] sticky top-0;
+}
+
+/**
+* Table Row
+*/
+.in-ui-table__row {
+  transition: background-color 0.25s ease-in-out;
+  @apply bg-transparent;
+}
+.in-ui-table__row:hover {
+  background-color: var(--table-row-color-hover);
+}
+
+.in-ui-table__row:not(:last-child) {
+  border-color: var(--table-border-color);
+  @apply border-b;
+}
+
+/** Spreqadsheet Row */
+.in-ui-table--spreadsheet .in-ui-table__row {
+  @apply border-none;
+}
+
+/**
+* Table Pagination
+*/
+.in-ui-table__pagination {
+  @apply flex items-center justify-end w-full gap-2;
+}
+.in-ui-table__pagination-select {
+  @apply w-20;
+}
+.in-ui-table__pagination--hidden {
+  @apply hidden;
+}

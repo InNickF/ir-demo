@@ -1,0 +1,51 @@
+.asset-property-page__grid {
+  @apply grid grid-cols-1 gap-3 lg:grid-cols-12;
+}
+
+.asset-property-page__grid-span-4 {
+  @apply col-auto lg:col-span-4;
+}
+
+.asset-property-page__grid-span-8 {
+  @apply col-auto lg:col-span-8;
+}
+
+.asset-property-page__grid-full {
+  @apply col-auto lg:col-span-12;
+}
+
+.asset-property-page__grid-half {
+  @apply col-auto lg:col-span-6;
+}
+
+.asset-grid-items {
+  @apply grid grid-cols-1 gap-6 lg:grid-cols-3;
+}
+
+.asset-select-filter {
+  @apply max-w-[300px];
+}
+
+.asset-card-property__container {
+  @apply flex flex-col h-48 py-4;
+}
+
+.asset-card-property__container__kpis {
+  @apply grid grid-cols-6 grid-rows-2 gap-10;
+}
+
+.asset-skeleton-property__detail {
+  @apply grid w-full h-full grid-cols-4 gap-8 col-span-full;
+}
+
+.asset-skeleton-tenant__charts {
+  @apply grid w-full h-full grid-cols-2 gap-8 col-span-full;
+}
+
+.asset-property-page__header {
+  @apply flex flex-wrap items-center self-start gap-4;
+}
+
+.asset-property-page__header__select {
+  @apply max-w-[150px];
+}

@@ -1,0 +1,24 @@
+.acq-utility-score-card {
+  border-color: var(--cards-border-color);
+  @apply bg-ghost-contrast border p-2 flex flex-col justify-center items-center rounded-md;
+}
+
+.acq-utility-score-card__text {
+  @apply text-center;
+}
+
+.acq-utility-score-card__value {
+  @apply text-base xl:text-xl;
+}
+
+.acq-utility-score-card__value--with-positive-percentage {
+  @apply text-success-dark;
+}
+
+.acq-utility-score-card__value--with-negative-percentage {
+  @apply text-error-dark;
+}
+
+.acq-utility-score-card__title {
+  @apply text-silver text-xs xl:text-sm capitalize;
+}

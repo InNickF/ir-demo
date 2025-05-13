@@ -1,0 +1,13 @@
+.in-ui-logo {
+  @apply w-full h-auto;
+}
+
+.in-ui-logo--big {
+  @apply max-w-lg;
+}
+.in-ui-logo--normal {
+  max-width: 170px;
+}
+.in-ui-logo--small {
+  max-width: 80px;
+}

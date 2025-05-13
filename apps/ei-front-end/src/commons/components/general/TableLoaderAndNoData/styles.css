@@ -1,0 +1,3 @@
+.table-loader-no-data-container {
+  @apply p-3 flex w-full justify-center content-center;
+}

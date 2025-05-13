@@ -1,0 +1,27 @@
+.acq-comps-finder-legend-card {
+  @apply max-w-max;
+}
+.acq-comps-finder-legend-card ul {
+  @apply flex flex-col;
+}
+
+.acq-comps-finder-legend-item {
+  @apply -mt-3;
+}
+
+.acq-comps-finder-legend-item::before {
+  content: "\2022";
+  @apply inline-block text-primary text-3xl font-bold w-5 relative top-1;
+}
+
+.acq-comps-finder-legend-item--primary::before {
+  @apply text-primary;
+}
+
+.acq-comps-finder-legend-item--warning::before {
+  @apply text-warning;
+}
+
+.acq-comps-finder-legend-item--success::before {
+  @apply text-success;
+}

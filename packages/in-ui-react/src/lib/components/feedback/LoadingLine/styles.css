@@ -1,0 +1,152 @@
+/* 
+* Base
+*/
+.in-ui-loading-line {
+  --current-color: "";
+  --current-color-behind: "";
+  background-color: var(--current-color-behind);
+  @apply w-full relative overflow-hidden;
+}
+
+.in-ui-loading-line::before {
+  content: "";
+  position: absolute;
+  transform-origin: left center;
+  width: 50%;
+  background-color: var(--current-color);
+  animation: loading-line ease-in-out infinite;
+}
+/* 
+* END Base
+*/
+
+/* 
+* Color
+*/
+
+/* Primary */
+.in-ui-loading-line--primary {
+  --current-color: var(--primary);
+  --current-color-behind: var(--ghost-2);
+}
+
+/* Secondary */
+.in-ui-loading-line--secondary {
+  --current-color: var(--secondary-dark);
+  --current-color-behind: var(--secondary-opacity);
+}
+
+/* Tertiary */
+.in-ui-loading-line--tertiary {
+  --current-color: var(--tertiary-dark);
+  --current-color-behind: var(--tertiary-opacity);
+}
+
+/* Success */
+.in-ui-loading-line--success {
+  --current-color: var(--success-dark);
+  --current-color-behind: var(--success-opacity);
+}
+
+/* Warning */
+.in-ui-loading-line--warning {
+  --current-color: var(--warning-dark);
+  --current-color-behind: var(--warning-opacity);
+}
+
+/* Error */
+.in-ui-loading-line--error {
+  --current-color: var(--error-dark);
+  --current-color-behind: var(--error-opacity);
+}
+
+/* Above Primary */
+.in-ui-loading-line--above-primary {
+  --current-color: var(--text-above-primary);
+  --current-color-behind: var(--ghost-3);
+}
+
+/* Above Secondary */
+.in-ui-loading-line--above-secondary {
+  --current-color: var(--text-above-secondary);
+  --current-color-behind: var(--secondary-opacity);
+}
+
+/* Above Tertiary */
+.in-ui-loading-line--above-tertiary {
+  --current-color: var(--text-above-tertiary);
+  --current-color-behind: var(--tertiary-opacity);
+}
+
+/* Above Success */
+.in-ui-loading-line--above-success {
+  --current-color: var(--text-above-success);
+  --current-color-behind: var(--success-opacity);
+}
+
+/* Above Warning */
+.in-ui-loading-line--above-warning {
+  --current-color: var(--text-above-warning);
+  --current-color-behind: var(--warning-opacity);
+}
+
+/* Above Error */
+.in-ui-loading-line--above-error {
+  --current-color: var(--text-above-error);
+  --current-color-behind: var(--error-opacity);
+}
+
+/* 
+* END Color
+*/
+
+/* 
+* Size 
+*/
+
+.in-ui-loading-line--normal-size,
+.in-ui-loading-line--normal-size::before {
+  @apply h-[1px];
+}
+.in-ui-loading-line--small-size,
+.in-ui-loading-line--small-size::before {
+  @apply h-[3px];
+}
+.in-ui-loading-line--big-size,
+.in-ui-loading-line--big-size::before {
+  @apply h-1.5;
+}
+
+/* 
+* END Size
+*/
+
+/* 
+* Velocity 
+*/
+
+.in-ui-loading-line--default-velocity::before {
+  animation-duration: 1s;
+}
+.in-ui-loading-line--slow-velocity::before {
+  animation-duration: 1.5s;
+}
+.in-ui-loading-line--fast-velocity::before {
+  animation-duration: 0.4s;
+}
+
+/* 
+* END Velocity
+*/
+
+/* 
+* Persist element 
+*/
+
+.in-ui-loading-line--persist {
+  @apply block;
+}
+
+/* 
+* Persist element 
+*/

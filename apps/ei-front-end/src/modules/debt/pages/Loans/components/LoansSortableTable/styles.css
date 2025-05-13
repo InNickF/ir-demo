@@ -1,0 +1,49 @@
+.debt-loans-table {
+  @apply w-full overflow-x-scroll bg-ghost-contrast-2 z-base;
+}
+
+.debt-loans-table .in-ui-table__header {
+  /* Box shadow fix to emulate border property because doesn't play well with the DnD feature */
+  box-shadow: inset 1px 0.5px 1px 0.5px var(--ghost-2);
+  @apply bg-ghost-contrast;
+}
+
+.debt-loans-table .in-ui-table__row:not(:last-child) {
+  border-color: transparent !important;
+  border-bottom-width: 0px !important;
+}
+
+.debt-loans-table .in-ui-table__header,
+.debt-loans-table .in-ui-table__data {
+  white-space: nowrap;
+}
+
+.debt-loans-table .in-ui-table__row.acq-deal__draggable-row {
+  @apply border-none !important;
+}
+
+.debt-loans-table .in-ui-table__data,
+.debt-loans-table .in-ui-table__header,
+.debt-loans-table .in-ui-table__body > tr > td {
+  /* Box shadow fix to emulate border property because doesn't play well with the DnD feature */
+  box-shadow: inset 0px 0.5px 0 0.5px var(--ghost-2);
+}
+
+.debt-loans-table .in-ui-table__data {
+  @apply relative !important;
+}
+
+.debt-loans-table .in-ui-table__header,
+.debt-loans-table .in-ui-table__data {
+  @apply pt-0 pb-0 text-sm;
+}
+
+.debt-loans-table .in-ui-table__data .in-ui-tag .in-ui-tag-text {
+  @apply py-0 px-2 !important;
+}
+
+.debt-loans-table .in-ui-table__data .in-ui-select,
+.debt-loans-table .in-ui-table__data .in-ui-input {
+  white-space: initial !important;
+  @apply min-w-[150px] w-[250px] !important;
+}

@@ -1,0 +1,9 @@
+.acq-pipeline-by__header {
+  @apply flex flex-wrap gap-4 items-center self-start;
+}
+.acq-pipeline-by__header__select {
+  @apply max-w-[150px];
+}
+.acq-pipeline-by-chart {
+  @apply w-full min-h-[350px] h-full clear-both;
+}

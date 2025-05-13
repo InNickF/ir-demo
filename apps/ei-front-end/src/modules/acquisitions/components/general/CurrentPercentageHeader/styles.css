@@ -1,0 +1,11 @@
+.current-percentage-header {
+  @apply flex gap-1 text-lg text-primary;
+}
+
+.current-percentage-header__title {
+  @apply font-light;
+}
+
+.current-percentage-header__value {
+  @apply font-bold;
+}

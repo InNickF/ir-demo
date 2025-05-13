@@ -1,0 +1,16 @@
+.acq-comps-finder-map {
+  --map-height: "";
+  height: var(--map-height);
+  @apply w-full relative rounded-md overflow-hidden;
+}
+
+.acq-comps-finder-map > .mapboxgl-map {
+  height: var(--map-height);
+}
+
+.acq-comps-finder-map .mapboxgl-style-list {
+  @apply text-darker;
+}
+.acq-comps-finder-map .mapboxgl-ctrl-logo {
+  @apply hidden md:block;
+}

@@ -1,0 +1,9 @@
+.acq-deal-summary-tenant-information
+  .in-ui-table__pagination
+  .in-ui-table__pagination-select {
+  @apply max-w-[80px] z-overlay;
+}
+
+.acq-deal-summary-tenant-information {
+  @apply overflow-visible;
+}

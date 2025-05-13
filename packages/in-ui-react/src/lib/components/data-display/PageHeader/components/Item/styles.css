@@ -1,0 +1,19 @@
+.in-ui-header-item {
+  @apply relative h-full px-6 py-1 !important;
+}
+
+.in-ui-header-item::after {
+  @apply absolute top-0 left-0 w-full h-px origin-center opacity-0;
+  background-color: var(--inputs-border-color-hover);
+  content: "";
+  transition: opacity var(--transition-duration)
+    var(--transition-timing-function);
+}
+
+.in-ui-header-item--active.in-ui-header-item {
+  @apply bg-ghost-2;
+}
+
+.in-ui-header-item--active.in-ui-header-item::after {
+  @apply opacity-100;
+}

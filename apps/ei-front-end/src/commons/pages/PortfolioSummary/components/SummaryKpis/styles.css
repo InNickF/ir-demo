@@ -1,0 +1,15 @@
+.debt-summary-kpis-kpi-card__body {
+  @apply flex flex-wrap justify-between gap-3 p-3 pt-0;
+}
+
+.debt-summary-kpis-kpi-card__kpi-long {
+  @apply w-full text-3xl font-bold;
+}
+
+.debt-summary-kpis-kpi-card__kpi-short {
+  @apply min-w-[200px];
+}
+
+.debt-summary-kpis-kpi-card__kpi-value {
+  @apply text-lg;
+}

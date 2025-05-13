@@ -1,0 +1,13 @@
+.in-ui-pagination {
+  @apply flex gap-2 flex-wrap;
+}
+
+.in-ui-pagination * {
+  @apply shrink-0 grow-0;
+}
+
+.in-ui-pagination__ellipsis-wrapper {
+  height: calc(2.5rem + 1px);
+  width: calc(2.5rem + 1px);
+  @apply p-0 flex justify-center items-end;
+}

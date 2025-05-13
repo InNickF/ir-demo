@@ -1,0 +1,11 @@
+.in-ui-filters__add-filter {
+  @apply px-3 rounded-full text-primary !important;
+}
+
+.in-ui-filters__add-filter-menu-wrapper {
+  @apply overflow-auto max-h-64;
+}
+
+.in-ui-filters__add-filter__glass {
+  @apply bg-transparent border border-primary text-primary hover:bg-primary hover:text-above-primary-hover !important;
+}

@@ -1,0 +1,7 @@
+.commons-simple-label-value-grid {
+  @apply flex flex-wrap justify-between;
+}
+
+.commons-simple-label-value-grid.commons-simple-label-value-grid--no-grow {
+  @apply grid sm:grid-cols-[repeat(auto-fill,minmax(theme(spacing.96),1fr))] grid-cols-1;
+}

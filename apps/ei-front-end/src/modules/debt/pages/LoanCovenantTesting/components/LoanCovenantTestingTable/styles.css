@@ -1,0 +1,7 @@
+.debt-loan-covenant-testing-table {
+  @apply relative w-full;
+}
+
+.debt-loan-covenant-testing-table .in-ui-table__header {
+  @apply whitespace-nowrap !important;
+}

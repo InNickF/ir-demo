@@ -1,0 +1,8 @@
+.tools-property-executed-rule-detail-modal .in-ui-modal__content {
+  @apply p-4 max-h-[600px] !important;
+}
+
+.tools-property-executed-rule-detail-modal-grid
+  .commons-simple-label-value-grid__cell--small {
+  border-color: var(--ghost-2);
+}

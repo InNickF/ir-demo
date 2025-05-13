@@ -1,0 +1,11 @@
+.auth-lines-container {
+  @apply absolute top-0 bottom-0 left-0 right-0 grid justify-items-center items-start shrink-0 gap-40 grid-cols-8 lg:grid-cols-12 xl:grid-cols-[repeat(15,_minmax(0,1fr))] -z-control overflow-hidden;
+}
+
+.auth-lines-container__line {
+  @apply block bg-ghost-2 relative opacity-0 h-0 w-[1px] origin-[top_center] will-change-transform;
+}
+
+.auth-lines-container__line--responsive {
+  @apply hidden lg:block;
+}

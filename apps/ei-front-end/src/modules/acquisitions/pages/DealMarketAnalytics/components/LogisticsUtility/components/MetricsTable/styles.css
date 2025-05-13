@@ -1,0 +1,17 @@
+.acq-logistics__metrics-row {
+  @apply flex justify-between px-3 py-4;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.acq-logistics__metrics-row:not(:last-child) {
+  border-color: var(--table-border-color);
+  @apply border-b;
+}
+
+.acq-logistics__metrics-row:hover {
+  @apply bg-glass-1;
+}
+
+.acq-logistics__metrics-name {
+  @apply font-bold;
+}

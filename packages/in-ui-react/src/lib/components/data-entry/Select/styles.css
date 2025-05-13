@@ -1,0 +1,276 @@
+/*
+* Base container
+*/
+.in-ui-select {
+  outline-width: 0;
+  @apply flex flex-col w-full;
+}
+
+.in-ui-select,
+.in-ui-select .in-ui-select__container {
+  transition-property: opacity, color, border-color;
+  transition-duration: var(--transition-duration);
+  transition-delay: var(--transition-delay);
+  transition-timing-function: var(--transition-timing-function);
+}
+
+/*
+* Select container
+*/
+.in-ui-select .in-ui-select__container {
+  border-width: var(--inputs-border-width);
+  border-color: var(--inputs-border-color);
+  @apply flex gap-1 bg-ghost-1;
+}
+
+/*
+* Color modifiers
+*/
+.in-ui-select.in-ui-select--over-ghost .in-ui-select__container {
+  @apply bg-ghost-2;
+}
+.in-ui-select.in-ui-select--glass .in-ui-select__container {
+  @apply bg-glass-input;
+}
+
+.in-ui-select .in-ui-select__container:hover,
+.in-ui-select .in-ui-select__container:focus-within {
+  border-color: var(--inputs-border-color-hover);
+}
+
+.in-ui-select--focused .in-ui-select__container:focus-within {
+  outline-width: 1px;
+  outline-style: dashed;
+  outline-color: var(--inputs-border-color);
+}
+
+/*
+* Select element
+*/
+.in-ui-select .in-ui-select__container > div {
+  @apply flex-grow flex-shrink w-full;
+}
+
+.in-ui-select
+  .in-ui-select__container
+  div:not(.in-ui-select-element__menu-list):not(.in-ui-select-element__menu):not(.in-ui-select-element__menu-notice):not(.in-ui-select-element__option):not(.in-ui-select-element__multi-value):not(.in-ui-select-element__multi-value__label) {
+  @apply text-base transition-none bg-transparent border-none rounded-none text-primary placeholder:text-silver;
+}
+.in-ui-select .in-ui-select-element__placeholder {
+  color: var(--silver) !important;
+}
+
+.in-ui-select .in-ui-select-element__control {
+  @apply p-1.5;
+}
+.in-ui-select .in-ui-select-element__control,
+.in-ui-select
+  .in-ui-select-element__control
+  div:not(.in-ui-select-element__input-container):not(.in-ui-select-element__multi-value) {
+  min-height: 0;
+  outline: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  height: auto !important;
+}
+
+.in-ui-select .in-ui-select-element__indicator-separator {
+  @apply hidden;
+}
+.in-ui-select
+  .in-ui-select-element__control--menu-is-open
+  .in-ui-select-element__dropdown-indicator {
+  transform: rotate(180deg);
+}
+
+.in-ui-select .in-ui-select__container:hover .in-ui-select-element__indicators,
+.in-ui-select
+  .in-ui-select__container:focus-within
+  .in-ui-select-element__indicators {
+  opacity: 1;
+}
+.in-ui-select-element__indicators {
+  opacity: 0.5;
+  @apply flex gap-1 p-0 !important;
+}
+
+.in-ui-select-element__indicator {
+  @apply flex justify-center items-center p-0 !important;
+}
+
+.in-ui-select-element__input-container {
+  @apply w-0 p-0 m-0 !important;
+}
+
+.in-ui-select-element__value-container {
+  @apply p-0 pr-4 !important;
+}
+.in-ui-select-element__loading-indicator {
+  transform: scale(0.5);
+}
+
+.in-ui-select-element__menu-portal {
+  z-index: var(--z-over-all) !important;
+}
+
+/*
+* Menu
+*/
+.in-ui-select-element__menu-portal .in-ui-select-element__menu-list,
+.in-ui-select-element__menu-portal .in-ui-select-element__menu,
+.in-ui-select .in-ui-select-element__menu-list,
+.in-ui-select .in-ui-select-element__menu {
+  @apply p-0 m-0 shadow-none bg-primary text-above-primary;
+}
+.in-ui-select .in-ui-select-element__menu,
+.in-ui-select-element__menu-portal .in-ui-select-element__menu {
+  @apply border-silver border rounded-none !important;
+}
+
+/*
+* Options
+*/
+.in-ui-select-element__menu-portal .in-ui-select-element__option,
+.in-ui-select .in-ui-select-element__option {
+  border: 2px transparent solid;
+  @apply bg-primary text-above-primary px-6 py-1.5 text-base hover:bg-primary-hover focus:bg-primary-hover active:bg-primary-hover active:border-ghost-contrast;
+}
+
+/*
+* Multi value
+*/
+.in-ui-select .in-ui-select-element__multi-value {
+  border-width: 1px;
+  @apply px-2 py-px overflow-hidden border-ghost-3;
+}
+.in-ui-select .in-ui-select-element__multi-value,
+.in-ui-select .in-ui-select-element__multi-value__label {
+  @apply bg-transparent rounded-full text-sm text-primary my-0 !important;
+}
+.in-ui-select .in-ui-select-element__multi-value {
+  @apply my-1 !important;
+}
+.in-ui-select .in-ui-select-element__multi-value__label {
+  @apply p-0;
+}
+
+/*
+* Icon
+*/
+.in-ui-select .in-ui-select-icon {
+  color: var(--inputs-icon-color);
+  @apply ml-1.5;
+}
+.in-ui-select:hover .in-ui-select-icon,
+.in-ui-select:focus .in-ui-select-icon {
+  color: var(--inputs-icon-color-hover);
+}
+
+.in-ui-select.in-ui-select--error .in-ui-select-icon {
+  color: var(--inputs-icon-color-error);
+}
+.in-ui-select.in-ui-select--error:hover .in-ui-select-icon,
+.in-ui-select.in-ui-select--error:focus .in-ui-select-icon {
+  color: var(--inputs-icon-color-error-hover);
+}
+
+/*
+* Left icon
+*/
+.in-ui-select .in-ui-select__left-icon {
+  @apply flex-grow-0 flex-shrink-0;
+}
+
+/*
+* Right icon
+*/
+.in-ui-select .in-ui-select__right-icon {
+  @apply flex-grow-0 flex-shrink-0;
+}
+
+/*
+* Error
+*/
+.in-ui-select.in-ui-select--error .in-ui-select__container {
+  border-color: var(--inputs-border-color-error);
+  outline-color: var(--inputs-border-color-error);
+}
+
+.in-ui-select:hover.in-ui-select--error .in-ui-select__container:hover,
+.in-ui-select:hover.in-ui-select--error .in-ui-select__container:active,
+.in-ui-select:hover.in-ui-select--error .in-ui-select__container:focus-within,
+.in-ui-select.in-ui-select--error .in-ui-select__container:hover,
+.in-ui-select.in-ui-select--error .in-ui-select__container:active,
+.in-ui-select.in-ui-select--error .in-ui-select__container:focus-within {
+  border-color: var(--inputs-border-color-error-hover);
+  outline-color: var(--inputs-border-color-error-hover);
+}
+
+.in-ui-select.in-ui-select--error .in-ui-select__helper {
+  @apply hidden;
+}
+
+/*
+* Hint container and hint/error helper element
+*/
+.in-ui-select .in-ui-select__hint__container {
+  @apply relative w-full;
+}
+
+.in-ui-select__error-helper {
+  @apply absolute w-full;
+}
+
+.in-ui-select:hover .in-ui-select__helper,
+.in-ui-select:focus-within .in-ui-select__helper {
+  @apply opacity-100;
+}
+.in-ui-select__helper {
+  @apply absolute w-full opacity-0;
+}
+
+/*
+* Disabled
+*/
+
+.in-ui-select.in-ui-select--disabled {
+  border-color: var(--disabled-text-color) !important;
+  outline-color: var(--disabled-text-color) !important;
+}
+
+.in-ui-select.in-ui-select--disabled .in-ui-select-element__indicators {
+  opacity: 0.5 !important;
+}
+.in-ui-select.in-ui-select--disabled,
+.in-ui-select.in-ui-select--disabled .in-ui-select-element__placeholder {
+  color: var(--disabled-text-color) !important;
+}
+
+.in-ui-select.in-ui-select--disabled .in-ui-select__container {
+  border-color: var(--disabled-text-color) !important;
+}
+
+.in-ui-select:hover.in-ui-select--disabled .in-ui-select__container,
+.in-ui-select:hover.in-ui-select--disabled .in-ui-select__container {
+  border-color: var(--disabled-text-color) !important;
+  outline-color: var(--disabled-text-color) !important;
+}
+
+.in-ui-select.in-ui-select--disabled .in-ui-select__container,
+.in-ui-select.in-ui-select--disabled .in-ui-select__container div {
+  @apply bg-disabled !important;
+}
+.in-ui-select.in-ui-select--disabled .in-ui-select__helper,
+.in-ui-select.in-ui-select--disabled .in-ui-select__error-helper {
+  @apply hidden !important;
+}
+.in-ui-select.in-ui-select--disabled .in-ui-select-icon {
+  color: var(--disabled-text-color) !important;
+}
+
+/*
+* Label
+*/
+.in-ui-select .in-ui-label {
+  @apply mb-1.5;
+}

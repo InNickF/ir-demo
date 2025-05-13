@@ -1,0 +1,62 @@
+.ui-commons-card-with-header {
+  @apply flex flex-col;
+}
+
+.ui-commons-card-with-header--overflow {
+  @apply overflow-hidden;
+}
+.ui-commons-card-with-header.ui-commons-card-with-header--coming-soon {
+  @apply relative;
+}
+
+.ui-commons-card-with-header__header-container {
+  @apply w-full;
+}
+
+.ui-commons-card-with-header__title {
+  @apply flex flex-wrap justify-between gap-2 p-3 lg:gap-0;
+}
+
+.ui-commons-card-with-header__body {
+  @apply flex-1 w-full;
+}
+
+.ui-commons-card-with-header__body--padding {
+  @apply p-2 pt-0;
+}
+
+.ui-commons-card-with-header__actions {
+  @apply flex flex-wrap items-center gap-3;
+}
+
+.ui-commons-card-with-header__skeleton {
+  @apply w-full h-full m-0 !important;
+}
+
+.ui-commons-card-with-header__skeleton div {
+  @apply absolute inset-0;
+}
+
+.ui-commons-card-with-header .in-ui-button-group {
+  @apply flex-row p-2;
+}
+
+.ui-commons-card-with-header .in-ui-button-group .in-ui-button {
+  @apply px-6 py-3 !important;
+}
+
+.ui-commons-card-with-header .in-ui-select,
+.ui-commons-card-with-header .in-ui-input {
+  @apply w-48 lg:w-52;
+}
+
+.ui-commons-card-with-header.ui-commons-card-with-header--input-bg-color
+  .in-ui-input
+  .in-ui-input__container,
+.ui-commons-card-with-header.ui-commons-card-with-header--input-bg-color
+  .in-ui-select
+  .in-ui-select__container,
+.ui-commons-card-with-header.ui-commons-card-with-header--input-bg-color
+  .in-ui-button-group {
+  @apply bg-ghost-contrast;
+}

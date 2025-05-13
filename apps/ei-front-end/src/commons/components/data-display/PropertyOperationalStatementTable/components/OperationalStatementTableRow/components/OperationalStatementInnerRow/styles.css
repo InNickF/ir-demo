@@ -1,0 +1,20 @@
+.operational-statement-no-td-padding {
+  @apply pl-0 py-0 !important;
+}
+
+.operational-statement-indentation {
+  @apply flex;
+}
+
+.operational-statement-indentation.operational-statement-indentation--hidden {
+  @apply hidden;
+}
+
+.operational-statement-indentation__element {
+  @apply h-12 bg-ghost-contrast w-7 border-l border-silver;
+}
+
+.operational-statement-indentation
+  .operational-statement-indentation__element:last-child {
+  @apply mr-3;
+}

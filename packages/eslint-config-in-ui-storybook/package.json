@@ -1,0 +1,15 @@
+{
+  "name": "eslint-config-in-ui-storybook",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf .turbo && rm -rf node_modules"
+  },
+  "dependencies": {
+    "eslint-plugin-storybook": "^0.6.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

@@ -1,0 +1,10 @@
+.acq-comps-form-grid {
+  @apply grid grid-cols-1 gap-x-4 gap-y-5 md:grid-cols-2;
+}
+.acq-comps-form-footer {
+  @apply flex flex-col-reverse w-full md:flex-row;
+}
+
+.acq-delete-comps-detail > li:not(:last-child) {
+  @apply mb-2;
+}

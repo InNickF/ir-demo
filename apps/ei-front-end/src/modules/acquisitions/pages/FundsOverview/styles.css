@@ -1,0 +1,19 @@
+.acq-overview-grid {
+  @apply grid grid-cols-1 gap-3;
+}
+
+.acq-overview-card-grid {
+  @apply grid grid-cols-1 gap-3 h-full px-3 pb-3 pt-[calc(theme('spacing.3')-2px)];
+}
+
+.acq-overview-grid__first-row {
+  @apply grid grid-cols-1 xl:grid-cols-[3fr_3fr_2fr] gap-3;
+}
+
+.acq-overview-grid__second-row {
+  @apply grid grid-cols-1 gap-3 xl:grid-cols-2;
+}
+
+.in-ui-table__body > .in-ui-table__data {
+  @apply p-0;
+}

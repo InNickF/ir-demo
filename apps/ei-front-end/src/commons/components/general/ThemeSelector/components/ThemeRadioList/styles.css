@@ -1,0 +1,7 @@
+.ui-commons-theme-selector__radio-list {
+  @apply flex flex-col w-full flex-wrap gap-3;
+}
+
+.ui-commons-theme-selector__header {
+  @apply flex justify-between items-center mb-3;
+}

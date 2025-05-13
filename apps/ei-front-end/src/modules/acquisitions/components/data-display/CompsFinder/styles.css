@@ -1,0 +1,43 @@
+.acq-comps-finder {
+  @apply relative overflow-hidden;
+}
+
+.acq-comps-finder-map-wrapper {
+  @apply relative;
+}
+
+.acq-comps-finder-map-filters {
+  @apply flex flex-col w-[calc(100%-theme(spacing.20))] gap-3 absolute top-3 left-3 z-[7] md:gap-2 md:flex-row md:flex-wrap md:items-center md:max-w-[calc(100%-200px)];
+}
+
+.acq-comps-finder-map-add-new-comp {
+  @apply px-4 absolute top-3 right-3 z-[6];
+}
+
+.acq-comps-finder-map-results {
+  @apply absolute bottom-3 left-3 z-[6] md:bottom-[auto] md:top-16;
+}
+
+.acq-comps-finder-map-legends {
+  @apply absolute hidden left-3 z-[6] md:block md:top-32;
+}
+
+.acq-comps-finder-tables-container {
+  @apply grid grid-cols-1 gap-4 pb-24;
+}
+
+.acq-comps-finder-tables-header {
+  @apply flex flex-col flex-wrap justify-between gap-4 w-full lg:items-center lg:flex-row-reverse items-start;
+}
+
+.acq-comps-finder-tables-filters {
+  @apply flex flex-wrap gap-2 items-center;
+}
+
+.acq-comps-finder-drawer {
+  @apply absolute h-auto top-3 bottom-3 shadow-lg !important;
+}
+
+.acq-comps-finder-drawer--active {
+  @apply right-3 !important;
+}

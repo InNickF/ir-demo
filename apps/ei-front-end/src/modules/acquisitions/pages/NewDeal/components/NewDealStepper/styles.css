@@ -1,0 +1,3 @@
+.in-ui-stepper__step__number {
+  @apply pt-0 !important;
+}

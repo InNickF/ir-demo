@@ -1,0 +1,39 @@
+.commons-simple-label-value-grid__cell {
+  @apply flex items-center justify-between gap-2;
+  flex: 1 1 350px;
+}
+
+.commons-simple-label-value-grid__cell--small {
+  @apply px-6 py-2 border-[0.5px];
+  border-color: var(--table-border-color);
+}
+
+.commons-simple-label-value-grid__cell--large {
+  @apply px-6 py-4 border-[0.5px] transition;
+  border-color: var(--table-border-color);
+}
+.commons-simple-label-value-grid__cell--large:hover {
+  background-color: var(--table-row-color-hover);
+}
+
+.commons-simple-label-value-grid__cell-label {
+  @apply font-bold min-w-[120px];
+  max-width: 68%;
+}
+
+.commons-simple-label-value-grid__cell-long {
+  @apply items-start !important;
+  flex: 1 1 100%;
+}
+
+.commons-simple-label-value-grid__cell-value-long {
+  @apply cursor-pointer;
+}
+
+.commons-simple-label-value-grid__cell-value-short {
+  @apply text-right;
+}
+
+.commons-simple-label-value-grid__cell-value-long:hover {
+  @apply text-ghost-3;
+}

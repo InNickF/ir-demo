@@ -1,0 +1,19 @@
+.ei-operational-financial-performance__container {
+  @apply grid grid-cols-12 gap-3 p-3 bg-ghost-contrast-2;
+}
+
+.ei-operational-financial-performance__table {
+  @apply col-span-12 xl:col-span-7;
+}
+
+.ei-operational-financial-performance__table .in-ui-table {
+  @apply text-sm !important;
+}
+
+.ei-operational-financial-performance__table .in-ui-table__row {
+  @apply cursor-pointer;
+}
+
+.ei-operational-financial-performance__chart {
+  @apply col-span-12 xl:col-span-5;
+}

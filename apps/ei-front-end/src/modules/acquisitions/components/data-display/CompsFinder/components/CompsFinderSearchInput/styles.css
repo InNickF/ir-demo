@@ -1,0 +1,7 @@
+.acq-comps-finder-search-form {
+  @apply flex;
+}
+
+.acq-comps-finder-search-input {
+  @apply w-full md:max-w-[200px];
+}

@@ -1,0 +1,19 @@
+.debt-risk-refi-lender-card {
+  @apply sm:max-w-[280px] md:max-h-[250px] w-full border-t-2;
+}
+
+.debt-risk-refi-lender-card__lender-name {
+  @apply text-xl;
+}
+
+.debt-risk-refi-lender-card__body {
+  @apply grid grid-cols-2 gap-4;
+}
+
+.debt-risk-refi-lender-card__mortagage {
+  @apply w-full col-span-2 pt-3 pb-2 text-xl;
+}
+
+.debt-risk-refi-lender-card__body-item-title {
+  @apply mb-1 font-bold;
+}

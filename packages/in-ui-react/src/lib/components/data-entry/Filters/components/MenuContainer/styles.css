@@ -1,0 +1,7 @@
+.in-ui-filters__menu {
+  @apply pt-2;
+}
+
+.in-ui-filters__menu-container {
+  @apply h-full shadow-lg w-80 bg-ghost-1 border-ghost-2 border-x border-y;
+}

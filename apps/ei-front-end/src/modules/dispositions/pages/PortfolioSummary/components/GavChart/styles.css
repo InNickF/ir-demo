@@ -1,0 +1,10 @@
+.assets-gav-breakdown-chart {
+  @apply w-full min-h-[350px] h-full clear-both;
+}
+
+.asset-gav-chart__select-filter {
+  @apply max-w-[150px];
+}
+.asset-portfolio-page__gav-chart .ui-commons-card-with-header__title {
+  @apply gap-2 justify-start !important;
+}

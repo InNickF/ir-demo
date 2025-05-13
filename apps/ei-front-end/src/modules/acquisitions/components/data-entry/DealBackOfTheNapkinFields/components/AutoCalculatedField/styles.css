@@ -1,0 +1,8 @@
+.acq-botn-readonly-value {
+  @apply p-3 bg-ghost-1;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.acq-botn-readonly-value--empty {
+  @apply bg-ghost-contrast !important;
+}

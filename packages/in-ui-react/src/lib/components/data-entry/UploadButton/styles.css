@@ -1,0 +1,39 @@
+.in-ui-upload-button {
+  @apply inline-block;
+}
+
+.in-ui-upload-button__input {
+  @apply hidden;
+}
+
+.in-ui-upload-button__file-list {
+  @apply flex flex-col mt-2 gap-1;
+}
+
+.in-ui-upload-button__file-list__item {
+  @apply flex flex-row items-center text-sm text-silver;
+}
+
+.in-ui-upload-button__file-list__item__delete-icon {
+  @apply flex-none cursor-pointer bg-transparent outline-none transition mr-1;
+}
+
+.in-ui-upload-button__file-list__item__delete-icon:hover {
+  @apply text-ghost-3;
+}
+
+.in-ui-upload-button__file-list__item__description {
+  @apply flex-grow;
+}
+
+.in-ui-upload-button__file-list__item__description__filename {
+  @apply inline-block;
+}
+
+.in-ui-upload-button__file-list__item__description__size {
+  @apply inline-block ml-1;
+}
+
+.in-ui-upload-button__file-list__item__delete-icon svg {
+  @apply h-5 w-5;
+}

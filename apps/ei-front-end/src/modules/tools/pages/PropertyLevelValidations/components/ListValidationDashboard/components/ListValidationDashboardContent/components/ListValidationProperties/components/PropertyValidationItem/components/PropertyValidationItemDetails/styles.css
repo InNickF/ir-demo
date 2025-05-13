@@ -1,0 +1,19 @@
+.plv-property-validation-item__details {
+  @apply bg-ghost-contrast grid grid-rows-[0fr] transition-[grid-template-rows] duration-300 ease-in-out overflow-hidden;
+}
+
+.plv-property-validation-item__details--open {
+  @apply grid-rows-[1fr];
+}
+
+.plv-property-validation-item__details__header {
+  @apply flex flex-col lg:flex-row lg:justify-between lg:items-start gap-2;
+}
+
+.plv-property-validation-item__details__header__title {
+  @apply w-full;
+}
+
+.plv-property-validation-item__details__header__title .in-ui-heading {
+  @apply pl-8;
+}

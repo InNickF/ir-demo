@@ -1,0 +1,19 @@
+.insight-message-avatar {
+  @apply flex justify-center items-center h-10 w-10 rounded-md shrink-0;
+}
+
+.insight-message-avatar--user {
+  @apply bg-ghost-1 text-primary text-lg;
+}
+
+.insight-message-avatar--assistant {
+  @apply bg-primary text-above-primary;
+}
+
+.insight-assistant-avatar-first-letter {
+  font-family: var(--display-font);
+  @apply italic font-bold mr-[2px] text-2xl;
+}
+.insight-assistant-avatar-second-letter {
+  @apply font-light font-roboto text-2xl;
+}

@@ -1,0 +1,4 @@
+.acq-supply-constrained-score--header-no-b-padding
+  .acq-card-with-header__title {
+  @apply pb-0 !important;
+}

@@ -1,0 +1,11 @@
+.investor-navbar-container {
+  @apply flex items-center justify-between w-full h-full;
+}
+
+.investor-navbar-container svg {
+  @apply h-full !important;
+}
+
+.investor-navbar-logo {
+  @apply h-7 top-[2px] relative;
+}

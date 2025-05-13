@@ -1,0 +1,3 @@
+.commons-generic-stacked-bar-chart {
+  @apply w-full h-full clear-both min-h-[350px];
+}

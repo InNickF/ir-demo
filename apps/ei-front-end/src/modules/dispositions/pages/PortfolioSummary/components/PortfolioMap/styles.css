@@ -1,0 +1,12 @@
+.acq-deals-geography__map-popup {
+  @apply w-full h-full text-justify overflow-y-auto text-darker capitalize p-2;
+}
+
+.acq-overview-card-grid {
+  @apply grid grid-cols-1 gap-4 h-full px-3 pb-3 pt-[calc(theme('spacing.3')-2px)];
+}
+
+
+.asset-portfolio-map__container {
+  @apply h-full min-h-full;
+}

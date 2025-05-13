@@ -1,0 +1,31 @@
+.acq-botn-calculation-section {
+  @apply w-full mt-4 mb-8;
+}
+.acq-botn-calculation-section--empty .acq-botn-calculation-section__header {
+  @apply text-ghost-3;
+  transition: color 0.2s ease-in-out;
+}
+
+.acq-botn-calculation-section__header {
+  @apply flex items-center;
+}
+
+.acq-botn-calculation-section__header .in-ui-label {
+  @apply flex items-center;
+}
+
+.acq-botn-calculation-section__grid {
+  @apply grid lg:grid-cols-2 gap-3 pt-6 grid-flow-dense;
+}
+.acq-botn-calculation-section--extended .acq-botn-calculation-section__grid {
+  @apply md:grid-cols-2 xl:grid-cols-[3fr,2fr];
+}
+
+.acq-botn-calculation-subsection {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-3;
+}
+
+.acq-botn-calculation-section__grid .in-ui-input,
+.acq-botn-calculation-section__grid .in-ui-select {
+  max-width: 315px !important;
+}

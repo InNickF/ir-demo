@@ -1,0 +1,3 @@
+.commons-two-columns-table .in-ui-table__data {
+  @apply w-auto;
+}

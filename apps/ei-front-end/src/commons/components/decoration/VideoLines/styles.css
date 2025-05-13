@@ -1,0 +1,16 @@
+.bg-video-lines,
+.bg-video-lines video {
+  @apply -z-navigation;
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* This is cuz the video background doesn't have the right contrast colors and it looks bad */
+.bg-video-lines.bg-video-lines--light::after {
+  content: "";
+  @apply inset-0 absolute bg-white opacity-40;
+}

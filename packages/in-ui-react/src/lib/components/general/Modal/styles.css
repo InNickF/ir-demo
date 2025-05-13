@@ -1,0 +1,39 @@
+.in-ui-modal {
+  transform: translate(-50%, -50%);
+  transition-property: opacity, top;
+  transition-duration: var(--transition-duration);
+  transition-delay: var(--transition-delay);
+  transition-timing-function: var(--transition-timing-function);
+  width: calc(100vw - theme("spacing.6"));
+  max-height: calc(100vh - theme("spacing.12"));
+  @apply bg-ghost fixed left-1/2 top-2/3 opacity-0 z-dialog overflow-auto;
+}
+
+.in-ui-modal[data-enter] {
+  @apply opacity-100 top-1/2;
+}
+
+.in-ui-modal--smallest-size {
+  @apply max-w-xs;
+}
+.in-ui-modal--small-size {
+  @apply max-w-md;
+}
+.in-ui-modal--normal-size {
+  @apply max-w-xl;
+}
+.in-ui-modal--big-size {
+  @apply max-w-4xl;
+}
+
+.in-ui-modal__header {
+  @apply flex items-center justify-between pl-3;
+}
+
+.in-ui-modal__content {
+  @apply block px-6 py-9;
+}
+
+.in-ui-modal__header__container {
+  aspect-ratio: 1/1;
+}

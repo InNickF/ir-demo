@@ -1,0 +1,12 @@
+.insight-chat-form {
+  background: linear-gradient(0deg, var(--ghost-base) 60%, transparent 100%);
+  @apply fixed bottom-0 flex justify-center items-center w-full min-h-[theme(spacing.20)] md:min-h-[theme(spacing.32)] z-navigation;
+}
+
+.insight-chat-form__input {
+  @apply gap-0 !important;
+}
+
+.insight-chat-form__loading-line {
+  @apply absolute bottom-[1px] left-0 right-0;
+}

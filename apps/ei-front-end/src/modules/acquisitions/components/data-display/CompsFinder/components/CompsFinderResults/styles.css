@@ -1,0 +1,6 @@
+.acq-comps-finder-results-card {
+  @apply flex gap-4 max-w-max;
+}
+.acq-comps-finder-results-item {
+  @apply flex items-center gap-1;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "in-ui-tsconfig",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "files": [
+    "base.json",
+    "in-ui-react-components.json",
+    "nextjs.json",
+    "in-ui-react-docs.json"
+  ]
+}

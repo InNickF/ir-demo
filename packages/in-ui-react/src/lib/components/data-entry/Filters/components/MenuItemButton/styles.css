@@ -1,0 +1,7 @@
+.in-ui-options__menu-item {
+  @apply w-full pl-6 text-left !important;
+}
+
+.in-ui-options__menu-item--un-deletable {
+  @apply cursor-not-allowed !important;
+}

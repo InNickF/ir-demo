@@ -1,0 +1,11 @@
+.commons-photo-card__header {
+  @apply flex items-center justify-between mb-2;
+}
+
+.commons-photo-card__body {
+  @apply relative flex flex-col items-center justify-center overflow-hidden h-52;
+}
+
+.commons-photo-card__image {
+  @apply cursor-pointer;
+}

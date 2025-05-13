@@ -1,0 +1,32 @@
+/* 
+* Base
+*/
+
+.in-ui-heading--subtitle-1-kind,
+.in-ui-heading--subtitle-2-kind,
+.in-ui-heading--sub-display-kind {
+  font-family: var(--primary-font) !important;
+}
+
+.in-ui-heading--display-kind {
+  @apply text-8xl;
+}
+
+.in-ui-heading--sub-display-kind {
+  @apply text-5xl leading-13;
+}
+
+.in-ui-heading--subtitle-1-kind {
+  @apply text-lg;
+}
+
+.in-ui-heading--subtitle-2-kind {
+  @apply text-base leading-5 uppercase;
+}
+
+.in-ui-heading--sans {
+  font-family: var(--primary-font) !important;
+}
+/* 
+* END Base
+*/

@@ -1,0 +1,11 @@
+.acq-comps-finder-toggle-view {
+  @apply flex fixed bottom-3 w-full justify-center z-[6];
+}
+
+.acq-comps-finder-toggle-view.acq-comps-finder-toggle-view--map {
+  @apply bottom-[calc(theme(spacing.16)+theme(spacing.2))] left-3 w-max md:w-full md:left-[auto] md:bottom-3;
+}
+
+.acq-comps-finder-toggle-view__button {
+  @apply border border-ghost-2 shadow-md;
+}

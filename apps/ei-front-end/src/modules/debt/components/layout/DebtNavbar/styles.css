@@ -1,0 +1,11 @@
+.debt-navbar-container {
+  @apply flex items-center justify-between w-full h-full;
+}
+
+.debt-navbar-container svg {
+  @apply h-full !important;
+}
+
+.debt-navbar-logo {
+  @apply h-7 top-[2px] relative;
+}

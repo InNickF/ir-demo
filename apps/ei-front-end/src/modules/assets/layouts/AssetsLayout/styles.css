@@ -1,0 +1,4 @@
+.assets-properties-layout {
+  @apply grid max-h-screen;
+  grid-template-rows: auto auto auto 1fr;
+}

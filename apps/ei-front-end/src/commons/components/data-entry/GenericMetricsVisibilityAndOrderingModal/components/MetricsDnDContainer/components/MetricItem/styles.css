@@ -1,0 +1,11 @@
+.commons-generic-metric-dnd-item {
+  @apply relative w-full flex justify-between items-center p-1 pl-2 border-b-4 border-ghost;
+}
+
+.commons-generic-metric-dnd-item--selected {
+  @apply bg-ghost-contrast;
+}
+
+.commons-generic-metric-dnd-item--dragging {
+  @apply z-[2] bg-ghost-2;
+}

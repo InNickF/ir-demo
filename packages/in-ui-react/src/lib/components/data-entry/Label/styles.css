@@ -1,0 +1,28 @@
+.in-ui-label {
+  @apply inline-block;
+}
+
+.in-ui-label .in-ui-label-tooltip-icon path {
+  stroke-width: 3px !important;
+}
+
+.in-ui-label .in-ui-label-tooltip-icon {
+  transition: opacity 0.1s ease-in-out;
+  @apply opacity-50 relative -top-0.5;
+}
+
+.in-ui-label .in-ui-label-tooltip-icon:hover {
+  @apply opacity-100;
+}
+
+.in-ui-label--uppercase {
+  @apply uppercase;
+}
+
+.in-ui-label-tooltip-icon {
+  @apply ml-1 pt-0.5 shrink-0 grow-0 inline-block;
+}
+
+.in-ui-label--required-label-suffix {
+  @apply text-error ml-1 !important;
+}

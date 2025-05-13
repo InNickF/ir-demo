@@ -1,0 +1,7 @@
+.acq-utility-score__info {
+  @apply px-3 py-2 !important;
+}
+
+.acq-utility-score__info {
+  @apply bg-ghost-contrast;
+}

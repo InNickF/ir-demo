@@ -1,0 +1,1142 @@
+[
+  {
+    "queryKey": [
+      "user",
+      "me"
+    ],
+    "state": {
+      "data": {
+        "username": "",
+        "name": "",
+        "email": "",
+        "privilege": "1,2,3,4,5,6,7,8,",
+        "id": 999999,
+        "is_active": true,
+        "last_name": "",
+        "last_login": "",
+        "modules": [
+          "IN_ACQUISITIONS",
+          "PITCHBOOK",
+          "IN_DISPOSITIONS",
+          "IN_DEBT",
+          "WEBHOOKS",
+          "IN_VESTOR",
+          "IN_SIGHT",
+          "IN_TOOLS",
+          "IN_ASSETS"
+        ]
+      },
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304108794,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "loans",
+      "debtLoanSummary",
+      "d2e2bdc9af61adb9a5056f3ddc5ed64c"
+    ],
+    "state": {
+      "data": {
+        "borrower_name": "EV 2281, LLC",
+        "detail": [
+          {
+            "key": "loan_information",
+            "content": [
+              {
+                "key": "lender_name",
+                "label": "Lender Name",
+                "value": "UBS Bank USA"
+              },
+              {
+                "key": "note_date",
+                "label": "Note Date",
+                "value": "05/20/2022"
+              },
+              {
+                "key": "initial_maturity_date",
+                "label": "Initial Maturity Date",
+                "value": "06/06/2027"
+              },
+              {
+                "key": "fully_extended_maturity_date",
+                "label": "Fully Extended Maturity Date",
+                "value": "06/06/2027"
+              },
+              {
+                "key": "original_term",
+                "label": "Original Term",
+                "value": 60
+              },
+              {
+                "key": "amort_term",
+                "label": "Amort Term",
+                "value": null
+              },
+              {
+                "key": "amortization_type",
+                "label": "Amortization Type",
+                "value": "Interest Only"
+              },
+              {
+                "key": "loan_amount_max_commitment",
+                "label": "Loan Amount Max Commitment",
+                "value": 21000000
+              },
+              {
+                "key": "current_outstanding_loan_balance",
+                "label": "Current Outstanding Loan Balance",
+                "value": 21000000
+              },
+              {
+                "key": "loan_amount_initial",
+                "label": "Loan Amount Initial",
+                "value": 21000000
+              },
+              {
+                "key": "loan_type",
+                "label": "Loan Type",
+                "value": "Floating"
+              }
+            ]
+          },
+          {
+            "key": "interest_rate_information",
+            "content": [
+              {
+                "key": "calculated_interest_rate",
+                "label": "Calculated Interest Rate",
+                "value": 0.0639
+              },
+              {
+                "key": "spread",
+                "label": "Spread",
+                "value": 0.0205
+              },
+              {
+                "key": "index_name",
+                "label": "Index Name",
+                "value": "30 Day Average SOFR"
+              },
+              {
+                "key": "index_rate",
+                "label": "Index Rate",
+                "value": 0.0434
+              },
+              {
+                "key": "accrual_type",
+                "label": "Accrual Type",
+                "value": "Actual/360"
+              },
+              {
+                "key": "all_in_floor",
+                "label": "All In Floor",
+                "value": 0.0219
+              },
+              {
+                "key": "cap_maturity_date",
+                "label": "Cap Maturity Date",
+                "value": "03/01/2026"
+              },
+              {
+                "key": "current_notional",
+                "label": "Current Notional",
+                "value": 51329000
+              },
+              {
+                "key": "chatham_cap_name",
+                "label": "Chatham Cap Name",
+                "value": "ELP55 VI, LLC"
+              },
+              {
+                "key": "current_strike",
+                "label": "Current Strike",
+                "value": 0.051
+              }
+            ]
+          },
+          {
+            "key": "guarantor_information",
+            "content": [
+              {
+                "key": "carveout_guarantor",
+                "label": "Carveout Guarantor",
+                "value": "Business Real Estate Fund V, LP"
+              },
+              {
+                "key": "borrower_recourse",
+                "label": "Borrower Recourse",
+                "value": "Springing (Partial/Full)"
+              },
+              {
+                "key": "recourse_type",
+                "label": "Recourse Type",
+                "value": "Non-Recourse Carveouts (Springing (Partial  & Full))"
+              },
+              {
+                "key": "net_worth_liquidity_first_test_date",
+                "label": "Net Worth Liquidity First Test Date",
+                "value": "06/30/2022"
+              },
+              {
+                "key": "net_worth_liquidity_test_reoccurrence",
+                "label": "Net Worth Liquidity Test Reoccurrence",
+                "value": "Quarterly"
+              },
+              {
+                "key": "net_worth_covenant",
+                "label": "Net Worth Covenant",
+                "value": 21000000
+              },
+              {
+                "key": "liquidity_covenant",
+                "label": "Liquidity Covenant",
+                "value": 2100000
+              }
+            ]
+          },
+          {
+            "key": "debt_information",
+            "content": [
+              {
+                "key": "debt_yield_over_last_12_months_noidm",
+                "label": "Debt Yield Over Last 12 Months Noidm",
+                "value": 0.0863
+              },
+              {
+                "key": "dscr_over_last_12_months_noidm",
+                "label": "Over Last 12 Months Noidm",
+                "value": 1.3508
+              },
+              {
+                "key": "calculated_interest_rate",
+                "label": "Calculated Interest Rate",
+                "value": 0.0639
+              },
+              {
+                "key": "yield_on_cost_over_last_12_months_noidm",
+                "label": "Yield On Cost Over Last 12 Months Noidm",
+                "value": 0.054
+              },
+              {
+                "key": "current_ltv",
+                "label": "Current Ltv",
+                "value": 0.4751
+              }
+            ]
+          }
+        ],
+        "id": "d2e2bdc9af61adb9a5056f3ddc5ed64c",
+        "loan_amount_max_commitment": "21000000.00",
+        "current_outstanding_loan_balance": "21000000.00",
+        "initial_maturity_date": "06/06/2027",
+        "calculated_interest_rate": "0.06",
+        "contract_file": "/buildin.jpg",
+        "fund_name": "Hodkiewicz - Lemke",
+        "lender_name": "Kemmer, Homenick and Hagenes",
+        "loan_name": "Loan Example",
+        "is_loan_active": true
+      },
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304110981,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "loans",
+      "debtLoanTimeline",
+      {
+        "loan_abstract_id": "d2e2bdc9af61adb9a5056f3ddc5ed64c",
+        "page": "1"
+      }
+    ],
+    "state": {
+      "data": {
+        "next": null,
+        "previous": null,
+        "count": 2,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 871,
+            "loan_abstract_id": "d2e2bdc9af61adb9a5056f3ddc5ed64c",
+            "type": "type2",
+            "notable_date": "2024-11-06",
+            "comment": "test 2",
+            "loan_name": "Loan Example"
+          },
+          {
+            "id": 43,
+            "loan_abstract_id": "d2e2bdc9af61adb9a5056f3ddc5ed64c",
+            "type": "MATURITY_DATE",
+            "notable_date": "2027-06-06",
+            "comment": null,
+            "loan_name": "Loan Example"
+          }
+        ]
+      },
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304110258,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "loans",
+      "debtLoanCovenantTesting",
+      "d2e2bdc9af61adb9a5056f3ddc5ed64c"
+    ],
+    "state": {
+      "data": {
+        "borrower_name": "EV 2281, LLC",
+        "detail": [
+          {
+            "key": "covenant_testing_noi",
+            "content": [
+              {
+                "key": "noi_definition",
+                "label": "Noi Definition",
+                "value": "NOI:  amount obtained by subtracting the applicable Operating Expenses from the applicable Gross Income from Operations."
+              },
+              {
+                "key": "revenue_calc",
+                "label": "Revenue Calc",
+                "value": "Rent Roll"
+              },
+              {
+                "key": "expenses",
+                "label": "Expenses",
+                "value": "T12"
+              },
+              {
+                "key": "vacancy_factor",
+                "label": "Vacancy Factor",
+                "value": 5
+              },
+              {
+                "key": "replacement_reserves_in_usd_psf",
+                "label": "Replacement Reserves In Usd Psf",
+                "value": 0.15
+              },
+              {
+                "key": "rollover_reserves_in_usd_psf",
+                "label": "Rollover Reserves In Usd Psf",
+                "value": 0.5
+              },
+              {
+                "key": "management_fee_in_percentage",
+                "label": "Management Fee In Percentage",
+                "value": " >3% or Actual"
+              }
+            ],
+            "columns": []
+          },
+          {
+            "definition": [
+              {
+                "key": "dscr_definition",
+                "label": "Definition",
+                "value": "“Debt Service Coverage Ratio” means ratio of Net Operating Income (\"NOI\") to Debt Service on a trailing 12 month period. NOI is without deduct for actual mgmt fee or actual amounts paid to Reserve Funds. NOI is adjusted by (a) mgmt fee equal to greaeter of 3% or actual, (b) CapEx of $0.15/SF; (c) TIs/LCs of $0.50/SF, and (d) if actual occupancy is greater than 95%, a vacancy allowance of 5%"
+              }
+            ],
+            "key": "covenant_testing_dscr",
+            "content": [
+              {
+                "key": "dscr_covenant",
+                "label": "Covenant",
+                "value": false
+              },
+              {
+                "key": "dscr_calculation_recurrence",
+                "label": "Calculation Recurrence",
+                "value": ""
+              },
+              {
+                "key": "dscr_prong_1a_cash_sweep_trigger_ratio",
+                "label": "Prong 1A Cash Sweep Trigger Ratio",
+                "value": ""
+              },
+              {
+                "key": "dscr_prong_2a_cash_mgmt_trigger_ratio",
+                "label": "Prong 2A Cash Mgmt Trigger Ratio",
+                "value": 3
+              },
+              {
+                "key": "dcsr_parameters_1",
+                "label": "Parameters 1",
+                "value": ""
+              },
+              {
+                "key": "dcsr_parameters_1_period_start_date",
+                "label": "Parameters 1 Period Start Date",
+                "value": null
+              },
+              {
+                "key": "dcsr_parameters_1_period_end_date",
+                "label": "Parameters 1 Period End Date",
+                "value": null
+              },
+              {
+                "key": "dcsr_parameters_1_performance_threshold",
+                "label": "Parameters 1 Performance Threshold",
+                "value": null
+              }
+            ],
+            "columns": [
+              {
+                "label": "Definition",
+                "value": "definition"
+              },
+              {
+                "label": "Covenant",
+                "value": "covenant"
+              },
+              {
+                "label": "Calculation Recurrence",
+                "value": "calculation_recurrence"
+              },
+              {
+                "label": "Prong 1a Cash Sweep Trigger Ratio",
+                "value": "prong_1a_cash_sweep_trigger_ratio"
+              },
+              {
+                "label": "Prong 2a Cash Mgmt Trigger Ratio",
+                "value": "prong_2a_cash_mgmt_trigger_ratio"
+              },
+              {
+                "label": "Parameters 1",
+                "value": "parameters_1"
+              },
+              {
+                "label": "Parameters 1 Period Start Date",
+                "value": "parameters_1_period_start_date"
+              },
+              {
+                "label": "Parameters 1 Period End Date",
+                "value": "parameters_1_period_end_date"
+              },
+              {
+                "label": "Parameters 1 Performance Threshold",
+                "value": "parameters_1_performance_threshold"
+              }
+            ]
+          },
+          {
+            "definition": [
+              {
+                "key": "dy_definition",
+                "label": "Definition",
+                "value": "“Debt Yield” means ratio of NOI to the Outstanding Principal Balance as of last day of such period on a trailing 12 month period. NOI is without deduct for actual mgmt fee or actual amounts paid to Reserve Funds. NOI is adjusted by (a) mgmt fee equal to greaeter of 3% or actual, (b) CapEx of $0.15/SF; (c) TIs/LCs of $0.50/SF, and (d) if actual occupancy is greater than 95%, a vacancy allowance of 5%"
+              }
+            ],
+            "key": "covenant_testing_dy",
+            "content": [
+              {
+                "key": "dy_covenant_recurrence",
+                "label": "Covenant Recurrence",
+                "value": null
+              },
+              {
+                "key": "dy_calculation_recurrence",
+                "label": "Calculation Recurrence",
+                "value": "Quarterly"
+              },
+              {
+                "key": "dy_prong_1a_cash_sweep_trigger_percentage",
+                "label": "Prong 1A Cash Sweep Trigger Percentage",
+                "value": 0.0625
+              },
+              {
+                "key": "dy_prong_2a_cash_mgmt_trigger_percentage",
+                "label": "Prong 2A Cash Mgmt Trigger Percentage",
+                "value": 6.5
+              },
+              {
+                "key": "dy_parameters_1",
+                "label": "Parameters 1",
+                "value": ""
+              },
+              {
+                "key": "dy_parameters_1_period_start_date",
+                "label": "Parameters 1 Period Start Date",
+                "value": null
+              },
+              {
+                "key": "dy_parameters_1_period_end_date",
+                "label": "Parameters 1 Period End Date",
+                "value": null
+              },
+              {
+                "key": "dy_parameters_1_performance_threshold",
+                "label": "Parameters 1 Performance Threshold",
+                "value": null
+              }
+            ],
+            "columns": [
+              {
+                "label": "Definition",
+                "value": "definition"
+              },
+              {
+                "label": "Covenant",
+                "value": "covenant"
+              },
+              {
+                "label": "Calculation Recurrence",
+                "value": "calculation_recurrence"
+              },
+              {
+                "label": "Prong 1a Cash Sweep Trigger Ratio",
+                "value": "prong_1a_cash_sweep_trigger_ratio"
+              },
+              {
+                "label": "Prong 2a Cash Mgmt Trigger Ratio",
+                "value": "prong_2a_cash_mgmt_trigger_ratio"
+              },
+              {
+                "label": "Parameters 1",
+                "value": "parameters_1"
+              },
+              {
+                "label": "Parameters 1 Period Start Date",
+                "value": "parameters_1_period_start_date"
+              },
+              {
+                "label": "Parameters 1 Period End Date",
+                "value": "parameters_1_period_end_date"
+              },
+              {
+                "label": "Parameters 1 Performance Threshold",
+                "value": "parameters_1_performance_threshold"
+              }
+            ]
+          }
+        ],
+        "id": "d2e2bdc9af61adb9a5056f3ddc5ed64c",
+        "loan_amount_max_commitment": "21000000.00",
+        "current_outstanding_loan_balance": "21000000.00",
+        "initial_maturity_date": "06/06/2027",
+        "calculated_interest_rate": "0.06",
+        "contract_file": "/buildin.jpg",
+        "fund_name": "Barton Group",
+        "lender_name": "Bode, Gottlieb and Gibson",
+        "loan_name": "Loan Example",
+        "is_loan_active": false
+      },
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304114000,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "loans",
+      "debtLoanReporting",
+      "d2e2bdc9af61adb9a5056f3ddc5ed64c"
+    ],
+    "state": {
+      "data": {
+        "borrower_name": "EV 2281, LLC",
+        "detail": [
+          {
+            "key": "borrower_reporting",
+            "content": [
+              {
+                "key": "days_after_period",
+                "content": [
+                  {
+                    "label": "Monthly Reports Days After Period End Due B",
+                    "value": 20
+                  },
+                  {
+                    "label": "Quarterly Reports Days After Period End Due B",
+                    "value": 45
+                  },
+                  {
+                    "label": "Semiannual Reports Days After Period End Due B",
+                    "value": null
+                  },
+                  {
+                    "label": "Borrower Lender Report Annual Reports Days After Period End Due B",
+                    "value": 90
+                  }
+                ]
+              },
+              {
+                "key": "financial_smt_certification",
+                "content": [
+                  {
+                    "label": "Monthly Reports Financial Stmt Certification B",
+                    "value": false
+                  },
+                  {
+                    "label": "Quarterly Reports Financial Stmt Certification B",
+                    "value": false
+                  },
+                  {
+                    "label": "Semiannual Reports Financial Stmt Certification B",
+                    "value": null
+                  },
+                  {
+                    "label": "Annual Reports Financial Stmt Certification B",
+                    "value": false
+                  }
+                ]
+              },
+              {
+                "key": "statement_prepared_by",
+                "content": [
+                  {
+                    "label": "Monthly Reports Statement Prepared By B",
+                    "value": ""
+                  },
+                  {
+                    "label": "Quarterly Reports Statement Prepared By B",
+                    "value": ""
+                  },
+                  {
+                    "label": "Semiannual Reports Statement Prepared By B",
+                    "value": ""
+                  },
+                  {
+                    "label": "Annual Reports Statement Prepared By B",
+                    "value": "CPA"
+                  }
+                ]
+              },
+              {
+                "key": "balance_sheet",
+                "content": [
+                  {
+                    "label": "Monthly Reports Balance Sheet B",
+                    "value": false
+                  },
+                  {
+                    "label": "Quarterly Reports Balance Sheet B",
+                    "value": true
+                  },
+                  {
+                    "label": "Semiannual Reports Balance Sheet B",
+                    "value": null
+                  },
+                  {
+                    "label": "Annual Reports Balance Sheet B",
+                    "value": true
+                  }
+                ]
+              },
+              {
+                "key": "income_statement",
+                "content": [
+                  {
+                    "label": "Monthly Reports Income Statement B",
+                    "value": true
+                  },
+                  {
+                    "label": "Quarterly Reports Income Statement B",
+                    "value": true
+                  },
+                  {
+                    "label": "Semiannual Reports Income Statement B",
+                    "value": null
+                  },
+                  {
+                    "label": "Annual Reports Income Statement B",
+                    "value": true
+                  }
+                ]
+              },
+              {
+                "key": "rent_roll",
+                "content": [
+                  {
+                    "label": "Monthly Reports Rent Roll B",
+                    "value": true
+                  },
+                  {
+                    "label": "Quarterly Reports Rent Roll B",
+                    "value": true
+                  },
+                  {
+                    "label": "Semiannual Reports Rent Roll B",
+                    "value": null
+                  },
+                  {
+                    "label": "Annual Reports Rent Roll B",
+                    "value": true
+                  }
+                ]
+              },
+              {
+                "key": "aged_receivables",
+                "content": [
+                  {
+                    "label": "Monthly Reports Aged Receivables B",
+                    "value": false
+                  },
+                  {
+                    "label": "Quarterly Reports Aged Receivables B",
+                    "value": false
+                  },
+                  {
+                    "label": "Semiannual Reports Aged Receivables B",
+                    "value": null
+                  },
+                  {
+                    "label": "Annual Reports Aged Receivables B",
+                    "value": false
+                  }
+                ]
+              },
+              {
+                "key": "borrower_certificate",
+                "content": [
+                  {
+                    "label": "Monthly Reports Borrower Certificate Of Compliance B",
+                    "value": false
+                  },
+                  {
+                    "label": "Quarterly Reports Borrower Certificate Of Compliance B",
+                    "value": false
+                  },
+                  {
+                    "label": "Semiannual Reports Borrower Certificate Of Compliance B",
+                    "value": null
+                  },
+                  {
+                    "label": "Annual Reports Borrower Certificate Of Compliance B",
+                    "value": false
+                  }
+                ]
+              },
+              {
+                "key": "tax_return",
+                "content": [
+                  {
+                    "label": "Monthly Reports Tax Return B",
+                    "value": null
+                  },
+                  {
+                    "label": "Quarterly Reports Tax Return B",
+                    "value": null
+                  },
+                  {
+                    "label": "Semiannual Reports Tax Return B",
+                    "value": null
+                  },
+                  {
+                    "label": "Annual Reports Tax Return B",
+                    "value": false
+                  }
+                ]
+              },
+              {
+                "key": "tax_return_due_date_input_type",
+                "content": [
+                  {
+                    "label": "Monthly Reports Tax Return Due Date Input Type B",
+                    "value": null
+                  },
+                  {
+                    "label": "Quarterly Reports Tax Return Due Date Input Type B",
+                    "value": null
+                  },
+                  {
+                    "label": "Semiannual Reports Tax Return Due Date Input Type B",
+                    "value": null
+                  },
+                  {
+                    "label": "Annual Reports Tax Return Due Date Input Type B",
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "key": "tax_return_due_date",
+                "content": [
+                  {
+                    "label": "Monthly Reports Tax Return Due Date B",
+                    "value": null
+                  },
+                  {
+                    "label": "Quarterly Reports Tax Return Due Date B",
+                    "value": null
+                  },
+                  {
+                    "label": "Semiannual Reports Tax Return Due Date B",
+                    "value": null
+                  },
+                  {
+                    "label": "Annual Reports Tax Return Due Date B",
+                    "value": null
+                  }
+                ]
+              }
+            ],
+            "columns": [
+              {
+                "label": "Monthly",
+                "value": "monthly"
+              },
+              {
+                "label": "Quarterly",
+                "value": "quarterly"
+              },
+              {
+                "label": "Semiannual",
+                "value": "semiannual"
+              },
+              {
+                "label": "Annually",
+                "value": "annually"
+              }
+            ]
+          },
+          {
+            "key": "guarantor_lender_reporting",
+            "content": [
+              {
+                "key": "days_after_period",
+                "content": [
+                  {
+                    "label": "Monthly Reports Days After Period End Due G",
+                    "value": null
+                  },
+                  {
+                    "label": "Quarterly Reports Days After Period End Due G",
+                    "value": 45
+                  },
+                  {
+                    "label": "Semiannual Reports Days After Period End Due G",
+                    "value": null
+                  },
+                  {
+                    "label": "Guarantor Lender Report Annual Reports Days After Period End Due G",
+                    "value": null
+                  }
+                ]
+              },
+              {
+                "key": "financial_smt_certification",
+                "content": [
+                  {
+                    "label": "Monthly Reports Financial Stmt Certification G",
+                    "value": null
+                  },
+                  {
+                    "label": "Quarterly Reports Financial Stmt Certification G",
+                    "value": false
+                  },
+                  {
+                    "label": "Semiannual Reports Financial Stmt Certification G",
+                    "value": null
+                  },
+                  {
+                    "label": "Annual Reports Financial Stmt Certification G",
+                    "value": false
+                  }
+                ]
+              },
+              {
+                "key": "statement_prepared_by",
+                "content": [
+                  {
+                    "label": "Monthly Reports Statement Prepared By G",
+                    "value": ""
+                  },
+                  {
+                    "label": "Quarterly Reports Statement Prepared By G",
+                    "value": ""
+                  },
+                  {
+                    "label": "Semiannual Reports Statement Prepared By G",
+                    "value": ""
+                  },
+                  {
+                    "label": "Annual Reports Statement Prepared By G",
+                    "value": ""
+                  }
+                ]
+              },
+              {
+                "key": "balance_sheet",
+                "content": [
+                  {
+                    "label": "Monthly Reports Balance Sheet G",
+                    "value": null
+                  },
+                  {
+                    "label": "Quarterly Reports Balance Sheet G",
+                    "value": false
+                  },
+                  {
+                    "label": "Semiannual Reports Balance Sheet G",
+                    "value": null
+                  },
+                  {
+                    "label": "Annual Reports Balance Sheet G",
+                    "value": true
+                  }
+                ]
+              },
+              {
+                "key": "income_statement",
+                "content": [
+                  {
+                    "label": "Monthly Reports Income Statement G",
+                    "value": null
+                  },
+                  {
+                    "label": "Quarterly Reports Income Statement G",
+                    "value": true
+                  },
+                  {
+                    "label": "Semiannual Reports Income Statement G",
+                    "value": null
+                  },
+                  {
+                    "label": "Annual Reports Income Statement G",
+                    "value": true
+                  }
+                ]
+              },
+              {
+                "key": "rent_roll",
+                "content": [
+                  {
+                    "label": "Monthly Reports Rent Roll G",
+                    "value": null
+                  },
+                  {
+                    "label": "Quarterly Reports Rent Roll G",
+                    "value": false
+                  },
+                  {
+                    "label": "Semiannual Reports Rent Roll G",
+                    "value": null
+                  },
+                  {
+                    "label": "Annual Reports Rent Roll G",
+                    "value": false
+                  }
+                ]
+              },
+              {
+                "key": "aged_receivables",
+                "content": [
+                  {
+                    "label": "Monthly Reports Aged Receivables G",
+                    "value": null
+                  },
+                  {
+                    "label": "Quarterly Reports Aged Receivables G",
+                    "value": false
+                  },
+                  {
+                    "label": "Semiannual Reports Aged Receivables G",
+                    "value": null
+                  },
+                  {
+                    "label": "Annual Reports Aged Receivables G",
+                    "value": false
+                  }
+                ]
+              },
+              {
+                "key": "guarantor_certificate",
+                "content": [
+                  {
+                    "label": "Monthly Reports Guarantor Certificate Of Compliance G",
+                    "value": null
+                  },
+                  {
+                    "label": "Quarterly Reports Guarantor Certificate Of Compliance G",
+                    "value": true
+                  },
+                  {
+                    "label": "Semiannual Reports Guarantor Certificate Of Compliance G",
+                    "value": null
+                  },
+                  {
+                    "label": "Annual Reports Guarantor Certificate Of Compliance G",
+                    "value": true
+                  }
+                ]
+              },
+              {
+                "key": "tax_return",
+                "content": [
+                  {
+                    "label": "Monthly Reports Tax Return G",
+                    "value": null
+                  },
+                  {
+                    "label": "Quarterly Reports Tax Return G",
+                    "value": null
+                  },
+                  {
+                    "label": "Semiannual Reports Tax Return G",
+                    "value": null
+                  },
+                  {
+                    "label": "Annual Reports Tax Return G",
+                    "value": true
+                  }
+                ]
+              },
+              {
+                "key": "tax_return_due_date",
+                "content": [
+                  {
+                    "label": "Monthly Reports Tax Return Due Date G",
+                    "value": null
+                  },
+                  {
+                    "label": "Quarterly Reports Tax Return Due Date G",
+                    "value": null
+                  },
+                  {
+                    "label": "Semiannual Reports Tax Return Due Date G",
+                    "value": null
+                  },
+                  {
+                    "label": "Annual Reports Tax Return Due Date G",
+                    "value": true
+                  }
+                ]
+              }
+            ],
+            "columns": [
+              {
+                "label": "Monthly",
+                "value": "monthly"
+              },
+              {
+                "label": "Quarterly",
+                "value": "quarterly"
+              },
+              {
+                "label": "Semiannual",
+                "value": "semiannual"
+              },
+              {
+                "label": "Annually",
+                "value": "annually"
+              }
+            ]
+          }
+        ],
+        "id": "d2e2bdc9af61adb9a5056f3ddc5ed64c",
+        "loan_amount_max_commitment": "21000000.00",
+        "current_outstanding_loan_balance": "21000000.00",
+        "initial_maturity_date": "06/06/2027",
+        "calculated_interest_rate": "0.06",
+        "contract_file": "/buildin.jpg",
+        "fund_name": "Wyman and Sons",
+        "lender_name": "Schuster LLC",
+        "loan_name": "Loan Example",
+        "is_loan_active": true
+      },
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304118536,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "loans",
+      "debtLoanRoom",
+      {
+        "loan_abstract_id": "d2e2bdc9af61adb9a5056f3ddc5ed64c",
+        "page": "1"
+      }
+    ],
+    "state": {
+      "data": {
+        "next": null,
+        "previous": null,
+        "count": 2,
+        "total_pages": 1,
+        "results": [
+          {
+            "id": 73,
+            "name": "DECODE_PROFESSIONAL_JARGON.pdf",
+            "key": null,
+            "file": "",
+            "type": {
+              "label": "Contract File",
+              "value": "LOAN_ABSTRACT_CONTRACT_FILE"
+            },
+            "loan_abstract_id": "d2e2bdc9af61adb9a5056f3ddc5ed64c",
+            "uploaded_at": "5/3/2023"
+          },
+          {
+            "id": 926,
+            "name": "Loan Example__Loan ExampleEV-2281-Loan-Abstract-EI-Set-Up2024-04-15_1717439872418.xlsx",
+            "key": "debt/loan_abstracts/d2e2bdc9af61adb9a5056f3ddc5ed64c/Loan Example__Loan ExampleEV-2281-Loan-Abstract-EI-Set-Up2024-04-15_1717439872418.xlsx",
+            "file": "",
+            "type": {
+              "label": "Loan Abstract Excel File",
+              "value": "LOAN_ABSTRACT_EXCEL_FILE"
+            },
+            "loan_abstract_id": "d2e2bdc9af61adb9a5056f3ddc5ed64c",
+            "uploaded_at": "10/21/2024"
+          }
+        ]
+      },
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304122096,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  }
+]

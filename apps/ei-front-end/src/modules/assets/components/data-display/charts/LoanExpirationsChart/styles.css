@@ -1,0 +1,3 @@
+.asset-portfolio-page__loan-chart #loan-expiration-chart {
+  @apply w-full min-h-[350px] h-full clear-both;
+}

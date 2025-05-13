@@ -1,0 +1,41 @@
+.acq-pipeline-deal-card {
+  @apply grid max-w-sm grid-cols-1 gap-2;
+}
+
+.acq-pipeline-deal-card__header {
+  --button-size: calc(theme("spacing.10") + 1px);
+  grid-template-columns: calc(100% - var(--button-size)) var(--button-size);
+  @apply grid pl-2;
+}
+
+.acq-pipeline-deal-card__header-details {
+  @apply px-2 text-silver block mb-1;
+}
+
+.acq-pipeline-deal-card__image {
+  @apply object-cover w-full h-36 lg:h-44 rounded-2xl;
+}
+
+.acq-pipeline-deal-card__image--no-image {
+  @apply grid items-center justify-center h-20 bg-ghost-2 opacity-40;
+}
+
+.acq-pipeline-deal-card__footer {
+  @apply flex justify-between w-full gap-2 px-2 mt-1;
+}
+
+.acq-pipeline-deal-card__footer--details {
+  @apply flex flex-col gap-1 text-silver;
+}
+
+.acq-pipeline-deal-card.acq-pipeline-deal-card--dragging {
+  @apply relative border z-page-header-menu border-silver bg-card;
+}
+
+.acq-pipeline-deal-card--body {
+  @apply p-3;
+}
+
+.acq-pipeline-deal-card--body--dragging {
+  @apply bg-ghost;
+}

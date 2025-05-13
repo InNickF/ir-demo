@@ -1,0 +1,20 @@
+/* 
+* Base
+*/
+
+.in-ui-title {
+  @apply relative;
+}
+
+.in-ui-title .in-ui-divider {
+  @apply absolute block;
+  bottom: 30%;
+}
+
+.in-ui-title .in-ui-heading {
+  @apply relative pl-12 z-[1];
+}
+
+/* 
+* END Base
+*/

@@ -1,0 +1,32 @@
+.plv-list-validation-dashboard__panel__filters {
+  @apply flex flex-wrap;
+}
+
+.plv-list-validation-dashboard__panel__filters__filter {
+  @apply w-full md:w-min bg-transparent py-2 px-3 flex gap-2 justify-start items-center text-primary hover:bg-ghost-2 transition duration-150 ease-in-out;
+}
+
+.plv-list-validation-dashboard__panel__filters__filter.plv-list-validation-dashboard__panel__filters__filter--active {
+  @apply bg-primary text-above-primary;
+}
+
+.plv-list-validation-dashboard__panel__filters__filter.plv-list-validation-dashboard__panel__filters__filter--disabled {
+  @apply bg-disabled text-disabled;
+}
+
+.plv-list-validation-dashboard__panel__filters__filter__number {
+  @apply text-sm flex justify-center items-center rounded-full w-6 h-6 bg-primary text-above-primary;
+}
+
+.plv-list-validation-dashboard__panel__filters__filter--color-primary.plv-list-validation-dashboard__panel__filters__filter--active
+  .plv-list-validation-dashboard__panel__filters__filter__number {
+  @apply bg-ghost-contrast text-primary;
+}
+.plv-list-validation-dashboard__panel__filters__filter--color-error
+  .plv-list-validation-dashboard__panel__filters__filter__number {
+  @apply bg-error text-above-error;
+}
+.plv-list-validation-dashboard__panel__filters__filter--color-success
+  .plv-list-validation-dashboard__panel__filters__filter__number {
+  @apply bg-success text-above-success;
+}

@@ -1,0 +1,93 @@
+.asset-deal-map-and-image {
+  @apply flex flex-col w-full gap-4 lg:flex-row;
+}
+.asset-deal-map-and-image .mapboxgl-canvas {
+  @apply w-full !important;
+}
+
+.asset-deal-map-and-image__image {
+  @apply object-cover w-full h-full rounded-2xl;
+}
+
+.asset-deal-map-and-image__image--no-image {
+  @apply grid items-center justify-center bg-ghost-2 text-silver;
+}
+
+.asset-deal-map-and-image__images {
+  @apply flex items-stretch h-full;
+}
+.asset-deal-map-and-image--no-images .asset-deal-map-and-image__images {
+  @apply w-1/4 hidden lg:flex !important;
+}
+
+.asset-deal-map-and-image__images .carousel-slider,
+.asset-deal-map-and-image__images .slider-wrapper,
+.asset-deal-map-and-image__images .slider-wrapper ul {
+  @apply h-[350px] lg:h-full cursor-pointer !important;
+}
+
+.asset-deal-map-and-image__images .slider-wrapper ul {
+  @apply w-full !important;
+}
+.asset-deal-map-and-image__map,
+.asset-deal-map-and-image__images {
+  transition: width 0.35s ease-in-out;
+  @apply relative w-full;
+}
+
+.asset-deal-map-and-image__map:hover,
+.asset-deal-map-and-image__images:hover {
+  @apply w-full lg:w-[250%];
+}
+
+.asset-deal-map-and-image--no-images .asset-deal-map-and-image__map:hover {
+  @apply w-full lg:w-full !important;
+}
+
+.asset-deal-map-and-image__images__image {
+  @apply object-cover w-full h-full aspect-video;
+}
+
+.asset-deal-map-and-image__google-map__button {
+  @apply absolute top-6 left-6 opacity-0 hidden transition-all duration-200 ease-in-out border-silver border px-2.5;
+}
+.asset-deal-map-and-image__google-map__button--active {
+  @apply inline-block z-control;
+}
+
+.asset-deal-map-and-image__map:hover
+  .asset-deal-map-and-image__google-map__button--active {
+  @apply opacity-100 !important;
+}
+
+.asset-image-carousel-modal {
+  @apply fixed h-full;
+}
+.asset-image-carousel-modal .carousel-root {
+  @apply flex flex-col h-[calc(100%-theme(spacing.16))];
+}
+
+.asset-image-carousel-modal .carousel-root .carousel:last-child {
+  @apply flex items-center justify-center flex-grow p-4;
+}
+
+.asset-image-carousel-modal .slide {
+  @apply self-center min-w-full h-full;
+}
+
+.asset-image-carousel-modal .slide .asset-deal-map-and-image__images__image {
+  @apply w-full max-w-full object-contain;
+}
+
+.asset-image-carousel-modal .slider-wrapper,
+.asset-image-carousel-modal ul.slider {
+  @apply h-full;
+}
+
+.asset-image-carousel-modal .thumbs-wrapper {
+  @apply flex justify-center;
+}
+
+.asset-image-carousel-modal .ei-image-carousel > .carousel-slider {
+  @apply min-h-[calc(100%-theme(spacing.36))] !important;
+}

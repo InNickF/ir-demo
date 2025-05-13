@@ -1,0 +1,212 @@
+/*
+* Base container
+*/
+.in-ui-input {
+  --bg-container: var(--ghost-1);
+  outline-width: 0;
+  @apply flex flex-col w-full;
+}
+
+.in-ui-input,
+.in-ui-input .in-ui-input__container {
+  transition-property: opacity, color, border-color;
+  transition-duration: var(--transition-duration);
+  transition-delay: var(--transition-delay);
+  transition-timing-function: var(--transition-timing-function);
+}
+
+/*
+* Input container
+*/
+.in-ui-input .in-ui-input__container {
+  border-width: var(--inputs-border-width);
+  border-color: var(--inputs-border-color);
+  background-color: var(--bg-container);
+  @apply flex gap-1 p-1.5;
+}
+
+.in-ui-input .in-ui-input__container:hover,
+.in-ui-input .in-ui-input__container:focus-within {
+  border-color: var(--inputs-border-color-hover);
+}
+
+.in-ui-input--focused .in-ui-input__container:focus-within {
+  outline-width: 1px;
+  outline-style: dashed;
+  outline-color: var(--inputs-border-color);
+}
+
+/*
+* Input element
+*/
+.in-ui-input .in-ui-input__element {
+  @apply flex-grow flex-shrink text-base transition-none bg-transparent placeholder:text-silver w-full;
+}
+
+/*
+* Icon
+*/
+.in-ui-input .in-ui-input-icon {
+  color: var(--inputs-icon-color);
+}
+.in-ui-input:hover .in-ui-input-icon,
+.in-ui-input:focus .in-ui-input-icon {
+  color: var(--inputs-icon-color-hover);
+}
+
+.in-ui-input.in-ui-input--error .in-ui-input-icon {
+  color: var(--inputs-icon-color-error);
+}
+.in-ui-input.in-ui-input--error:hover .in-ui-input-icon,
+.in-ui-input.in-ui-input--error:focus .in-ui-input-icon {
+  color: var(--inputs-icon-color-error-hover);
+}
+
+.in-ui-input .in-ui-input-icon.in-ui-input-icon--action {
+  @apply cursor-pointer;
+}
+
+/*
+* Left icon
+*/
+.in-ui-input .in-ui-input__left-icon {
+  @apply flex-grow-0 flex-shrink-0;
+}
+
+/*
+* Right icon
+*/
+.in-ui-input .in-ui-input__right-icon {
+  @apply flex-grow-0 flex-shrink-0;
+}
+
+/*
+* Color modifiers
+*/
+.in-ui-input.in-ui-input--over-ghost .in-ui-input__container {
+  --bg-container: var(--ghost-2);
+}
+.in-ui-input.in-ui-input--glass .in-ui-input__container {
+  --bg-container: var(--glass-input);
+}
+
+/*
+* Error
+*/
+.in-ui-input.in-ui-input--error .in-ui-input__container {
+  border-color: var(--inputs-border-color-error);
+  outline-color: var(--inputs-border-color-error);
+}
+
+.in-ui-input:hover.in-ui-input--error .in-ui-input__container:hover,
+.in-ui-input:hover.in-ui-input--error .in-ui-input__container:active,
+.in-ui-input:hover.in-ui-input--error .in-ui-input__container:focus-within,
+.in-ui-input.in-ui-input--error .in-ui-input__container:hover,
+.in-ui-input.in-ui-input--error .in-ui-input__container:active,
+.in-ui-input.in-ui-input--error .in-ui-input__container:focus-within {
+  border-color: var(--inputs-border-color-error-hover);
+  outline-color: var(--inputs-border-color-error-hover);
+}
+
+.in-ui-input.in-ui-input--error .in-ui-input__helper {
+  @apply hidden;
+}
+
+/*
+* Hint container and hint/error helper element
+*/
+.in-ui-input .in-ui-input__hint__container {
+  @apply relative w-full;
+}
+
+.in-ui-input__error-helper {
+  @apply absolute w-full;
+}
+
+.in-ui-input:hover .in-ui-input__helper,
+.in-ui-input:focus-within .in-ui-input__helper {
+  @apply opacity-100;
+}
+.in-ui-input__helper {
+  @apply absolute w-full opacity-0;
+}
+
+/*
+* Disabled
+*/
+
+.in-ui-input.in-ui-input--disabled .in-ui-input__container {
+  border-color: var(--disabled-text-color) !important;
+  outline-color: var(--disabled-text-color) !important;
+}
+
+.in-ui-input.in-ui-input--disabled .in-ui-input__element,
+.in-ui-input.in-ui-input--disabled .in-ui-input__element::placeholder {
+  color: var(--disabled-text-color) !important;
+}
+
+.in-ui-input.in-ui-input--disabled .in-ui-input__container {
+  border-color: var(--disabled-text-color) !important;
+}
+
+.in-ui-input:hover.in-ui-input--disabled .in-ui-input__container,
+.in-ui-input:hover.in-ui-input--disabled .in-ui-input__container {
+  border-color: var(--disabled-text-color) !important;
+  outline-color: var(--disabled-text-color) !important;
+}
+
+.in-ui-input.in-ui-input--disabled .in-ui-input__container {
+  @apply bg-disabled !important;
+}
+
+.in-ui-input.in-ui-input--disabled .in-ui-input__helper,
+.in-ui-input.in-ui-input--disabled .in-ui-input__error-helper {
+  @apply hidden !important;
+}
+
+.in-ui-input.in-ui-input--disabled .in-ui-input-icon {
+  color: var(--disabled-text-color) !important;
+}
+
+/*
+* Readonly
+*/
+
+.in-ui-input.in-ui-input--read-only .in-ui-input__container {
+  border-color: var(--bg-container) !important;
+  outline-color: var(--bg-container) !important;
+}
+
+.in-ui-input:hover.in-ui-input--read-only .in-ui-input__container,
+.in-ui-input:hover.in-ui-input--read-only .in-ui-input__container {
+  border-color: var(--bg-container) !important;
+  outline-color: var(--bg-container) !important;
+}
+
+.in-ui-input.in-ui-input--read-only .in-ui-input-icon {
+  color: var(--inputs-icon-color-hover) !important;
+}
+
+.in-ui-input.in-ui-input--read-only .in-ui-input__container {
+  @apply bg-disabled !important;
+}
+
+/* 
+* Hide button arrows on type number
+*/
+.in-ui-input__element[type="number"]::-webkit-outer-spin-button,
+.in-ui-input__element[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+.in-ui-input__element[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/*
+* Label
+*/
+.in-ui-input .in-ui-label {
+  @apply mb-1.5;
+}

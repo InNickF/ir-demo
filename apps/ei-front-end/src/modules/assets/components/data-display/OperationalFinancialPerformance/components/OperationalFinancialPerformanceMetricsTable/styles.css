@@ -1,0 +1,33 @@
+.assets-property-performance-table--selected-row {
+  @apply bg-ghost-2 !important;
+}
+
+.assets-property-performance-table
+  .in-ui-table__row
+  .in-ui-table__header:not(:first-child)
+  .in-ui-table__header-wrapper {
+  @apply justify-end !important;
+}
+
+.assets-property-performance-table
+  .in-ui-table__body
+  .in-ui-table__row
+  .in-ui-table__data:not(:first-child) {
+  @apply text-right !important;
+}
+
+.assets-property-performance-table--highlighted-row {
+  background-color: var(--table-row-color-hover);
+}
+
+.assets-property-performance-table-card--filters {
+  @apply pl-3 mb-3;
+}
+
+.assets-property-performance-table-card--header-actions {
+  @apply flex items-center;
+}
+
+.assets-property-performance-table-card--header-actions__text {
+  @apply mr-2 text-xs text-silver;
+}

@@ -1,0 +1,11 @@
+.insight-navbar-container {
+  @apply flex items-center justify-between w-full h-full;
+}
+
+.insight-navbar-container svg {
+  @apply h-full !important;
+}
+
+.insight-navbar-logo {
+  @apply h-8 max-w-none top-[2px] relative;
+}

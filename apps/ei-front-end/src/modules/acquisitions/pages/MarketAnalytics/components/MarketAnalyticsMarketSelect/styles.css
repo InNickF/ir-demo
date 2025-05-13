@@ -1,0 +1,26 @@
+.acq-market-analytics-page__market-select-first-container {
+  @apply relative z-control flex gap-2 items-center mb-4;
+}
+
+.acq-market-analytics-page__market-select-main-select {
+  @apply w-80;
+}
+
+.acq-market-analytics-page__market-select-main-select--hidden {
+  @apply hidden;
+}
+
+.acq-market-analytics-page__market-select-secondary-select {
+  @apply w-80 my-4;
+}
+
+.acq-market-analytics-page__market-select-second-container {
+  @apply w-full flex flex-col justify-center items-center;
+}
+
+.acq-market-analytics-page__market-select-second-container__decoration-grid {
+  @apply grid grid-cols-2 w-full gap-4;
+}
+.acq-market-analytics-page__market-select-second-container__decoration-grid__card {
+  @apply min-h-[350px] opacity-40;
+}

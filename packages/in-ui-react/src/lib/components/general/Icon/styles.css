@@ -1,0 +1,125 @@
+/*
+ * Base
+*/
+
+.in-ui-icon {
+  --current-color: "";
+  --current-color-hover: "";
+  color: var(--current-color);
+  display: block;
+}
+.in-ui-icon svg {
+  @apply w-full h-auto m-0 p-0;
+}
+.in-ui-icon--hover {
+  transition-property: color, width, height;
+  transition-duration: var(--transition-duration);
+  transition-delay: var(--transition-delay);
+  transition-timing-function: var(--transition-timing-function);
+}
+
+.in-ui-icon--hover:hover {
+  color: var(--current-color-hover);
+}
+
+/* 
+* Color
+*/
+
+/* Primary */
+.in-ui-icon--primary {
+  --current-color: var(--primary);
+  --current-color-hover: var(--primary-hover);
+}
+
+/* Secondary */
+.in-ui-icon--secondary {
+  --current-color: var(--secondary);
+  --current-color-hover: var(--secondary-hover);
+}
+
+/* Tertiary */
+.in-ui-icon--tertiary {
+  --current-color: var(--tertiary);
+  --current-color-hover: var(--tertiary-hover);
+}
+
+/* Success */
+.in-ui-icon--success {
+  --current-color: var(--success);
+  --current-color-hover: var(--success-hover);
+}
+
+/* Warning */
+.in-ui-icon--warning {
+  --current-color: var(--warning);
+  --current-color-hover: var(--warning-hover);
+}
+
+/* Error */
+.in-ui-icon--error {
+  --current-color: var(--error);
+  --current-color-hover: var(--error-hover);
+}
+
+/* Above Primary */
+.in-ui-icon--above-primary {
+  --current-color: var(--text-above-primary);
+  --current-color-hover: var(--text-above-primary-hover);
+}
+
+/* Above Secondary */
+.in-ui-icon--above-secondary {
+  --current-color: var(--text-above-secondary);
+  --current-color-hover: var(--text-above-secondary-hover);
+}
+
+/* Above Tertiary */
+.in-ui-icon--above-tertiary {
+  --current-color: var(--text-above-tertiary);
+  --current-color-hover: var(--text-above-tertiary-hover);
+}
+
+/* Above Success */
+.in-ui-icon--above-success {
+  --current-color: var(--text-above-success);
+  --current-color-hover: var(--text-above-success-hover);
+}
+
+/* Above Warning */
+.in-ui-icon--above-warning {
+  --current-color: var(--text-above-warning);
+  --current-color-hover: var(--text-above-warning-hover);
+}
+
+/* Above Error */
+.in-ui-icon--above-error {
+  --current-color: var(--text-above-error);
+  --current-color-hover: var(--text-above-error-hover);
+}
+
+.in-ui-icon--current-color {
+  --current-color: currentcolor;
+}
+
+/* 
+* END Color
+*/
+
+/* 
+* Size 
+*/
+
+.in-ui-icon--normal-size {
+  @apply w-6;
+}
+.in-ui-icon--small-size {
+  @apply w-[1.15rem];
+}
+.in-ui-icon--big-size {
+  @apply w-7;
+}
+
+/* 
+* END Size
+*/

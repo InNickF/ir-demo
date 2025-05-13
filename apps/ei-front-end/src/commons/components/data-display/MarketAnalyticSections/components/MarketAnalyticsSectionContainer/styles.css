@@ -1,0 +1,7 @@
+.acq-analytics-section-divider {
+  @apply mb-8;
+}
+
+.acq-analytics-section-divider__title {
+  @apply mb-4;
+}

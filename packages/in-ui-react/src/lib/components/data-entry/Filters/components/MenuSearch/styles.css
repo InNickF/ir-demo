@@ -1,0 +1,50 @@
+.in-ui-filters__menu-search {
+  max-height: theme("spacing.40");
+  min-height: 38px;
+  border-width: var(--inputs-border-width);
+  border-color: var(--inputs-border-color);
+  transition-property: opacity, color, border-color;
+  transition-duration: var(--transition-duration);
+  transition-delay: var(--transition-delay);
+  transition-timing-function: var(--transition-timing-function);
+  @apply bg-ghost-2 flex gap-1.5 p-1.5 overflow-auto;
+}
+
+.in-ui-filters__menu-search:hover {
+  border-color: var(--inputs-border-color-hover);
+}
+
+.in-ui-filters__menu-search:hover .in-ui-filters__menu-search-clear {
+  color: var(--inputs-icon-color-hover);
+}
+
+.in-ui-filters__menu-search-input {
+  @apply flex items-center w-auto p-0 bg-transparent border-none;
+  flex: 1 1 60px;
+  min-width: 60px;
+}
+
+.in-ui-filters__menu-search-input input {
+  @apply block w-full p-0 bg-transparent resize-none;
+}
+
+.in-ui-filters__menu-search-pills {
+  @apply flex flex-wrap w-full gap-1;
+}
+
+.in-ui-filters__menu-search-pill {
+  @apply flex items-center max-w-full min-w-0 shrink-0 h-[35px];
+}
+
+.in-ui-filters__menu-search-clear {
+  @apply self-center p-0 !important;
+  color: var(--inputs-icon-color);
+}
+
+.in-ui-filters__menu-search-clear:focus {
+  @apply bg-transparent !important;
+}
+
+.in-ui-filters__menu-search-clear:hover {
+  color: var(--inputs-icon-color-hover);
+}

@@ -1,0 +1,54 @@
+/* 
+* Base
+*/
+
+.in-ui-drawer {
+  width: calc(100% - theme("spacing.24"));
+  @apply fixed h-full max-w-md overflow-hidden duration-300 ease-in-out z-drawer bg-ghost-1;
+}
+
+/* 
+* Position
+*/
+
+.in-ui-drawer--left {
+  @apply top-0 bottom-0 left-0;
+  transform: translateX(-100%);
+}
+
+.in-ui-drawer--right {
+  @apply top-0 bottom-0 right-0;
+  transform: translateX(100%);
+}
+
+.in-ui-drawer--top {
+  @apply top-0 left-0 right-0;
+  transform: translateY(-100%);
+  max-height: 35%;
+  @apply w-full max-w-full;
+}
+
+.in-ui-drawer--bottom {
+  @apply bottom-0 right-0;
+  transform: translateY(100%);
+  max-height: 35%;
+  @apply w-full max-w-full;
+}
+
+/* 
+* Header
+*/
+.in-ui-drawer__header {
+  @apply p-3 flex items-center gap-1.5 w-full;
+}
+
+/* 
+* Modifiers
+*/
+.in-ui-drawer.in-ui-drawer--fullscreen {
+  @apply w-full h-full max-w-full max-h-full;
+}
+
+.in-ui-drawer.in-ui-drawer--open {
+  transform: translate(0);
+}

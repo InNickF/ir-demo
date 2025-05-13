@@ -1,0 +1,29 @@
+.ui-commons-theme-selector {
+  @apply relative flex h-auto;
+}
+
+.ui-commons-theme-selector__container {
+  @apply absolute invisible h-auto m-auto mt-2 border shadow-lg opacity-0 bg-ghost border-ghost-1 z-navigation top-full min-w-max;
+  min-width: 200px;
+  transform: scale(0.95);
+  transition-property: transform, opacity, visibility;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-out;
+}
+
+.ui-commons-theme-selector__container::before {
+  content: "";
+  background: linear-gradient(var(--ghost-base), transparent);
+  @apply absolute top-0 left-0 right-0 block h-2 z-control;
+}
+
+.ui-commons-theme-selector__container::after {
+  content: "";
+  background: linear-gradient(transparent, var(--ghost-base));
+  @apply absolute bottom-0 left-0 right-0 block h-2 z-control;
+}
+
+.ui-commons-theme-selector__container--open {
+  @apply opacity-100 visible !important;
+  transform: scale(1) !important;
+}

@@ -1,0 +1,15 @@
+.in-ui-filters__menu-header {
+  @apply p-2;
+}
+
+.in-ui-filters__menu-header-title {
+  @apply flex items-center justify-between pb-2;
+}
+
+.in-ui-filters__menu-header-title p {
+  @apply capitalize;
+}
+
+.in-ui-filters__menu-header-action {
+  @apply px-2 py-1 !important;
+}

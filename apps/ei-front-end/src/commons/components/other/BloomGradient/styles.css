@@ -1,0 +1,23 @@
+[data-bloom-bg] {
+  @apply relative transition bg-transparent z-[0];
+}
+
+[data-bloom-bg]::before {
+  @apply absolute inset-0 opacity-0 transition-all
+    duration-500 -z-[1];
+  content: "";
+  border-radius: inherit;
+  background: radial-gradient(
+    var(--size) circle at var(--mouse-x) var(--mouse-y),
+    var(--primary),
+    transparent 30%
+  );
+}
+
+[data-bloom-bg]:hover::before {
+  @apply opacity-[var(--contrast)];
+}
+
+.commons-bloom-effect-element {
+  @apply absolute top-0 left-0 w-full h-full transition-all duration-500 rounded-md opacity-0 group-hover:opacity-100 -z-[1];
+}

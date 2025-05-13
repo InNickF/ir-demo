@@ -1,0 +1,14 @@
+/** 
+* DraggableRow
+*/
+.in-ui-table__draggable-row {
+  will-change: transform;
+  @apply relative bg-card;
+}
+.in-ui-table__draggable-row[role="button"] {
+  @apply cursor-auto !important;
+}
+.in-ui-table__draggable-row--dragging {
+  @apply z-control bg-ghost-2  !important;
+  box-shadow: var(--in-ui--shadow-2);
+}

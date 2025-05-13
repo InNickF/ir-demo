@@ -1,0 +1,7 @@
+.dead-deal-form {
+  @apply grid grid-cols-1 gap-5;
+}
+
+.dead-deal-form__actions {
+  @apply grid grid-cols-1 gap-3;
+}

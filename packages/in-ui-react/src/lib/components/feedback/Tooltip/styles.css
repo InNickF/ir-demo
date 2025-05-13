@@ -1,0 +1,12 @@
+.in-ui-tooltip {
+  backdrop-filter: blur(4px);
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--ghost-2);
+  max-width: 380px;
+  @apply relative p-3 break-all shadow-lg bg-glass-2 z-control;
+}
+
+[role="tooltip"] {
+  @apply z-over-all;
+}

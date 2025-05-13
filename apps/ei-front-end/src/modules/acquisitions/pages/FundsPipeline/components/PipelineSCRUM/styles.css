@@ -1,0 +1,32 @@
+.acq-fund-pipeline-grid {
+  grid-template-columns: repeat(6, 325px);
+  @apply grid gap-x-4 px-3 min-h-full 2xl:px-[calc(calc(calc(100vw-1536px)/2))] 3xl:pl-[calc(calc(calc(100vw-1920px)/2))] 3xl:pr-12 w-max;
+}
+
+@media (width: 1920px) {
+  .acq-fund-pipeline-grid {
+    @apply px-24;
+  }
+}
+
+.acq-fund-pipeline-grid--dragging .acq-pipeline-column__body::after {
+  content: "";
+  @apply block absolute left-0 right-0 top-0 bottom-0 bg-ghost-contrast z-[1];
+}
+
+.acq-fund-pipeline-grid--stage-SCREENING--active
+  .acq-pipeline-column__body[data-stage="SCREENING"]::after,
+.acq-fund-pipeline-grid--stage-LOI--active
+  .acq-pipeline-column__body[data-stage="LOI"]::after,
+.acq-fund-pipeline-grid--stage-PSA--active
+  .acq-pipeline-column__body[data-stage="PSA"]::after,
+.acq-fund-pipeline-grid--stage-CLOSING--active
+  .acq-pipeline-column__body[data-stage="CLOSING"]::after,
+.acq-fund-pipeline-grid--stage-CLOSED--active
+  .acq-pipeline-column__body[data-stage="CLOSED"]::after,
+.acq-fund-pipeline-grid--stage-DD--active
+  .acq-pipeline-column__body[data-stage="DD"]::after,
+.acq-fund-pipeline-grid--stage-DEAD--active
+  .acq-pipeline-column__body[data-stage="DEAD"]::after {
+  @apply bg-ghost-contrast-2 border-2 border-dashed border-silver hover:border-primary;
+}

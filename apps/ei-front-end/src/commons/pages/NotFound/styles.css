@@ -1,0 +1,3 @@
+.not-found__page {
+  @apply flex flex-col gap-12 justify-center items-center min-h-screen z-[1] relative text-center;
+}

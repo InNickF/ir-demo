@@ -1,0 +1,7 @@
+.acq-market-analytics-compstack-comp-table-card {
+  @apply grid grid-cols-1 h-full;
+}
+
+.acq-market-analytics-compstack-comp-table-card__header {
+  @apply flex flex-col flex-wrap items-start justify-between gap-4 md:flex-row md:items-center px-3 pb-3 pt-[calc(theme('spacing.3')-2px)];
+}

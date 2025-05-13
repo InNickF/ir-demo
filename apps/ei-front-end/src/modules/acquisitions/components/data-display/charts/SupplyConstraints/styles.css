@@ -1,0 +1,7 @@
+.acq-supply-constraints-chart {
+  @apply w-full min-h-[350px] h-full clear-both;
+}
+
+.acq-marketsupply-constraints-wrapper {
+  @apply w-full h-full;
+}

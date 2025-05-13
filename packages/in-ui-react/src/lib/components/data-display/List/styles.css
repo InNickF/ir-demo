@@ -1,0 +1,41 @@
+/* 
+* Base
+*/
+
+.in-ui-list {
+  @apply w-full table-auto;
+}
+
+.in-ui-list__header {
+  @apply text-left;
+}
+
+.in-ui-list__row {
+  @apply w-full;
+}
+.in-ui-list__row--divider {
+  @apply border-b-[1px] border-ghost-2 border-solid;
+}
+
+/* 
+* Size 
+*/
+
+.in-ui-list--normal-size .in-ui-list__header,
+.in-ui-list--normal-size .in-ui-list__data {
+  @apply py-3;
+}
+
+.in-ui-list--big-size .in-ui-list__header,
+.in-ui-list--big-size .in-ui-list__data {
+  @apply py-5;
+}
+
+.in-ui-list--small-size .in-ui-list__header,
+.in-ui-list--small-size .in-ui-list__data {
+  @apply py-1;
+}
+
+/* 
+* END Size
+*/

@@ -1,0 +1,7 @@
+.in-ui-card-title {
+  @apply flex items-center gap-3;
+}
+
+.in-ui-card-title__icon {
+  @apply relative w-10 h-10 p-2 rounded-full bg-ghost-2;
+}

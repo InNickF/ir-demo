@@ -1,0 +1,35 @@
+.in-ui-dock-viewport {
+  position: relative;
+  transform-origin: top center;
+  overflow: hidden;
+  /* height: calc(
+    var(--radix-navigation-menu-viewport-height) + theme("spacing.6")
+  ); */
+  width: max-content;
+  @apply p-3 border rounded-xl bg-ghost-1 border-silver;
+}
+
+.in-ui-dock-viewport[data-state="open"] {
+  animation: scaleIn 200ms ease;
+}
+.in-ui-dock-viewport[data-state="closed"] {
+  animation: scaleOut 200ms ease;
+}
+
+.in-ui-dock-viewport__position {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  top: calc(100% + theme("spacing.4"));
+  left: 0;
+  perspective: 2000px;
+}
+
+/* @media only screen and (min-width: 600px) {
+  .in-ui-dock-viewport {
+    width: calc(
+      var(--radix-navigation-menu-viewport-width) + theme("spacing.6")
+    );
+  }
+} */

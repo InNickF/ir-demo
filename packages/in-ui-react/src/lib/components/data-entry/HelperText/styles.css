@@ -1,0 +1,43 @@
+.in-ui-helper-text {
+  --current-color: "";
+  position: relative;
+  transition-property: transform, opacity;
+  transition-duration: var(--transition-duration);
+  transition-delay: var(--transition-delay);
+  transition-timing-function: var(--transition-timing-function);
+  color: var(--current-color);
+}
+
+/* 
+* Color
+*/
+
+/* Primary */
+.in-ui-helper-text--primary {
+  --current-color: var(--primary);
+}
+
+/* Secondary */
+.in-ui-helper-text--secondary {
+  --current-color: var(--secondary);
+}
+
+/* Tertiary */
+.in-ui-helper-text--tertiary {
+  --current-color: var(--tertiary);
+}
+
+/* Success */
+.in-ui-helper-text--success {
+  --current-color: var(--success);
+}
+
+/* Warning */
+.in-ui-helper-text--warning {
+  --current-color: var(--warning);
+}
+
+/* Error */
+.in-ui-helper-text--error {
+  --current-color: var(--error);
+}

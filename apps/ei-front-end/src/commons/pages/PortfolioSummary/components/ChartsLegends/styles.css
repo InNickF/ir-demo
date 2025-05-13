@@ -1,0 +1,23 @@
+.debt-portfolio-summary-page__charts-legends {
+  @apply flex flex-wrap items-center gap-6 text-silver;
+}
+
+.debt-portfolio-summary-page__charts-legends-container {
+  @apply flex items-center gap-2;
+}
+
+.debt-portfolio-summary-page__charts-legends-color-dot {
+  @apply block w-[10px] h-[10px] rounded-full;
+}
+
+.debt-portfolio-summary-page__charts-legends-label {
+  @apply text-xs;
+}
+
+.debt-portfolio-summary-page__charts-legends__skeleton {
+  @apply w-full mb-0;
+}
+
+.debt-portfolio-summary-page__charts-legends .in-ui-skeleton {
+  @apply w-full max-w-6xl;
+}

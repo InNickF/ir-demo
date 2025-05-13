@@ -1,0 +1,15 @@
+.debt-loan-modal-form .in-ui-modal__content {
+  @apply flex flex-col gap-4;
+}
+
+.debt-loan-modal-form__footer {
+  @apply flex flex-col-reverse w-full md:flex-row;
+}
+
+.debt-loan-modal-form__content {
+  @apply p-3 !important;
+}
+
+.debt-loan-modal-form__button-group {
+  @apply pb-0 pt-3 px-3;
+}

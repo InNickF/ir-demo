@@ -1,0 +1,7 @@
+.debt-add-new-file__modal-form .in-ui-modal__content {
+  @apply flex flex-col gap-4;
+}
+
+.debt-loan-room-form-footer {
+  @apply flex flex-col-reverse w-full md:flex-row;
+}

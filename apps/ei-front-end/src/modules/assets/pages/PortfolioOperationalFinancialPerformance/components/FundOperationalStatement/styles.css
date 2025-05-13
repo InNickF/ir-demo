@@ -1,0 +1,14 @@
+.assets-fund-operational-property-comparison
+  .in-ui-table__head
+  .in-ui-table__row:last-child
+  .in-ui-table__header:not(:first-child)
+  .in-ui-table__header-wrapper {
+  @apply justify-end !important;
+}
+
+.assets-fund-operational-property-comparison
+  .in-ui-table__body
+  .in-ui-table__row
+  .in-ui-table__data:not(:first-child) {
+  @apply text-right !important;
+}

@@ -1,0 +1,42 @@
+.commons-custom-cursor {
+  @apply fixed flex items-center justify-center w-0 h-0 rounded-full border-2 overflow-visible border-primary z-over-all pointer-events-none mix-blend-difference transition-[opacity,width,height] duration-500 opacity-0;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.commons-custom-cursor.click {
+  @apply opacity-100 w-10 h-10;
+  transform: translate(-50%, -50%) scale(0.2);
+}
+.commons-custom-cursor.hide {
+  @apply hidden;
+}
+
+.commons-custom-cursor-point {
+  @apply w-0 h-0 overflow-visible rounded-full fixed bg-primary transition-opacity pointer-events-none mix-blend-difference duration-300 opacity-0 ease-in-out z-over-all;
+  transform: translate(-50%, -50%);
+  scale: 0;
+}
+
+.commons-custom-cursor-point.click {
+  @apply w-[5px] h-[5px] bg-transparent border-2 border-primary opacity-40;
+  transform: translate(-50%, -50%);
+  scale: 1.5;
+}
+
+.commons-custom-cursor-shadow {
+  @apply fixed overflow-visible w-0 h-0 rounded-full opacity-20 transition-all duration-300 ease-in-out z-over-all pointer-events-none mix-blend-difference bg-primary;
+  content: "";
+  scale: 0;
+}
+
+.commons-custom-cursor-shadow.active {
+  @apply opacity-20 w-20 h-20;
+  scale: 1;
+}
+
+@media screen and (max-width: 1024px) {
+  .commons-custom-cursor,
+  .commons-custom-cursor-point {
+    @apply hidden;
+  }
+}

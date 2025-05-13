@@ -1,0 +1,9 @@
+.debt-loan-timeline-actions-section {
+  @apply flex justify-end w-full mb-6;
+}
+
+.debt-loan-timeline-table-card
+  .in-ui-table__pagination
+  .in-ui-table__pagination-select {
+  @apply max-w-[80px] z-overlay;
+}

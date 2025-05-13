@@ -1,0 +1,7 @@
+.in-ui-dock {
+  @apply relative flex justify-center w-full;
+}
+
+.in-ui-dock__list {
+  @apply flex bg-ghost-1 rounded-xl;
+}

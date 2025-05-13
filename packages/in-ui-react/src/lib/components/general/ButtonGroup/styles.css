@@ -1,0 +1,7 @@
+.in-ui-button-group {
+  @apply flex flex-col lg:flex-row;
+}
+
+.in-ui-button-group--flex .in-ui-button-group__button {
+  @apply flex-1;
+}

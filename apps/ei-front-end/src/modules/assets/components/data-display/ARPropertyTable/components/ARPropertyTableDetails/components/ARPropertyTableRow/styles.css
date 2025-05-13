@@ -1,0 +1,7 @@
+.assets-ar-property-table-row {
+  @apply h-12 cursor-pointer;
+}
+
+.assets-ar-property-table-row--active {
+  @apply bg-ghost-2 !important;
+}

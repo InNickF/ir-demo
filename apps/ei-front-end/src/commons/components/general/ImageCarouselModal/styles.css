@@ -1,0 +1,35 @@
+.commons-image-carousel-modal {
+  @apply fixed h-full;
+}
+.commons-image-carousel-modal .carousel-root {
+  @apply flex flex-col h-[calc(100%-theme(spacing.16))];
+}
+
+.commons-image-carousel-modal .carousel-root .carousel:last-child {
+  @apply flex items-center justify-center flex-grow p-4;
+}
+
+.commons-image-carousel-modal .slide {
+  @apply self-center h-full min-w-full;
+}
+
+.commons-image-carousel-modal .slide .commons-image-carousel-modal__image {
+  @apply object-contain w-full max-w-full;
+}
+
+.commons-image-carousel-modal .slider-wrapper,
+.commons-image-carousel-modal ul.slider {
+  @apply h-full;
+}
+
+.commons-image-carousel-modal .thumbs-wrapper {
+  @apply flex justify-center;
+}
+
+.commons-image-carousel-modal .ei-image-carousel > .carousel-slider {
+  @apply min-h-[calc(100%-theme(spacing.36))] !important;
+}
+
+.commons-image-carousel-modal__image {
+  @apply object-cover w-full h-full aspect-video;
+}

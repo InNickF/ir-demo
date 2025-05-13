@@ -1,0 +1,9 @@
+{
+  "name": "in-ui-css",
+  "version": "0.0.1",
+  "private": true,
+  "main": "index.js",
+  "files": [
+    "styles/index.css"
+  ]
+}

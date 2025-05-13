@@ -1,0 +1,9 @@
+.in-ui-card {
+  @apply bg-card rounded-sm;
+  border-color: var(--cards-border-color);
+  border-width: var(--cards-border-width);
+}
+
+.in-ui-card--padding {
+  @apply p-3;
+}

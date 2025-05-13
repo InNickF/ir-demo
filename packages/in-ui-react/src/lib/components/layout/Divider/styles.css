@@ -1,0 +1,9 @@
+.in-ui-divider {
+  @apply block w-full;
+  border-color: var(--ghost-2);
+}
+
+.in-ui-divider--vertical {
+  @apply inline-flex min-h-full max-h-full max-w-0 w-0;
+  border-width: 0 thin 0 0;
+}

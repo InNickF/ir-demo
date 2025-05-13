@@ -1,0 +1,1249 @@
+[
+  {
+    "queryKey": [
+      "user",
+      "me"
+    ],
+    "state": {
+      "data": {
+        "username": "",
+        "name": "",
+        "email": "",
+        "privilege": "1,2,3,4,5,6,7,8,",
+        "id": 999999,
+        "is_active": true,
+        "last_name": "",
+        "last_login": "",
+        "modules": [
+          "IN_ACQUISITIONS",
+          "PITCHBOOK",
+          "IN_DISPOSITIONS",
+          "IN_DEBT",
+          "WEBHOOKS",
+          "IN_VESTOR",
+          "IN_SIGHT",
+          "IN_TOOLS",
+          "IN_ASSETS"
+        ]
+      },
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304263657,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "fund",
+      "lendersByLtv",
+      {
+        "fund": "Industrial Fund Example",
+        "status": "active"
+      }
+    ],
+    "state": {
+      "data": [
+        {
+          "current_ltv": 0.5294,
+          "lender_name": "Terry Inc",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0505,
+          "current_outstanding_loan_balance": 18500000,
+          "initial_maturity_date": "09/06/2027",
+          "debt_yield_over_last_12_months_noidm": -0.0369
+        },
+        {
+          "current_ltv": 0.5074,
+          "lender_name": "Goldner, Russel and Schamberger",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0758,
+          "current_outstanding_loan_balance": 35828204.59,
+          "initial_maturity_date": "05/09/2024",
+          "debt_yield_over_last_12_months_noidm": -0.0062
+        },
+        {
+          "current_ltv": 0.4909,
+          "lender_name": "Raynor Inc",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0927,
+          "current_outstanding_loan_balance": 30192406.65,
+          "initial_maturity_date": "10/10/2026",
+          "debt_yield_over_last_12_months_noidm": -0.004
+        },
+        {
+          "current_ltv": 0,
+          "lender_name": "Langosh - Altenwerth",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0639,
+          "current_outstanding_loan_balance": 0,
+          "initial_maturity_date": "06/06/2027",
+          "debt_yield_over_last_12_months_noidm": 0
+        },
+        {
+          "current_ltv": 0,
+          "lender_name": "Haag - Homenick",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0639,
+          "current_outstanding_loan_balance": 0,
+          "initial_maturity_date": "06/06/2027",
+          "debt_yield_over_last_12_months_noidm": 0
+        },
+        {
+          "current_ltv": 0,
+          "lender_name": "Osinski, Considine and Casper",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0682,
+          "current_outstanding_loan_balance": 0,
+          "initial_maturity_date": "01/31/2027",
+          "debt_yield_over_last_12_months_noidm": 0
+        },
+        {
+          "current_ltv": 0.6477,
+          "lender_name": "Wunsch - Ebert",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0668,
+          "current_outstanding_loan_balance": 20100000,
+          "initial_maturity_date": "12/20/2024",
+          "debt_yield_over_last_12_months_noidm": 0.0238
+        },
+        {
+          "current_ltv": 0.4016,
+          "lender_name": "Kling - O'Connell",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0655,
+          "current_outstanding_loan_balance": 6190000,
+          "initial_maturity_date": "12/08/2024",
+          "debt_yield_over_last_12_months_noidm": 0.0324
+        },
+        {
+          "current_ltv": 0.4473,
+          "lender_name": "Collier - King",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0586,
+          "current_outstanding_loan_balance": 13500000,
+          "initial_maturity_date": "06/06/2027",
+          "debt_yield_over_last_12_months_noidm": 0.04
+        },
+        {
+          "current_ltv": 0.4859,
+          "lender_name": "Ferry, Schinner and Bernier",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0667,
+          "current_outstanding_loan_balance": 8863873.34,
+          "initial_maturity_date": "03/28/2027",
+          "debt_yield_over_last_12_months_noidm": 0.0442
+        },
+        {
+          "current_ltv": 0.6197,
+          "lender_name": "Satterfield - Reichel",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0656,
+          "current_outstanding_loan_balance": 33220165.81,
+          "initial_maturity_date": "05/09/2024",
+          "debt_yield_over_last_12_months_noidm": 0.0455
+        },
+        {
+          "current_ltv": 0.5035,
+          "lender_name": "Flatley, Gorczany and Collins",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0405,
+          "current_outstanding_loan_balance": 21000000,
+          "initial_maturity_date": "06/06/2027",
+          "debt_yield_over_last_12_months_noidm": 0.0685
+        },
+        {
+          "current_ltv": 0.3241,
+          "lender_name": "Legros, Macejkovic and Oberbrunner",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0456,
+          "current_outstanding_loan_balance": 13129109.89,
+          "initial_maturity_date": "01/27/2026",
+          "debt_yield_over_last_12_months_noidm": 0.0693
+        },
+        {
+          "current_ltv": 0.4303,
+          "lender_name": "Nader - Lang",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0657,
+          "current_outstanding_loan_balance": 12123499.9,
+          "initial_maturity_date": "12/15/2026",
+          "debt_yield_over_last_12_months_noidm": 0.0747
+        },
+        {
+          "current_ltv": 0.6394,
+          "lender_name": "Wisoky - Johns",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0585,
+          "current_outstanding_loan_balance": 14500000,
+          "initial_maturity_date": "06/06/2027",
+          "debt_yield_over_last_12_months_noidm": 0.0753
+        },
+        {
+          "current_ltv": 0.6214,
+          "lender_name": "Daniel Inc",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0692,
+          "current_outstanding_loan_balance": 8775000,
+          "initial_maturity_date": "06/07/2025",
+          "debt_yield_over_last_12_months_noidm": 0.0777
+        },
+        {
+          "current_ltv": 0.5308,
+          "lender_name": "Collier - King",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0636,
+          "current_outstanding_loan_balance": 58395602.32,
+          "initial_maturity_date": "04/29/2026",
+          "debt_yield_over_last_12_months_noidm": 0.0787
+        },
+        {
+          "current_ltv": 0.3546,
+          "lender_name": "Fritsch - Jakubowski",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0836,
+          "current_outstanding_loan_balance": 17705564.58,
+          "initial_maturity_date": "03/09/2025",
+          "debt_yield_over_last_12_months_noidm": 0.0794
+        },
+        {
+          "current_ltv": 0.5552,
+          "lender_name": "Friesen, Bayer and Ratke",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0668,
+          "current_outstanding_loan_balance": 21700271.86,
+          "initial_maturity_date": "12/09/2026",
+          "debt_yield_over_last_12_months_noidm": 0.0817
+        },
+        {
+          "current_ltv": 0.5698,
+          "lender_name": "Conroy - Frami",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0663,
+          "current_outstanding_loan_balance": 13003114.52,
+          "initial_maturity_date": "09/15/2026",
+          "debt_yield_over_last_12_months_noidm": 0.0847
+        },
+        {
+          "current_ltv": 0.438,
+          "lender_name": "Watsica Group",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.052,
+          "current_outstanding_loan_balance": 9200000,
+          "initial_maturity_date": "04/01/2027",
+          "debt_yield_over_last_12_months_noidm": 0.0847
+        },
+        {
+          "current_ltv": 0.5695,
+          "lender_name": "Waters, Schmeler and Erdman",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0565,
+          "current_outstanding_loan_balance": 21300000,
+          "initial_maturity_date": "04/30/2025",
+          "debt_yield_over_last_12_months_noidm": 0.0849
+        },
+        {
+          "current_ltv": 0.676,
+          "lender_name": "Smith - Friesen",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0617,
+          "current_outstanding_loan_balance": 9112500,
+          "initial_maturity_date": "04/07/2027",
+          "debt_yield_over_last_12_months_noidm": 0.086
+        },
+        {
+          "current_ltv": 0.4751,
+          "lender_name": "Conroy - Hansen",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0639,
+          "current_outstanding_loan_balance": 21000000,
+          "initial_maturity_date": "06/06/2027",
+          "debt_yield_over_last_12_months_noidm": 0.0863
+        },
+        {
+          "current_ltv": 0.5765,
+          "lender_name": "Skiles Inc",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0532,
+          "current_outstanding_loan_balance": 13100000,
+          "initial_maturity_date": "09/06/2027",
+          "debt_yield_over_last_12_months_noidm": 0.0934
+        },
+        {
+          "current_ltv": 0.4848,
+          "lender_name": "Collier - Shields",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0325,
+          "current_outstanding_loan_balance": 14632819.42,
+          "initial_maturity_date": "01/20/2025",
+          "debt_yield_over_last_12_months_noidm": 0.0968
+        },
+        {
+          "current_ltv": 0.5559,
+          "lender_name": "Stark, Steuber and Shanahan",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0657,
+          "current_outstanding_loan_balance": 16567117.82,
+          "initial_maturity_date": "11/01/2026",
+          "debt_yield_over_last_12_months_noidm": 0.0971
+        },
+        {
+          "current_ltv": 0.5253,
+          "lender_name": "Kuhn - Armstrong",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0692,
+          "current_outstanding_loan_balance": 10360000,
+          "initial_maturity_date": "06/09/2024",
+          "debt_yield_over_last_12_months_noidm": 0.1039
+        },
+        {
+          "current_ltv": 0.4657,
+          "lender_name": "Stracke - Rippin",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0325,
+          "current_outstanding_loan_balance": 14574016.77,
+          "initial_maturity_date": "08/09/2026",
+          "debt_yield_over_last_12_months_noidm": 0.1044
+        },
+        {
+          "current_ltv": 0.3423,
+          "lender_name": "Lueilwitz - Mante",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.034,
+          "current_outstanding_loan_balance": 16635067.92,
+          "initial_maturity_date": "05/01/2035",
+          "debt_yield_over_last_12_months_noidm": 0.1134
+        },
+        {
+          "current_ltv": 0.4114,
+          "lender_name": "Yost, Gutkowski and Bosco",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0769,
+          "current_outstanding_loan_balance": 13990753.51,
+          "initial_maturity_date": "01/26/2027",
+          "debt_yield_over_last_12_months_noidm": 0.1171
+        },
+        {
+          "current_ltv": 0.3963,
+          "lender_name": "Osinski - Fisher",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0682,
+          "current_outstanding_loan_balance": 9513046,
+          "initial_maturity_date": "03/29/2027",
+          "debt_yield_over_last_12_months_noidm": 0.1208
+        },
+        {
+          "current_ltv": 0.3115,
+          "lender_name": "Hodkiewicz - Kuphal",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0386,
+          "current_outstanding_loan_balance": 5605459.98,
+          "initial_maturity_date": "08/01/2026",
+          "debt_yield_over_last_12_months_noidm": 0.1634
+        }
+      ],
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304264199,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "filters",
+      "general"
+    ],
+    "state": {
+      "data": [
+        {
+          "key": "property",
+          "name": "property",
+          "options": [
+            {
+              "label": "1111 SW 30th Ave.",
+              "value": "sw-30th"
+            },
+            {
+              "label": "1000 Jefferson Ave.",
+              "value": "1234-xyz"
+            },
+            {
+              "label": "2340 Cousteau Ct.",
+              "value": "2340-llc"
+            },
+            {
+              "label": "EV 1200 LLC",
+              "value": "1200-llc"
+            },
+            {
+              "label": "1600 Miami Gardens",
+              "value": "1600-llc"
+            },
+            {
+              "label": "1515 75th",
+              "value": "1515-llc"
+            },
+            {
+              "label": "1 Slater Drive",
+              "value": "slat-llc"
+            },
+            {
+              "label": "3900 Coral Ridge Dr.",
+              "value": "3900-llc"
+            },
+            {
+              "label": "EV 43 Stults, LLC",
+              "value": "43-llc"
+            },
+            {
+              "label": "EV 3000, LLC",
+              "value": "3000-cts"
+            },
+            {
+              "label": "2281 Griffin Rd",
+              "value": "Loan Example"
+            },
+            {
+              "label": "33401 Central Ave.",
+              "value": "33401llc"
+            },
+            {
+              "label": "35 O'brien",
+              "value": "obri-llc"
+            },
+            {
+              "label": "111 Internationale Blvd.",
+              "value": "111-llc"
+            },
+            {
+              "label": "EV Stafford LLC",
+              "value": "stafford"
+            },
+            {
+              "label": "EV Apgar LLC",
+              "value": "apgar"
+            },
+            {
+              "label": "555-589 Monster Rd. SW",
+              "value": "monster"
+            },
+            {
+              "label": "6955 Consolidated Way",
+              "value": "6955-llc"
+            },
+            {
+              "label": "182-20 Liberty Ave.",
+              "value": "liberty"
+            },
+            {
+              "label": "6212 Corte del Abeto",
+              "value": "6212-llc"
+            },
+            {
+              "label": "6700 Hardeson Rd.",
+              "value": "6700-llc"
+            },
+            {
+              "label": "341 N Delilah Street",
+              "value": "delilah"
+            },
+            {
+              "label": "Shepherd",
+              "value": "shepherd"
+            },
+            {
+              "label": "5803 Newton",
+              "value": "newt-llc"
+            },
+            {
+              "label": "Jiffy",
+              "value": "jiffy"
+            },
+            {
+              "label": "1111 Pioneer Way",
+              "value": "pioneer"
+            },
+            {
+              "label": "600 SW 10th St",
+              "value": "600swllc"
+            },
+            {
+              "label": "3141 SW 10th St.",
+              "value": "3141-llc"
+            },
+            {
+              "label": "1200 - 1220 SW 35th Ave.",
+              "value": "1230-llc"
+            },
+            {
+              "label": "9950 NW 25th St Doral",
+              "value": "9900-llc"
+            },
+            {
+              "label": "4225 Hacienda Dr.",
+              "value": "4225-llc"
+            },
+            {
+              "label": "EV 1121, LLC",
+              "value": "1121-llc"
+            },
+            {
+              "label": "43045 John Mosby Hwy.",
+              "value": "mos-llc"
+            },
+            {
+              "label": "EV 11, LLC",
+              "value": "11-enter"
+            },
+            {
+              "label": "EV 2465 LLC",
+              "value": "2465-llc"
+            }
+          ]
+        },
+        {
+          "key": "lender",
+          "name": "lender",
+          "options": [
+            {
+              "label": "Valley National Bank",
+              "value": "Valley National Bank"
+            },
+            {
+              "label": "IDB Bank",
+              "value": "IDB Bank"
+            },
+            {
+              "label": "HUD (AGM Financial)",
+              "value": "HUD (AGM Financial)"
+            },
+            {
+              "label": "First Horizon Bank",
+              "value": "First Horizon Bank"
+            },
+            {
+              "label": "NY Life",
+              "value": "NY Life"
+            },
+            {
+              "label": "Rialto Capital",
+              "value": "Rialto Capital"
+            },
+            {
+              "label": "Amalgamated Bank",
+              "value": "Amalgamated Bank"
+            },
+            {
+              "label": "Brookfield AM",
+              "value": "Brookfield AM"
+            },
+            {
+              "label": "Synovus",
+              "value": "Synovus"
+            },
+            {
+              "label": "California Bank & Trust",
+              "value": "California Bank & Trust"
+            },
+            {
+              "label": "BHI USA",
+              "value": "BHI USA"
+            },
+            {
+              "label": "Synovus Bank",
+              "value": "Synovus Bank"
+            },
+            {
+              "label": "UBS Bank USA",
+              "value": "UBS Bank USA"
+            },
+            {
+              "label": "Credit Agricole",
+              "value": "Credit Agricole"
+            },
+            {
+              "label": "LoanCore",
+              "value": "LoanCore"
+            },
+            {
+              "label": "UBS",
+              "value": "UBS"
+            },
+            {
+              "label": "Wells Fargo Bank",
+              "value": "Wells Fargo Bank"
+            },
+            {
+              "label": "City National Bank of Florida",
+              "value": "City National Bank of Florida"
+            },
+            {
+              "label": "United of Omaha Life Insurance Company",
+              "value": "United of Omaha Life Insurance Company"
+            },
+            {
+              "label": "Wells Fargo",
+              "value": "Wells Fargo"
+            }
+          ]
+        },
+        {
+          "key": "timelines_type",
+          "name": "timelines_type",
+          "options": [
+            {
+              "label": "type1",
+              "value": "type1"
+            },
+            {
+              "label": "type2",
+              "value": "type2"
+            },
+            {
+              "label": "Maturity Date",
+              "value": "MATURITY_DATE"
+            }
+          ]
+        },
+        {
+          "key": "attachment_types",
+          "name": "attachment_types",
+          "options": [
+            {
+              "label": "Loan Abstract Excel File",
+              "value": "LOAN_ABSTRACT_EXCEL_FILE"
+            },
+            {
+              "label": "Contract File",
+              "value": "LOAN_ABSTRACT_CONTRACT_FILE"
+            },
+            {
+              "label": "Agreement",
+              "value": "LOAN_ABSTRACT_AGREEMENT"
+            },
+            {
+              "label": "Promissory Note",
+              "value": "LOAN_ABSTRACT_PROMISSORY_NOTE"
+            },
+            {
+              "label": "Mortgage",
+              "value": "LOAN_ABSTRACT_MORTGAGE"
+            },
+            {
+              "label": "Guaranty",
+              "value": "LOAN_ABSTRACT_GUARANTY"
+            }
+          ]
+        },
+        {
+          "key": "fund",
+          "name": "fund",
+          "options": [
+            {
+              "label": " 17 West",
+              "value": " 17 West"
+            },
+            {
+              "label": "Industrial Fund Example",
+              "value": "Industrial Fund Example"
+            },
+            {
+              "label": " Jupiter",
+              "value": " Jupiter"
+            },
+            {
+              "label": "Another Fund Example",
+              "value": " Development Partners"
+            },
+            {
+              "label": "ABC Portfolio",
+              "value": "ABC Portfolio"
+            },
+            {
+              "label": "JPQ",
+              "value": "JPQ"
+            },
+            {
+              "label": "Real Estate III",
+              "value": "Real Estate III"
+            },
+            {
+              "label": "VICO IVA",
+              "value": "VICO IVA"
+            },
+            {
+              "label": "DAY III",
+              "value": "DAY III"
+            },
+            {
+              "label": "Fund DC",
+              "value": "Fund DC"
+            },
+            {
+              "label": "CCD IO",
+              "value": "CCD IO"
+            },
+            {
+              "label": "Real Estate Original Fund",
+              "value": "Real Estate Original Fund"
+            },
+            {
+              "label": "VICO IV",
+              "value": "VICO IV"
+            },
+            {
+              "label": " Glenmind",
+              "value": " Glenmind"
+            },
+            {
+              "label": " Somerise",
+              "value": " Somerise"
+            },
+            {
+              "label": "TR Develop",
+              "value": "TR Develop"
+            }
+          ]
+        },
+        {
+          "key": "status",
+          "name": "status",
+          "options": [
+            {
+              "label": "inactive",
+              "value": "inactive"
+            },
+            {
+              "label": "active",
+              "value": "active"
+            },
+            {
+              "label": "all",
+              "value": "all"
+            }
+          ]
+        },
+        {
+          "key": "loan_cap",
+          "name": "loan_cap",
+          "options": [
+            {
+              "label": "ELP55 V, LLC",
+              "value": "ELP55 V, LLC"
+            },
+            {
+              "label": "EB Albemarle, LLC and EB Dulles I, LLC",
+              "value": "EB Albemarle, LLC and EB Dulles I, LLC"
+            },
+            {
+              "label": "EV JIFFY, LLC",
+              "value": "EV JIFFY, LLC"
+            },
+            {
+              "label": "VICO IV Lafayette Owner LLC",
+              "value": "VICO IV Lafayette Owner LLC"
+            },
+            {
+              "label": "EV 11, LLC",
+              "value": "EV 11, LLC"
+            },
+            {
+              "label": "VICO IV Eisenhower Owner LLC",
+              "value": "VICO IV Eisenhower Owner LLC"
+            },
+            {
+              "label": "ELP55 VII, LLC",
+              "value": "ELP55 VII, LLC"
+            },
+            {
+              "label": "EV 6700, LLC",
+              "value": "EV 6700, LLC"
+            },
+            {
+              "label": "EV 1111 SW 30, LLC",
+              "value": "EV 1111 SW 30, LLC"
+            },
+            {
+              "label": "EV 2340, LLC",
+              "value": "EV 2340, LLC"
+            },
+            {
+              "label": "EV LIBERTY, LLC",
+              "value": "EV LIBERTY, LLC"
+            },
+            {
+              "label": "Ridgeport Partners II, LLC",
+              "value": "Ridgeport Partners II, LLC"
+            },
+            {
+              "label": "EV 3000, LLC",
+              "value": "EV 3000, LLC"
+            },
+            {
+              "label": "EV MONSTER, LLC",
+              "value": "EV MONSTER, LLC"
+            },
+            {
+              "label": "EV PIONEER, LLC",
+              "value": "EV PIONEER, LLC"
+            },
+            {
+              "label": "EIF II 1301, LLC",
+              "value": "EIF II 1301, LLC"
+            },
+            {
+              "label": "EV 1000, LLC",
+              "value": "EV 1000, LLC"
+            },
+            {
+              "label": "A-R RIDGEPORT III, LLC",
+              "value": "A-R RIDGEPORT III, LLC"
+            },
+            {
+              "label": "Ridgeport Partners I, LLC",
+              "value": "Ridgeport Partners I, LLC"
+            },
+            {
+              "label": "Fund DC IX, LLC",
+              "value": "Fund DC IX, LLC"
+            },
+            {
+              "label": "ELP55 VI, LLC",
+              "value": "ELP55 VI, LLC"
+            },
+            {
+              "label": "EV 4225, LLC",
+              "value": "EV 4225, LLC"
+            },
+            {
+              "label": "EV SHEPHERD, LLC",
+              "value": "EV SHEPHERD, LLC"
+            },
+            {
+              "label": "EV 600, LLC",
+              "value": "EV 600, LLC"
+            },
+            {
+              "label": "EIF II Sunrise, LLC",
+              "value": "EIF II Sunrise, LLC"
+            },
+            {
+              "label": "EV 33401, LLC",
+              "value": "EV 33401, LLC"
+            },
+            {
+              "label": "EV 2281, LLC",
+              "value": "EV 2281, LLC"
+            },
+            {
+              "label": "EV 6955, LLC",
+              "value": "EV 6955, LLC"
+            },
+            {
+              "label": "EB Sterling, LLC",
+              "value": "EB Sterling, LLC"
+            }
+          ]
+        }
+      ],
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304263950,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "fund",
+      "lendersByLtv",
+      {
+        "fund": "Industrial Fund Example",
+        "status": "inactive"
+      }
+    ],
+    "state": {
+      "data": [
+        {
+          "current_ltv": 0.416,
+          "lender_name": "Douglas - Cormier",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0639,
+          "current_outstanding_loan_balance": 12100000,
+          "initial_maturity_date": "06/06/2027",
+          "debt_yield_over_last_12_months_noidm": 0.1064
+        }
+      ],
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304266859,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  },
+  {
+    "queryKey": [
+      "fund",
+      "lendersByLtv",
+      {
+        "fund": "Industrial Fund Example",
+        "status": "all"
+      }
+    ],
+    "state": {
+      "data": [
+        {
+          "current_ltv": 0.5294,
+          "lender_name": "D'Amore and Sons",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0505,
+          "current_outstanding_loan_balance": 18500000,
+          "initial_maturity_date": "09/06/2027",
+          "debt_yield_over_last_12_months_noidm": -0.0369
+        },
+        {
+          "current_ltv": 0.5074,
+          "lender_name": "Reinger Group",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0758,
+          "current_outstanding_loan_balance": 35828204.59,
+          "initial_maturity_date": "05/09/2024",
+          "debt_yield_over_last_12_months_noidm": -0.0062
+        },
+        {
+          "current_ltv": 0.4909,
+          "lender_name": "Borer, Bruen and Prohaska",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0927,
+          "current_outstanding_loan_balance": 30192406.65,
+          "initial_maturity_date": "10/10/2026",
+          "debt_yield_over_last_12_months_noidm": -0.004
+        },
+        {
+          "current_ltv": 0,
+          "lender_name": "Kulas Inc",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0682,
+          "current_outstanding_loan_balance": 0,
+          "initial_maturity_date": "01/31/2027",
+          "debt_yield_over_last_12_months_noidm": 0
+        },
+        {
+          "current_ltv": 0,
+          "lender_name": "Doyle, Sipes and Dare",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0639,
+          "current_outstanding_loan_balance": 0,
+          "initial_maturity_date": "06/06/2027",
+          "debt_yield_over_last_12_months_noidm": 0
+        },
+        {
+          "current_ltv": 0,
+          "lender_name": "Adams LLC",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0639,
+          "current_outstanding_loan_balance": 0,
+          "initial_maturity_date": "06/06/2027",
+          "debt_yield_over_last_12_months_noidm": 0
+        },
+        {
+          "current_ltv": 0.6477,
+          "lender_name": "Botsford - O'Conner",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0668,
+          "current_outstanding_loan_balance": 20100000,
+          "initial_maturity_date": "12/20/2024",
+          "debt_yield_over_last_12_months_noidm": 0.0238
+        },
+        {
+          "current_ltv": 0.4016,
+          "lender_name": "Walsh and Sons",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0655,
+          "current_outstanding_loan_balance": 6190000,
+          "initial_maturity_date": "12/08/2024",
+          "debt_yield_over_last_12_months_noidm": 0.0324
+        },
+        {
+          "current_ltv": 0.4473,
+          "lender_name": "Altenwerth - Kozey",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0586,
+          "current_outstanding_loan_balance": 13500000,
+          "initial_maturity_date": "06/06/2027",
+          "debt_yield_over_last_12_months_noidm": 0.04
+        },
+        {
+          "current_ltv": 0.4859,
+          "lender_name": "Moen - Schiller",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0667,
+          "current_outstanding_loan_balance": 8863873.34,
+          "initial_maturity_date": "03/28/2027",
+          "debt_yield_over_last_12_months_noidm": 0.0442
+        },
+        {
+          "current_ltv": 0.6197,
+          "lender_name": "Deckow, Schulist and Mitchell",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0656,
+          "current_outstanding_loan_balance": 33220165.81,
+          "initial_maturity_date": "05/09/2024",
+          "debt_yield_over_last_12_months_noidm": 0.0455
+        },
+        {
+          "current_ltv": 0.5035,
+          "lender_name": "Gleason and Sons",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0405,
+          "current_outstanding_loan_balance": 21000000,
+          "initial_maturity_date": "06/06/2027",
+          "debt_yield_over_last_12_months_noidm": 0.0685
+        },
+        {
+          "current_ltv": 0.3241,
+          "lender_name": "Schmitt, Moen and Roberts",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0456,
+          "current_outstanding_loan_balance": 13129109.89,
+          "initial_maturity_date": "01/27/2026",
+          "debt_yield_over_last_12_months_noidm": 0.0693
+        },
+        {
+          "current_ltv": 0.4303,
+          "lender_name": "Hackett - O'Connell",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0657,
+          "current_outstanding_loan_balance": 12123499.9,
+          "initial_maturity_date": "12/15/2026",
+          "debt_yield_over_last_12_months_noidm": 0.0747
+        },
+        {
+          "current_ltv": 0.6394,
+          "lender_name": "Baumbach - Kertzmann",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0585,
+          "current_outstanding_loan_balance": 14500000,
+          "initial_maturity_date": "06/06/2027",
+          "debt_yield_over_last_12_months_noidm": 0.0753
+        },
+        {
+          "current_ltv": 0.6214,
+          "lender_name": "Rosenbaum Inc",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0692,
+          "current_outstanding_loan_balance": 8775000,
+          "initial_maturity_date": "06/07/2025",
+          "debt_yield_over_last_12_months_noidm": 0.0777
+        },
+        {
+          "current_ltv": 0.5308,
+          "lender_name": "Koch Inc",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0636,
+          "current_outstanding_loan_balance": 58395602.32,
+          "initial_maturity_date": "04/29/2026",
+          "debt_yield_over_last_12_months_noidm": 0.0787
+        },
+        {
+          "current_ltv": 0.3546,
+          "lender_name": "Gorczany Group",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0836,
+          "current_outstanding_loan_balance": 17705564.58,
+          "initial_maturity_date": "03/09/2025",
+          "debt_yield_over_last_12_months_noidm": 0.0794
+        },
+        {
+          "current_ltv": 0.5552,
+          "lender_name": "Botsford LLC",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0668,
+          "current_outstanding_loan_balance": 21700271.86,
+          "initial_maturity_date": "12/09/2026",
+          "debt_yield_over_last_12_months_noidm": 0.0817
+        },
+        {
+          "current_ltv": 0.5698,
+          "lender_name": "Hyatt and Sons",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0663,
+          "current_outstanding_loan_balance": 13003114.52,
+          "initial_maturity_date": "09/15/2026",
+          "debt_yield_over_last_12_months_noidm": 0.0847
+        },
+        {
+          "current_ltv": 0.438,
+          "lender_name": "Emard - Batz",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.052,
+          "current_outstanding_loan_balance": 9200000,
+          "initial_maturity_date": "04/01/2027",
+          "debt_yield_over_last_12_months_noidm": 0.0847
+        },
+        {
+          "current_ltv": 0.5695,
+          "lender_name": "Lowe Group",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0565,
+          "current_outstanding_loan_balance": 21300000,
+          "initial_maturity_date": "04/30/2025",
+          "debt_yield_over_last_12_months_noidm": 0.0849
+        },
+        {
+          "current_ltv": 0.676,
+          "lender_name": "Batz - Okuneva",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0617,
+          "current_outstanding_loan_balance": 9112500,
+          "initial_maturity_date": "04/07/2027",
+          "debt_yield_over_last_12_months_noidm": 0.086
+        },
+        {
+          "current_ltv": 0.4751,
+          "lender_name": "Marvin, Wyman and Weissnat",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0639,
+          "current_outstanding_loan_balance": 21000000,
+          "initial_maturity_date": "06/06/2027",
+          "debt_yield_over_last_12_months_noidm": 0.0863
+        },
+        {
+          "current_ltv": 0.5765,
+          "lender_name": "Gusikowski Inc",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0532,
+          "current_outstanding_loan_balance": 13100000,
+          "initial_maturity_date": "09/06/2027",
+          "debt_yield_over_last_12_months_noidm": 0.0934
+        },
+        {
+          "current_ltv": 0.4848,
+          "lender_name": "Blanda - Heaney",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0325,
+          "current_outstanding_loan_balance": 14632819.42,
+          "initial_maturity_date": "01/20/2025",
+          "debt_yield_over_last_12_months_noidm": 0.0968
+        },
+        {
+          "current_ltv": 0.5559,
+          "lender_name": "Keeling LLC",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0657,
+          "current_outstanding_loan_balance": 16567117.82,
+          "initial_maturity_date": "11/01/2026",
+          "debt_yield_over_last_12_months_noidm": 0.0971
+        },
+        {
+          "current_ltv": 0.5253,
+          "lender_name": "Abshire Inc",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0692,
+          "current_outstanding_loan_balance": 10360000,
+          "initial_maturity_date": "06/09/2024",
+          "debt_yield_over_last_12_months_noidm": 0.1039
+        },
+        {
+          "current_ltv": 0.4657,
+          "lender_name": "Langworth - Reichel",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0325,
+          "current_outstanding_loan_balance": 14574016.77,
+          "initial_maturity_date": "08/09/2026",
+          "debt_yield_over_last_12_months_noidm": 0.1044
+        },
+        {
+          "current_ltv": 0.416,
+          "lender_name": "Stark LLC",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0639,
+          "current_outstanding_loan_balance": 12100000,
+          "initial_maturity_date": "06/06/2027",
+          "debt_yield_over_last_12_months_noidm": 0.1064
+        },
+        {
+          "current_ltv": 0.416,
+          "lender_name": "Larson - Boyle",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0639,
+          "current_outstanding_loan_balance": 12100000,
+          "initial_maturity_date": "06/06/2027",
+          "debt_yield_over_last_12_months_noidm": 0.1064
+        },
+        {
+          "current_ltv": 0.3423,
+          "lender_name": "Blanda, Torphy and O'Hara",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.034,
+          "current_outstanding_loan_balance": 16635067.92,
+          "initial_maturity_date": "05/01/2035",
+          "debt_yield_over_last_12_months_noidm": 0.1134
+        },
+        {
+          "current_ltv": 0.4114,
+          "lender_name": "Pfannerstill - Nolan",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0769,
+          "current_outstanding_loan_balance": 13990753.51,
+          "initial_maturity_date": "01/26/2027",
+          "debt_yield_over_last_12_months_noidm": 0.1171
+        },
+        {
+          "current_ltv": 0.3963,
+          "lender_name": "Abernathy - Schultz",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0682,
+          "current_outstanding_loan_balance": 9513046,
+          "initial_maturity_date": "03/29/2027",
+          "debt_yield_over_last_12_months_noidm": 0.1208
+        },
+        {
+          "current_ltv": 0.3115,
+          "lender_name": "Boehm and Sons",
+          "loan_name": "Loan Example",
+          "calculated_interest_rate": 0.0386,
+          "current_outstanding_loan_balance": 5605459.98,
+          "initial_maturity_date": "08/01/2026",
+          "debt_yield_over_last_12_months_noidm": 0.1634
+        }
+      ],
+      "dataUpdateCount": 1,
+      "dataUpdatedAt": 1742304267981,
+      "error": null,
+      "errorUpdateCount": 0,
+      "errorUpdatedAt": 0,
+      "fetchFailureCount": 0,
+      "fetchFailureReason": null,
+      "fetchMeta": null,
+      "isInvalidated": false,
+      "status": "success",
+      "fetchStatus": "idle"
+    }
+  }
+]

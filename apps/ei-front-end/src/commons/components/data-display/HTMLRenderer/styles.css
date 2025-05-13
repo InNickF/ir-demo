@@ -1,0 +1,13 @@
+.acq-html-renderer ul,
+.acq-html-renderer ol {
+  list-style: revert !important;
+  margin: revert !important;
+  padding: revert !important;
+}
+.acq-html-renderer table {
+  border-color: revert !important;
+}
+.acq-html-renderer td {
+  border: 1px solid !important;
+  border-color: var(--primary) !important;
+}

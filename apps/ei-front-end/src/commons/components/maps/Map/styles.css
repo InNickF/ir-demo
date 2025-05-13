@@ -1,0 +1,11 @@
+.map-box-wrapper {
+  @apply w-full h-full relative rounded-md overflow-hidden;
+}
+
+.map-box-wrapper > .mapboxgl-map {
+  @apply h-full min-h-[350px];
+}
+
+.mapboxgl-style-list {
+  @apply text-darker;
+}

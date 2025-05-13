@@ -1,0 +1,3 @@
+.plv-list-validation-dashboard__panel {
+  @apply bg-ghost-contrast flex justify-between;
+}

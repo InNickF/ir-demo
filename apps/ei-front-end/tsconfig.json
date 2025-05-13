@@ -1,0 +1,50 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "declaration": false,
+    "declarationMap": false,
+    "jsx": "preserve",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ],
+      "@/acquisitions/*": [
+        "./src/modules/acquisitions/*"
+      ],
+      "@/auth/*": [
+        "./src/modules/auth/*"
+      ],
+      "@/insight/*": [
+        "./src/modules/insight/*"
+      ],
+      "@/investor/*": [
+        "./src/modules/investor/*"
+      ],
+      "@/tools/*": [
+        "./src/modules/tools/*"
+      ],
+      "@/assets/*": [
+        "./src/modules/assets/*"
+      ],
+      "@/debt/*": [
+        "./src/modules/debt/*"
+      ],
+      "@/dispositions/*": [
+        "./src/modules/dispositions/*"
+      ],
+      "@/lab/*": [
+        "./src/modules/lab/*"
+      ],
+    }
+  },
+  "extends": "in-ui-tsconfig/nextjs.json",
+  "include": [
+    "raw-loader.d.ts",
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

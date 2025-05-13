@@ -1,0 +1,16 @@
+.ui-commons-text-logo__prefix {
+  font-family: var(--display-font);
+  @apply italic font-bold;
+}
+
+.ui-commons-text-logo__suffix {
+  @apply font-light font-roboto;
+}
+
+.ui-commons-text-logo__suffix-semi-transparent {
+  @apply opacity-60;
+}
+
+.ui-commons-text-logo__suffix-solid {
+  @apply opacity-100;
+}

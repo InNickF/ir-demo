@@ -1,0 +1,3 @@
+.asset-portfolio-page__stacking-plan {
+  @apply w-full min-h-[400px] h-full clear-both;
+}

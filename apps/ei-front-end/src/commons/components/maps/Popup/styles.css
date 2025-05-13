@@ -1,0 +1,11 @@
+.map-box-popup-custom {
+  @apply relative z-[6];
+}
+
+.mapboxgl-popup-content > div > .map-box-popup-custom {
+  @apply flex flex-row w-full h-14 rounded-sm text-darker;
+}
+
+.mapboxgl-popup-close-button {
+  @apply h-5 w-5 text-darker;
+}

@@ -1,0 +1,96 @@
+/**
+* Base
+*/
+.in-ui-table__data {
+  --spreadsheet-line-color: "";
+  @apply text-left align-middle;
+}
+
+.in-ui-table__data--nowrap-text {
+  @apply whitespace-nowrap xl:whitespace-normal;
+}
+
+.in-ui-table__data--has-second-slot {
+  @apply cursor-pointer;
+}
+
+/** 
+* Spreadsheet Data
+*/
+.in-ui-table--spreadsheet .in-ui-table__data {
+  white-space: nowrap;
+  @apply relative py-0 text-sm;
+}
+.in-ui-table--spreadsheet .in-ui-table__data {
+  /* Box shadow fix to emulate border property because doesn't play well with the DnD feature */
+  box-shadow: inset 0 0 0 0.5px var(--spreadsheet-line-color);
+}
+
+/**
+* Size
+*/
+
+.in-ui-table__data--small {
+  @apply h-5 px-1.5;
+}
+
+.in-ui-table__data--normal {
+  @apply h-8 px-3;
+}
+
+.in-ui-table__data--big {
+  @apply h-12 px-3;
+}
+
+/**
+* Spreadsheet Color
+*/
+.in-ui-table__data--spreadsheet-ghost {
+  --spreadsheet-line-color: var(--ghost-2);
+}
+
+.in-ui-table__data--spreadsheet-classic {
+  --spreadsheet-line-color: var(--table-border-color);
+}
+
+.in-ui-table__data--spreadsheet-primary {
+  --spreadsheet-line-color: var(--primary);
+}
+
+.in-ui-table__data--spreadsheet-secondary {
+  --spreadsheet-line-color: var(--secondary-dark);
+}
+
+.in-ui-table__data--spreadsheet-tertiary {
+  --spreadsheet-line-color: var(--tertiary-dark);
+}
+
+.in-ui-table__data--spreadsheet-success {
+  --spreadsheet-line-color: var(--success-dark);
+}
+
+.in-ui-table__data--spreadsheet-warning {
+  --spreadsheet-line-color: var(--warning-dark);
+}
+
+.in-ui-table__data--spreadsheet-error {
+  --spreadsheet-line-color: var(--error-dark);
+}
+
+/**
+* Monospace Typography.
+*/
+
+.in-ui-table__data.in-ui-table__data--monospace-font {
+  @apply font-mono;
+}
+
+/**
+* Text Alignment
+*/
+.in-ui-table__data.in-ui-table__data--center {
+  @apply text-center;
+}
+.in-ui-table__data.in-ui-table__data--right {
+  @apply text-right;
+}

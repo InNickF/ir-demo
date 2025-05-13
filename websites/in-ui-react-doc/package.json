@@ -1,0 +1,45 @@
+{
+  "name": "in-ui-react-docs",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev:packages": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
+    "dev:apps": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
+    "build:docs": "build-storybook",
+    "preview:packages": "serve storybook-static",
+    "lint:packages": "eslint src/**/*.ts* --fix",
+    "format:packages": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf storybook-static"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "in-ui-css": "*",
+    "eslint-config-in-ui-react": "*",
+    "in-ui-tsconfig": "*",
+    "in-ui-tailwind-config": "*",
+    "@babel/core": "^7.18.10",
+    "@storybook/addon-actions": "^6.5.16",
+    "@storybook/addon-essentials": "^6.5.16",
+    "@storybook/addon-interactions": "^6.5.16",
+    "@storybook/addon-links": "^6.5.16",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/builder-vite": "^0.4.2",
+    "@storybook/react": "^6.5.16",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.0",
+    "autoprefixer": "^10.4.8",
+    "babel-loader": "^8.2.5",
+    "eslint": "^8.23.1",
+    "prettier": "^2.7.1",
+    "serve": "^14.0.1",
+    "tailwindcss": "^3.1.8",
+    "typescript": "^4.7.4",
+    "vite": "^3.0.4",
+    "vite-svg-loader": "^3.4.0"
+  }
+}

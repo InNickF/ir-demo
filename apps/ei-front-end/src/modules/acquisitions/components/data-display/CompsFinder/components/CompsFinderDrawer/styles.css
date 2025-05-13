@@ -1,0 +1,3 @@
+.acq-comps-finder-drawer-body {
+  @apply p-4 grid grid-rows-[1fr_auto] gap-4 h-[calc(100%-theme(spacing.20))];
+}

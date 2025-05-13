@@ -1,0 +1,20 @@
+/* Loading Animation */
+@keyframes in-ui-skeleton-loading {
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.in-ui-skeleton-avatar,
+.in-ui-skeleton-text {
+  @apply relative overflow-hidden;
+}
+
+.in-ui-skeleton--active .in-ui-skeleton-avatar::after,
+.in-ui-skeleton--active .in-ui-skeleton-text::after {
+  content: "";
+  transform: translateX(-100%);
+  background: linear-gradient(90deg, transparent, var(--silver), transparent);
+  animation: in-ui-skeleton-loading 1.5s infinite;
+  @apply absolute block w-full h-full;
+}

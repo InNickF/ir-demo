@@ -1,0 +1,7 @@
+.acq-local-deal__photo-card-header {
+  @apply flex items-center justify-between mb-2;
+}
+
+.acq-local-deal__photo-card-body {
+  @apply relative flex flex-col items-center justify-center overflow-hidden h-52;
+}

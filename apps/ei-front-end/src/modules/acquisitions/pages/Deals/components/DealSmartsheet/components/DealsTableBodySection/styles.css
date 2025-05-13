@@ -1,0 +1,10 @@
+@media screen and (min-width: 1024px) {
+  .acq-deals-smartsheet-table .header-separator {
+    box-shadow: none !important;
+    @apply sticky left-0 z-control;
+  }
+}
+
+.acq-deal-table-body-header-detail__skeleton {
+  @apply w-10 h-2.5 self-center !important;
+}

@@ -1,0 +1,45 @@
+.lobby-app-card__logo-placeholder {
+  @apply rounded-3xl;
+  width: 85px;
+  height: 85px;
+}
+
+.lobby-app-card__container {
+  @apply cursor-pointer h-full rounded-md overflow-hidden;
+  backdrop-filter: blur(8px);
+  border-color: var(--cards-border-color);
+  border-width: var(--cards-border-width);
+}
+
+.lobby-app-card__name-container,
+.lobby-app-card__logo-container {
+  @apply flex items-center justify-center;
+}
+
+.lobby-prefix-logo {
+  font-family: var(--display-font);
+  @apply italic font-bold;
+}
+
+.lobby-app-card__logo-container-button {
+  @apply block w-full min-h-[12rem] sm:w-52 sm:h-52;
+}
+
+.lobby-app-card__container {
+  @apply relative transition-all duration-700 ease-in-out;
+  transform: perspective(800px) rotateY(var(--perspective-x))
+    rotateX(var(--perspective-y));
+}
+
+.lobby-app-card__container:hover {
+  @apply transition-none duration-[0];
+}
+
+.lobby-app-card__logo-text-container {
+  @apply h-full flex flex-col justify-center gap-4;
+}
+
+.lobby-app-card__logo-text-container::before {
+  @apply absolute inset-0 bg-card opacity-70 -z-page-header-menu m-0.5;
+  content: "";
+}

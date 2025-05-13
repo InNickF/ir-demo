@@ -1,0 +1,11 @@
+.acq-navbar-container {
+  @apply flex items-center justify-between w-full h-full;
+}
+
+.acq-navbar-container svg {
+  @apply h-full !important;
+}
+
+.acq-navbar-logo {
+  @apply h-9 max-w-none top-[2px] relative;
+}

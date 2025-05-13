@@ -1,0 +1,48 @@
+.in-ui-header {
+  @apply bg-ghost-contrast;
+}
+
+.in-ui-header__content {
+  @apply pt-6 2xl:pt-14 pb-6;
+}
+
+.in-ui-header__menu-container {
+  border-width: var(--page-header-border-width);
+  border-color: var(--page-header-border-color);
+}
+
+.in-ui-header__menu {
+  @apply hidden h-8 overflow-x-auto overflow-y-hidden lg:flex flex-wrap whitespace-nowrap bg-ghost-contrast w-full;
+}
+
+.in-ui-header__menu-mobile {
+  @apply block h-8 lg:hidden bg-ghost-contrast;
+}
+
+.in-ui-header__menu-drawer {
+  @apply flex flex-col;
+}
+
+.in-ui-header__menu-drawer .in-ui-header-item {
+  @apply py-3 !important;
+}
+
+.in-ui-header__menu-drawer .in-ui-header-item::after {
+  @apply hidden !important;
+}
+
+.in-ui-header__menu-drawer .in-ui-button__container {
+  @apply justify-start !important;
+}
+
+.in-ui-header__menu-portal {
+  @apply hidden fixed w-full top-16 z-page-header-menu bg-ghost-contrast;
+}
+
+.in-ui-header__menu-portal--visible {
+  @apply block;
+}
+
+.in-ui-header__menu--hidden-opacity {
+  @apply opacity-0;
+}

@@ -1,0 +1,15 @@
+.acq-default-form-grid {
+  @apply grid grid-cols-[repeat(auto-fill,minmax(theme(spacing.80),1fr))] gap-y-6 gap-x-4 items-start;
+}
+
+.acq-default-form-grid__item--span-full {
+  grid-column: 1/-1;
+}
+
+.acq-custom-map-popup .mapboxgl-popup-content {
+  @apply flex flex-row w-full bg-primary text-above-primary rounded-md;
+}
+
+.acq-custom-map-popup .mapboxgl-popup-close-button {
+  @apply h-5 w-5 bg-ghost text-primary;
+}

@@ -1,0 +1,7 @@
+.acq-deal-room-filters {
+  @apply flex flex-wrap items-end justify-between mb-6 gap-4;
+}
+
+.acq-create-file__form .in-ui-modal__content {
+  @apply flex flex-col gap-4;
+}

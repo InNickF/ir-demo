@@ -1,0 +1,61 @@
+.acq-deal-map-and-image {
+  @apply flex flex-col w-full gap-4 lg:flex-row;
+}
+.acq-deal-map-and-image .mapboxgl-canvas {
+  @apply w-full !important;
+}
+
+.acq-deal-map-and-image__image {
+  @apply object-cover w-full h-full rounded-2xl;
+}
+
+.acq-deal-map-and-image__image--no-image {
+  @apply grid items-center justify-center bg-ghost-2 text-silver;
+}
+
+.acq-deal-map-and-image__images {
+  @apply flex items-stretch h-full;
+}
+.acq-deal-map-and-image--no-images .acq-deal-map-and-image__images {
+  @apply w-1/4 hidden lg:flex !important;
+}
+
+.acq-deal-map-and-image__images .carousel-slider,
+.acq-deal-map-and-image__images .slider-wrapper,
+.acq-deal-map-and-image__images .slider-wrapper ul {
+  @apply h-[350px] lg:h-full cursor-pointer !important;
+}
+
+.acq-deal-map-and-image__images .slider-wrapper ul {
+  @apply w-full !important;
+}
+.acq-deal-map-and-image__map,
+.acq-deal-map-and-image__images {
+  transition: width 0.35s ease-in-out;
+  @apply relative w-full;
+}
+
+.acq-deal-map-and-image__map:hover,
+.acq-deal-map-and-image__images:hover {
+  @apply w-full lg:w-[250%];
+}
+
+.acq-deal-map-and-image--no-images .acq-deal-map-and-image__map:hover {
+  @apply w-full lg:w-full !important;
+}
+
+.acq-deal-map-and-image__images__image {
+  @apply object-cover w-full h-full aspect-video;
+}
+
+.acq-deal-map-and-image__google-map__button {
+  @apply absolute top-6 left-6 opacity-0 hidden transition-all duration-200 ease-in-out border-silver border px-2.5;
+}
+.acq-deal-map-and-image__google-map__button--active {
+  @apply inline-block z-control;
+}
+
+.acq-deal-map-and-image__map:hover
+  .acq-deal-map-and-image__google-map__button--active {
+  @apply opacity-100 !important;
+}

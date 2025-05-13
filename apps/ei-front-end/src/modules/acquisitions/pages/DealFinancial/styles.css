@@ -1,0 +1,7 @@
+.acq-deal-financial-tables-grid {
+  @apply grid grid-cols-1 gap-6 lg:grid-cols-2;
+}
+
+.acq-deal-financial-tables-grid__item-full-width {
+  @apply col-span-full;
+}

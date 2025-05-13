@@ -1,0 +1,10 @@
+@import url(./vars/index.css);
+@import url(./global.css);
+
+.commons-default-form-grid {
+  @apply grid grid-cols-[repeat(auto-fill,minmax(theme(spacing.80),1fr))] gap-y-6 gap-x-4 items-start;
+}
+
+.commons-default-form-grid__item--span-full {
+  grid-column: 1/-1;
+}

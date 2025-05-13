@@ -1,0 +1,484 @@
+/* Colors base
+ * This css setup is for create a color theme customization
+ * based on custom properties (a.k.a CSS Variables).
+*/
+
+:root {
+  /*
+  * Default light colors
+  */
+  --black: #000000;
+  --darker: #2a2a2a;
+  --jet: #323232;
+  --silver: #878787;
+  --platinum: #dfdfdf;
+  --white: #ffffff;
+  --ghost-base: #dedede;
+  --ghost-contrast: #ececec;
+  --ghost-contrast-2: var(--white);
+  --ghost-1: #f6f6f6;
+  --ghost-2: #bababa;
+  --ghost-3: #5e5e5e;
+
+  --glass-base: rgba(240, 240, 240, 0.64);
+  --glass-1: rgba(240, 240, 240, 0.64);
+  --glass-2: rgba(240, 240, 240, 0.9);
+  --glass-3: rgba(128, 128, 128, 0.5);
+  --glass-input: #ecececb5;
+  --glass-overlay: rgba(115, 115, 115, 0.8);
+
+  --primary: var(--jet);
+  --primary-hover: #64686b;
+  --text-above-primary: var(--white);
+  --text-above-primary-hover: var(--white);
+
+  /* Secondary
+   * Add the secondary color is you need it.
+  */
+  --secondary: #000000;
+  --secondary-light: #000000;
+  --secondary-dark: #000000;
+  --secondary-darker: #000000;
+  --secondary-opacity: #00000030;
+  --secondary-hover: var(--secondary-dark);
+  --text-above-secondary: var(--white);
+  --text-above-secondary-hover: var(--white);
+  /* END Secondary */
+
+  /* Tertiary
+   * Add the tertiary color is you need it.
+  */
+  --tertiary: #000000;
+  --tertiary-light: #000000;
+  --tertiary-dark: #000000;
+  --tertiary-darker: #000000;
+  --tertiary-opacity: #00000030;
+  --tertiary-hover: var(--tertiary-dark);
+  --text-above-tertiary: var(--white);
+  --text-above-tertiary-hover: var(--white);
+  /* END Tertiary */
+
+  --success: #37de7d;
+  --success-light: #a6ffcc;
+  --success-dark: #36b36c;
+  --success-darker: #1f6630;
+  --success-opacity: #36b36c60;
+  --success-hover: var(--success-dark);
+  --text-above-success: var(--success-darker);
+  --text-above-success-hover: var(--white);
+
+  --warning: #ffdd33;
+  --warning-light: #fff0a6;
+  --warning-dark: #ccb129;
+  --warning-darker: #806f19;
+  --warning-opacity: #806f1930;
+  --warning-hover: var(--warning-dark);
+  --text-above-warning: var(--warning-darker);
+  --text-above-warning-hover: var(--white);
+
+  --error: #ff3333;
+  --error-light: #ffb3b3;
+  --error-dark: #cc2929;
+  --error-darker: #661414;
+  --error-opacity: #8f0f0f30;
+  --error-hover: var(--error-dark);
+  --text-above-error: var(--white);
+  --text-above-error-hover: var(--white);
+
+  --link-color: var(--primary);
+  --link-visited-color: var(--primary);
+  --link-hover-color: var(--jet);
+
+  --text-color: var(--jet);
+  --text-secondary-color: var(--silver);
+
+  --disabled-bg-color: #b2b2b2;
+  --disabled-text-color: var(--platinum);
+
+  --border-color: var(--jet);
+  --border-color-2: var(--silver);
+
+  --default-ring-color: var(--primary);
+
+  --general-border-radius: 0px;
+
+  /* Specific components colors (kelly's design (minimal-theme) broke the original architecture) */
+  --cards-bg: var(--ghost-1);
+  --cards-border-width: 0;
+  --cards-border-color: transparent;
+
+  --inputs-border-width: 0 0 2px 0;
+  --inputs-border-color: var(--silver);
+  --inputs-border-color-hover: var(--primary);
+  --inputs-border-color-error: var(--error-dark);
+  --inputs-border-color-error-hover: var(--error);
+  --inputs-icon-color: var(--inputs-border-color);
+  --inputs-icon-color-hover: var(--inputs-border-color-hover);
+  --inputs-icon-color-error: var(--inputs-border-color-error);
+  --inputs-icon-color-error-hover: var(--inputs-border-color-error-hover);
+
+  --page-header-border-width: 1px 0;
+  --page-header-border-color: var(--ghost-2);
+
+  --table-border-color: #c2c2c2;
+  --table-row-color-hover: var(--glass-1);
+}
+
+:root body[data-theme="default-dark"] {
+  /*
+  * Default dark colors
+  */
+  --black: #000000;
+  --darker: #262626;
+  --jet: #2e2e2e;
+  --silver: #878787;
+  --platinum: #dfdfdf;
+  --white: #ffffff;
+  --ghost-base: #1b1b1b;
+  --ghost-contrast: var(--darker);
+  --ghost-contrast-2: #060606;
+  --ghost-1: var(--jet);
+  --ghost-2: #505050;
+  --ghost-3: #f0f0f0;
+
+  --glass-base: rgba(40, 40, 40, 0.64);
+  --glass-1: rgba(70, 70, 70, 0.64);
+  --glass-2: rgba(50, 50, 50, 0.9);
+  --glass-3: rgba(128, 128, 128, 0.5);
+  --glass-input: rgba(70, 70, 70, 0.64);
+  --glass-overlay: rgba(12, 12, 12, 0.8);
+
+  --primary: var(--white);
+  --primary-hover: #c9cccf;
+  --text-above-primary: var(--jet);
+  --text-above-primary-hover: var(--jet);
+
+  /* Secondary
+   * Add the secondary color is you need it.
+  */
+  --secondary: #000000;
+  --secondary-light: #000000;
+  --secondary-dark: #000000;
+  --secondary-darker: #000000;
+  --secondary-opacity: #00000030;
+  --secondary-hover: var(--secondary-dark);
+  --text-above-secondary: var(--white);
+  --text-above-secondary-hover: var(--white);
+  /* END Secondary */
+
+  /* Tertiary
+   * Add the tertiary color is you need it.
+  */
+  --tertiary: #000000;
+  --tertiary-light: #000000;
+  --tertiary-dark: #000000;
+  --tertiary-darker: #000000;
+  --tertiary-opacity: #00000030;
+  --tertiary-hover: var(--tertiary-dark);
+  --text-above-tertiary: var(--white);
+  --text-above-tertiary-hover: var(--white);
+  /* END Tertiary */
+
+  --success: #45e688;
+  --success-light: #a6ffcc;
+  --success-dark: #36b36c;
+  --success-darker: #1f6630;
+  --success-opacity: #45e68840;
+  --success-hover: var(--success-dark);
+  --text-above-success: var(--success-darker);
+  --text-above-success-hover: var(--white);
+
+  --warning: #ffdd33;
+  --warning-light: #fff0a6;
+  --warning-dark: #ccb129;
+  --warning-darker: #806f19;
+  --warning-opacity: #806f1930;
+  --warning-hover: var(--warning-dark);
+  --text-above-warning: var(--warning-darker);
+  --text-above-warning-hover: var(--white);
+
+  --error: #ff3333;
+  --error-light: #ffb3b3;
+  --error-dark: #cc2929;
+  --error-darker: #661414;
+  --error-opacity: #ff000030;
+  --error-hover: var(--error-dark);
+  --text-above-error: var(--white);
+  --text-above-error-hover: var(--white);
+
+  --link-color: var(--primary);
+  --link-visited-color: var(--primary);
+  --link-hover-color: var(--silver);
+
+  --text-color: var(--platinum);
+  --text-secondary-color: var(--silver);
+
+  --disabled-bg-color: #646464;
+  --disabled-text-color: var(--platinum);
+
+  --border-color: var(--white);
+  --border-color-2: var(--silver);
+
+  --default-ring-color: var(--primary);
+
+  /* Specific components colors (kelly's design (minimal-theme) broke the original architecture) */
+  --cards-bg: var(--ghost-1);
+  --cards-border-width: 0;
+  --cards-border-color: transparent;
+
+  --inputs-border-width: 0 0 2px 0;
+  --inputs-border-color: var(--silver);
+  --inputs-border-color-hover: var(--primary);
+  --inputs-border-color-error: var(--error-dark);
+  --inputs-border-color-error-hover: var(--error);
+  --inputs-icon-color: var(--inputs-border-color);
+  --inputs-icon-color-hover: var(--inputs-border-color-hover);
+  --inputs-icon-color-error: var(--inputs-border-color-error);
+  --inputs-icon-color-error-hover: var(--inputs-border-color-error-hover);
+
+  --page-header-border-width: 1px 0 0 0;
+  --page-header-border-color: var(--ghost-2);
+
+  --table-border-color: var(--ghost-base);
+  --table-row-color-hover: var(--glass-1);
+}
+
+:root body[data-theme="minimal-light"] {
+  /*
+  * Minimal light colors
+  */
+  --black: #000000;
+  --darker: #2a2a2a;
+  --jet: #323232;
+  --silver: #878787;
+  --platinum: #dfdfdf;
+  --white: #ffffff;
+  --ghost-base: var(--white);
+  --ghost-contrast: var(--white);
+  --ghost-contrast-2: #f7f7f7;
+  --ghost-1: #e4e4e4;
+  --ghost-2: #d2d2d2;
+  --ghost-3: #5b5c58;
+
+  --glass-base: rgba(255, 255, 255, 0.64);
+  --glass-1: rgba(255, 255, 255, 0.64);
+  --glass-2: rgba(255, 255, 255, 0.9);
+  --glass-3: rgba(128, 128, 128, 0.5);
+  --glass-input: #e4e4e4e5;
+  --glass-overlay: rgba(115, 115, 115, 0.8);
+
+  --primary: var(--darker);
+  --primary-hover: #64686b;
+  --text-above-primary: var(--white);
+  --text-above-primary-hover: var(--white);
+
+  /* Secondary
+   * Add the secondary color is you need it.
+  */
+  --secondary: #000000;
+  --secondary-light: #000000;
+  --secondary-dark: #000000;
+  --secondary-darker: #000000;
+  --secondary-opacity: #00000030;
+  --secondary-hover: var(--secondary-dark);
+  --text-above-secondary: var(--white);
+  --text-above-secondary-hover: var(--white);
+  /* END Secondary */
+
+  /* Tertiary
+   * Add the tertiary color is you need it.
+  */
+  --tertiary: #000000;
+  --tertiary-light: #000000;
+  --tertiary-dark: #000000;
+  --tertiary-darker: #000000;
+  --tertiary-opacity: #00000030;
+  --tertiary-hover: var(--tertiary-dark);
+  --text-above-tertiary: var(--white);
+  --text-above-tertiary-hover: var(--white);
+  /* END Tertiary */
+
+  --success: #37de7d;
+  --success-light: #a6ffcc;
+  --success-dark: #36b36c;
+  --success-darker: #1f6630;
+  --success-opacity: #36b36c60;
+  --success-hover: var(--success-dark);
+  --text-above-success: var(--success-darker);
+  --text-above-success-hover: var(--white);
+
+  --warning: #ffdd33;
+  --warning-light: #fff0a6;
+  --warning-dark: #ccb129;
+  --warning-darker: #806f19;
+  --warning-opacity: #806f1930;
+  --warning-hover: var(--warning-dark);
+  --text-above-warning: var(--warning-darker);
+  --text-above-warning-hover: var(--white);
+
+  --error: #ff3333;
+  --error-light: #ffb3b3;
+  --error-dark: #cc2929;
+  --error-darker: #661414;
+  --error-opacity: #8f0f0f30;
+  --error-hover: var(--error-dark);
+  --text-above-error: var(--white);
+  --text-above-error-hover: var(--white);
+
+  --link-color: var(--primary);
+  --link-visited-color: var(--primary);
+  --link-hover-color: var(--jet);
+
+  --text-color: var(--jet);
+  --text-secondary-color: var(--silver);
+
+  --disabled-bg-color: #b2b2b2;
+  --disabled-text-color: var(--platinum);
+
+  --border-color: var(--jet);
+  --border-color-2: var(--silver);
+
+  --default-ring-color: var(--primary);
+
+  --general-border-radius: 0px;
+
+  /* Specific components colors (kelly's design (minimal-theme) broke the original architecture) */
+  --cards-bg: transparent;
+  --cards-border-width: 2px;
+  --cards-border-color: #d2d2d2;
+
+  --inputs-border-width: 0;
+  --inputs-border-color: transparent;
+  --inputs-border-color-hover: transparent;
+  --inputs-border-color-error: transparent;
+  --inputs-border-color-error-hover: transparent;
+  --inputs-icon-color: var(--silver);
+  --inputs-icon-color-hover: var(--primary);
+  --inputs-icon-color-error: var(--error-dark);
+  --inputs-icon-color-error-hover: var(--error);
+
+  --page-header-border-width: 0 0 1px 0;
+  --page-header-border-color: var(--ghost-2);
+
+  --table-border-color: #c2c2c2;
+  --table-row-color-hover: var(--ghost-1);
+}
+
+:root body[data-theme="minimal-dark"] {
+  /*
+  * Minimal dark colors
+  */
+  --black: #000000;
+  --darker: #171717;
+  --jet: #171717;
+  --silver: #878787;
+  --platinum: #dfdfdf;
+  --white: #ffffff;
+  --ghost-base: var(--jet);
+  --ghost-contrast: var(--darker);
+  --ghost-contrast-2: #131313;
+  --ghost-1: #272727;
+  --ghost-2: #363636;
+  --ghost-3: #a9a9a9;
+
+  --glass-base: rgba(25, 25, 25, 0.8);
+  --glass-1: rgba(22, 22, 22, 0.64);
+  --glass-2: rgba(25, 25, 25, 0.9);
+  --glass-3: rgba(128, 128, 128, 0.5);
+  --glass-input: #272727e5;
+  --glass-overlay: rgba(0, 0, 0, 0.8);
+
+  --primary: var(--white);
+  --primary-hover: #c9cccf;
+  --text-above-primary: var(--jet);
+  --text-above-primary-hover: var(--jet);
+
+  /* Secondary
+   * Add the secondary color is you need it.
+  */
+  --secondary: #000000;
+  --secondary-light: #000000;
+  --secondary-dark: #000000;
+  --secondary-darker: #000000;
+  --secondary-opacity: #00000030;
+  --secondary-hover: var(--secondary-dark);
+  --text-above-secondary: var(--white);
+  --text-above-secondary-hover: var(--white);
+  /* END Secondary */
+
+  /* Tertiary
+   * Add the tertiary color is you need it.
+  */
+  --tertiary: #000000;
+  --tertiary-light: #000000;
+  --tertiary-dark: #000000;
+  --tertiary-darker: #000000;
+  --tertiary-opacity: #00000030;
+  --tertiary-hover: var(--tertiary-dark);
+  --text-above-tertiary: var(--white);
+  --text-above-tertiary-hover: var(--white);
+  /* END Tertiary */
+
+  --success: #45e688;
+  --success-light: #a6ffcc;
+  --success-dark: #36b36c;
+  --success-darker: #1f6630;
+  --success-opacity: #45e68840;
+  --success-hover: var(--success-dark);
+  --text-above-success: var(--success-darker);
+  --text-above-success-hover: var(--white);
+
+  --warning: #ffdd33;
+  --warning-light: #fff0a6;
+  --warning-dark: #ccb129;
+  --warning-darker: #806f19;
+  --warning-opacity: #806f1930;
+  --warning-hover: var(--warning-dark);
+  --text-above-warning: var(--warning-darker);
+  --text-above-warning-hover: var(--white);
+
+  --error: #ff3333;
+  --error-light: #ffb3b3;
+  --error-dark: #cc2929;
+  --error-darker: #661414;
+  --error-opacity: #ff000030;
+  --error-hover: var(--error-dark);
+  --text-above-error: var(--white);
+  --text-above-error-hover: var(--white);
+
+  --link-color: var(--primary);
+  --link-visited-color: var(--primary);
+  --link-hover-color: var(--silver);
+
+  --text-color: var(--platinum);
+  --text-secondary-color: var(--silver);
+
+  --disabled-bg-color: #646464;
+  --disabled-text-color: var(--platinum);
+
+  --border-color: var(--white);
+  --border-color-2: var(--silver);
+
+  --default-ring-color: var(--primary);
+
+  /* Specific components colors (kelly's design (minimal-theme) broke the original architecture) */
+  --cards-bg: transparent;
+  --cards-border-width: 2px;
+  --cards-border-color: #393939;
+
+  --inputs-border-width: 0;
+  --inputs-border-color: transparent;
+  --inputs-border-color-hover: transparent;
+  --inputs-border-color-error: transparent;
+  --inputs-border-color-error-hover: transparent;
+  --inputs-icon-color: var(--silver);
+  --inputs-icon-color-hover: var(--primary);
+  --inputs-icon-color-error: var(--error-dark);
+  --inputs-icon-color-error-hover: var(--error);
+
+  --page-header-border-width: 0 0 1px 0;
+  --page-header-border-color: var(--ghost-2);
+
+  --table-border-color: #393939;
+  --table-row-color-hover: var(--ghost-1);
+}
